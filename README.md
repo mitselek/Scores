@@ -1,7 +1,7 @@
 # Noodivihik
 
-- [Eks teie tea](Eks teie tea.pdf)
-- [Sünnipäevalaul](Sünnipäevalaul.pdf)
-- [Kangakudumise laul](Kangakudumise_laul.pdf)
-- [Ma tänan sind, et oled mind](Ma_taenan_sind,_et_oled_mind.pdf)
-- [Süda, miks sa muretsed?](Syda_miks_sa_muretsed.pdf)
+- [Eks teie tea](https://github.com/mitselek/Scores/raw/master/Eks teie tea.pdf)
+- [Sünnipäevalaul](https://github.com/mitselek/Scores/raw/master/Sünnipäevalaul.pdf)
+- [Kangakudumise laul](https://github.com/mitselek/Scores/raw/master/Kangakudumise_laul.pdf)
+- [Ma tänan sind, et oled mind](https://github.com/mitselek/Scores/raw/master/Ma_taenan_sind,_et_oled_mind.pdf)
+- [Süda, miks sa muretsed?](https://github.com/mitselek/Scores/raw/master/Syda_miks_sa_muretsed.pdf)
