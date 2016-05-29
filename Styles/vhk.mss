@@ -148,7 +148,7 @@
     <evenFooterL>$p</evenFooterL>
     <evenFooterC>$:copyright:</evenFooterC>
     <evenFooterR></evenFooterR>
-    <oddFooterL>$:copyright: | $:workNumber:</oddFooterL>
+    <oddFooterL>github.com/mitselek/Scores | $M</oddFooterL>
     <oddFooterC>-- $P/$n --</oddFooterC>
     <oddFooterR>$:workTitle:</oddFooterR>
     <voltaY>-3</voltaY>
