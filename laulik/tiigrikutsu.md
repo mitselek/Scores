@@ -11,7 +11,7 @@ Rahvas
     mul terve mets vaid sugulasi täis
     C
     ise olen tiigrikutsu
-    D                  G
+    D                G
     ja mai karda kedagi
 
 kord ema laulis mulle väga kaunist viit  

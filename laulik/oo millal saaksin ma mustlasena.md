@@ -2,28 +2,28 @@
 J.Benes operetist "Haljal aasal"
 
     .         D          G     D
-    OO MILLAL SAAKSIN MA MUSTLASENA
+    Oo millal saaksin ma mustlasena
              A               D
-    MAAILMAS RINGI VEEL RÄNNATA
+    maailmas ringi veel rännata
                          G   D
-    NII VABALT RÕÕMUS EI OLE KEEGI
+    nii vabalt rõõmus ei ole keegi
               A              D
-    KUI LOODUSRÜPES ON MUSTLANE
+    kui loodusrüpes on mustlane
 
             G                  D
-    KUS ELU LOODUSLIK JA PÄIKSEPAISTEGA
+    Kus elu looduslik ja päiksepaistega
             E7               A  A7
-    MA OLEN ÕNNELIK VAID SINUGA
+    ma olen õnnelik vaid sinuga
               D         G     D
-    MA MUSTLASKOMBEL MAAILMAS RÄNDAN
+    ma mustlaskombel maailmas rändan
              A              D
-    JA OTSIN ÕNNE, KUS ASUB SEE
+    ja otsin õnne, kus asub see
 
     G
-    SAGELI METSADES HULKUDES MEENUB MUL
+    Sageli metsades hulkudes meenub mul
                     D
-    MUSTLASE MURETU ELU
+    mustlase muretu elu
     A                   D
-    MILLES NII PALJU ON VÕLU
+    milles nii palju on võlu
            A       A7   D
-    JA NII PALJU ROMANTIKAT
+    ja nii palju romantikat

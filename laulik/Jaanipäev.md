@@ -3,25 +3,25 @@ FIX
 V. Toomemets / H. Runnel
 
     G            D              G
-    JAANIPÄEVAKS KÕRGEKS KASVAB ROHI
+    Jaanipäevaks kõrgeks kasvab rohi
                               D
-    RINNUSTSAADIK KIIGUB KASTEHEIN
+    rinnustsaadik kiigub kastehein
     C            G
-    ÜTLE KUST MA RADA TEHA TOHIN,
+    ütle kust ma rada teha tohin,
          D                      G
-    IGAL POOL ON NOOR JA ÕITSEV HEIN.
+    igal pool on noor ja õitsev hein.
 
-JAANIÕHTUL SÜÜDATAKSE TULED,  
-TANTSUPLATSIL TALLATAKSE HEIN  
-AASTAS KORD SEE ÕHTU ETTE TULEB  
-IGAL POOL SAAB MUSERDATUD HEIN.
+Jaaniõhtul süüdatakse tuled,  
+tantsuplatsil tallatakse hein  
+aastas kord see õhtu ette tuleb  
+igal pool saab muserdatud hein.
 
-JAANIÖÖL ON SÕNAJALAD ÕITES  
-METSA ALL, KUS KÕRGE-KÕRGE HEIN  
-LAPSED, LAPSED SINNA MINNA VÕITE,  
-NIIKUINII SEALT NIITMATA JÄÄB HEIN.
+Jaaniööl on sõnajalad õites  
+metsa all, kus kõrge-kõrge hein  
+lapsed, lapsed sinna minna võite,  
+niikuinii sealt niitmata jääb hein.
 
-JAANIPÄEVAL RINNUNI ON ROHI  
-SÜGIS JÕUAB JÄÄB VAID KULUHEIN  
-ÜTLE, KUST MA RADA TEHA TOHIN,  
-IGAL POOL ON NOOR JA ÕITSEV HEIN.
+Jaanipäeval rinnuni on rohi  
+sügis jõuab jääb vaid kuluhein  
+ütle, kust ma rada teha tohin,  
+igal pool on noor ja õitsev hein.
