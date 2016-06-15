@@ -1,8 +1,10 @@
-August Sang
+### August Sang
 Hällilaul
 
-Ära nuta ammu enne sinu sündi on su eest kõik nutud
-nutet` maimukene naera veel sa naerda võid
+    .   Am                  Dm
+    Ära nuta ammu enne sinu sündi on su eest kõik nutud
+    E                                     Am
+    nutet` maimukene naera veel sa naerda võid
 
 Veel sa õndsalt uinud väeti veel ei rõhu sinu meeli
 maised mured ja sa unes viibid kaugel kaunil maal
