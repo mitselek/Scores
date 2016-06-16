@@ -2,8 +2,7 @@
 Muusika: F. Miller, T. Gilkyson
 Sõnad: H. Karmo
 
-Mod: Bm Em Bm F#7 / Bm Em Bm F#7 / G  A  D  Bm / G  A  D  F#7 / Bm Em Bm F#7 Bm  
-Intro: Am Dm Am E7 / Outro: Am Dm Am E7 / Am Dm Am E7 Am
+Am Dm Am E7  
 
     Am        Dm     Am       E7
     Kord olid niidud rohelust täis,
@@ -16,20 +15,15 @@ Intro: Am Dm Am E7 / Outro: Am Dm Am E7 / Am Dm Am E7 Am
     Am      Dm         Am  E7       Am
     Niitude vahel, kus rõõm  saatis meid.
 
-    Am Dm Am E7
+Am Dm Am E7
 
-    Am        Dm    Am      E7
-    Niitudelt päike kadunud nüüd,
-    Am      Dm          Am         E7
-    Nukrana kaigub vaid sügislinnu hüüd.
-    F        G           C         Am
-    Vingudes tõttab vaid vihur üle mäe
-    F        G           C          E7
-    Ning ega neidki seal keegi enam näe.
-    Am          Dm      Am E7      Am
-    Kus on siis suvi ja kus  on me arm?
+Niitudelt päike kadunud nüüd,  
+Nukrana kaigub vaid sügislinnu hüüd.  
+Vingudes tõttab vaid vihur üle mäe  
+Ning ega neidki seal keegi enam näe.  
+Kus on siis suvi ja kus  on me arm?
 
-    Am Dm Am E7
+Am Dm Am E7
 
     F              F            C
     Ei ole sind ja tõesti ma ei tea,
@@ -40,13 +34,13 @@ Intro: Am Dm Am E7 / Outro: Am Dm Am E7 / Am Dm Am E7 Am
     Am          Dm    Dm          E7
     Võtsid kogu õnne, mille kaasa tõid.
 
-         Am        Dm   Am        E7
-    Kuid siiski ma ootan  kevadet uut,
-    Am      Dm         Am          E7
-    Niitude haljust ja palju-palju muud.
-    F        G          C           Am
-    Aiman ma nüüdki, et ühel päeval siis,
-    F         G           C          E7
-    Lõplikult tuled, sest süda nõuab nii.
-    Am      Dm         Am  E7      Am
-    Niitude rüpes meid rõõm  leiab taas.
+Kuid siiski ma ootan  kevadet uut,  
+Niitude haljust ja palju-palju muud.  
+Aiman ma nüüdki, et ühel päeval siis,  
+Lõplikult tuled, sest süda nõuab nii.  
+Niitude rüpes meid rõõm  leiab taas.
+
+Am Dm Am E7  
+Am Dm Am E7 Am
+
+Mod: Bm Em Bm F#7 / Bm Em Bm F#7 / G  A  D  Bm / G  A  D  F#7 / Bm Em Bm F#7 Bm  
