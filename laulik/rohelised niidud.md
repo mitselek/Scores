@@ -2,18 +2,19 @@
 Muusika: F. Miller, T. Gilkyson
 Sõnad: H. Karmo
 
-Intro: Bm Em Bm F#7
+Mod: Bm Em Bm F#7 / Bm Em Bm F#7 / G  A  D  Bm / G  A  D  F#7 / Bm Em Bm F#7 Bm  
+Intro: Am Dm Am E7 / Outro: Am Dm Am E7 / Am Dm Am E7 Am
 
-    Bm        Em     Bm       F#7
+    Am        Dm     Am       E7
     Kord olid niidud rohelust täis,
-    Bm        Em           Bm        F#7
+    Am        Dm           Am        E7
     Pilv taevavõlvist vaid harva üle käis.
-    G         A         D          Bm
+    F         G         C          Am
     Peegeldus päike jõe suveselges vees,
-    F       G          C           F#7
+    F       G           C           E7
     Niitude vahel, siis kulges meie tee.
-    Bm      Em         Bm   F#7    Bm
-    Niitude vahel, kus rõõm saatis meid.
+    Am      Dm         Am  E7       Am
+    Niitude vahel, kus rõõm  saatis meid.
 
     Am Dm Am E7
 
@@ -25,8 +26,8 @@ Intro: Bm Em Bm F#7
     Vingudes tõttab vaid vihur üle mäe
     F        G           C          E7
     Ning ega neidki seal keegi enam näe.
-    Am          Dm      Am  E7    Am
-    Kus on siis suvi ja kus on me arm?
+    Am          Dm      Am E7      Am
+    Kus on siis suvi ja kus  on me arm?
 
     Am Dm Am E7
 
@@ -39,17 +40,13 @@ Intro: Bm Em Bm F#7
     Am          Dm    Dm          E7
     Võtsid kogu õnne, mille kaasa tõid.
 
-         Am        Dm    Am      E7
-    Kuid siiski ma ootan kevadet uut,
+         Am        Dm   Am        E7
+    Kuid siiski ma ootan  kevadet uut,
     Am      Dm         Am          E7
     Niitude haljust ja palju-palju muud.
     F        G          C           Am
     Aiman ma nüüdki, et ühel päeval siis,
     F         G           C          E7
     Lõplikult tuled, sest süda nõuab nii.
-    Am      Dm         Am  E7    Am
-    Niitude rüpes meid rõõm leiab taas.
-
-Outro:
-    Am Dm Am E7
-    Am Dm Am E7 Am
+    Am      Dm         Am  E7      Am
+    Niitude rüpes meid rõõm  leiab taas.
