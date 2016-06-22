@@ -1,4 +1,4 @@
-### VANA PILDIRAAM
+### Vana pildiraam
 P. Pihlap/J. Sütt
 
     G               C                           G

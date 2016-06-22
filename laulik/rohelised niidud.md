@@ -43,4 +43,8 @@ Niitude rüpes meid rõõm  leiab taas.
 Am Dm Am E7  
 Am Dm Am E7 Am
 
-Mod: Bm Em Bm F#7 / Bm Em Bm F#7 / G  A  D  Bm / G  A  D  F#7 / Bm Em Bm F#7 Bm  
+Mod: Bm Em Bm F#7  
+Bm Em Bm F#7  
+G  A  D  Bm  
+G  A  D  F#7  
+Bm Em Bm F#7 Bm  
