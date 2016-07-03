@@ -1,7 +1,7 @@
 ### OO MILLAL SAAKSIN MA MUSTLASENA
 J.Benes operetist "Haljal aasal"
 
-    .         D          G     D
+              D          G     D
     Oo millal saaksin ma mustlasena
              A               D
     maailmas ringi veel rännata
