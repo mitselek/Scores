@@ -225,7 +225,7 @@
       <halign>center</halign>
       <valign>baseline</valign>
       <xoffset>0</xoffset>
-      <yoffset>6</yoffset>
+      <yoffset>7</yoffset>
       <offsetType>spatium</offsetType>
       <name>Lyrics Odd Lines</name>
       <family>FreeSerif</family>
@@ -236,7 +236,7 @@
       <halign>center</halign>
       <valign>baseline</valign>
       <xoffset>0</xoffset>
-      <yoffset>6</yoffset>
+      <yoffset>7</yoffset>
       <offsetType>spatium</offsetType>
       <name>Lyrics Even Lines</name>
       <family>FreeSerif</family>
@@ -648,6 +648,6 @@
         <bottom-margin>79.3701</bottom-margin>
         </page-margins>
       </page-layout>
-    <Spatium>2</Spatium>
+    <Spatium>1.68</Spatium>
     </Style>
   </museScore>
