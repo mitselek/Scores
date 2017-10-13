@@ -318,7 +318,7 @@
       <halign>center</halign>
       <valign>baseline</valign>
       <xoffset>0</xoffset>
-      <yoffset>8</yoffset>
+      <yoffset>-1</yoffset>
       <offsetType>spatium</offsetType>
       <name>Dynamics</name>
       <family>FreeSerif</family>
