@@ -24,7 +24,7 @@
     <endBarWidth>0.5</endBarWidth>
     <doubleBarDistance>0.3</doubleBarDistance>
     <endBarDistance>0.4</endBarDistance>
-    <repeatBarTips>1</repeatBarTips>
+    <repeatBarTips>0</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <bracketWidth>0.45</bracketWidth>
@@ -113,7 +113,7 @@
     <chordsXmlFile>0</chordsXmlFile>
     <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
     <concertPitch>0</concertPitch>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>4</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <hideEmptyStaves>1</hideEmptyStaves>
