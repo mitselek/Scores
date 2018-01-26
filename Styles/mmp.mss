@@ -24,7 +24,7 @@
     <endBarWidth>0.5</endBarWidth>
     <doubleBarDistance>0.3</doubleBarDistance>
     <endBarDistance>0.4</endBarDistance>
-    <repeatBarTips>0</repeatBarTips>
+    <repeatBarTips>1</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <bracketWidth>0.45</bracketWidth>
@@ -113,12 +113,12 @@
     <chordsXmlFile>0</chordsXmlFile>
     <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
     <concertPitch>0</concertPitch>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>4</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <hideEmptyStaves>1</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
-    <hideInstrumentNameIfOneInstrument>1</hideInstrumentNameIfOneInstrument>
+    <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
     <tenutoGateTime>100</tenutoGateTime>
     <staccatoGateTime>50</staccatoGateTime>
@@ -148,7 +148,8 @@
     <evenFooterL>$p</evenFooterL>
     <evenFooterC>$:copyright:</evenFooterC>
     <evenFooterR></evenFooterR>
-    <oddFooterL>github.com/mitselek/Scores   $M</oddFooterL>
+    <oddFooterL>$M
+$:source:</oddFooterL>
     <oddFooterC>-- $P/$n --</oddFooterC>
     <oddFooterR>$:workTitle:</oddFooterR>
     <voltaY>-3</voltaY>
@@ -393,8 +394,8 @@
     <TextStyle>
       <halign>left</halign>
       <valign>top</valign>
-      <xoffset>0</xoffset>
-      <yoffset>-4</yoffset>
+      <xoffset>-2</xoffset>
+      <yoffset>-5</yoffset>
       <offsetType>spatium</offsetType>
       <name>System</name>
       <family>FreeSerif</family>
@@ -647,6 +648,6 @@
         <bottom-margin>79.3701</bottom-margin>
         </page-margins>
       </page-layout>
-    <Spatium>1.8</Spatium>
+    <Spatium>1.7</Spatium>
     </Style>
   </museScore>
