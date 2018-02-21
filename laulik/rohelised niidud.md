@@ -18,10 +18,10 @@ Am Dm Am E7
 Am Dm Am E7
 
 Niitudelt päike kadunud nüüd,  
-Nukrana kaigub vaid sügislinnu hüüd.  
-Vingudes tõttab vaid vihur üle mäe  
-Ning ega neidki seal keegi enam näe.  
-Kus on siis suvi ja kus  on me arm?
+Nukrana kaigub sääl sügislinnu hüüd.  
+Vingudes ruttab vaid vihur üle mäe  
+Ning ega meidki seal keegi enam näe.  
+Kus on siis suvi ja kus on me arm?
 
 Am Dm Am E7
 
@@ -36,11 +36,11 @@ Am Dm Am E7
 
 Kuid siiski ma ootan  kevadet uut,  
 Niitude haljust ja palju-palju muud.  
-Aiman ma nüüdki, et ühel päeval siis,  
+Aiman ju nüüdki, et ühel päeval siis,  
 Lõplikult tuled, sest süda nõuab nii.  
-Niitude rüpes meid rõõm  leiab taas.
+Niitude rüpes meid rõõm leiab taas.
 
-Am Dm Am E7  
+Am Dm Am E7
 Am Dm Am E7 Am
 
 Mod: Bm Em Bm F#7  
