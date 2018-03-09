@@ -65,7 +65,7 @@
     <propertyDistance>1</propertyDistance>
     <articulationMag>1</articulationMag>
     <lastSystemFillLimit>0.1</lastSystemFillLimit>
-    <hairpinY>-1</hairpinY>
+    <hairpinY>-2</hairpinY>
     <hairpinHeight>1.2</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
     <hairpinWidth>0.13</hairpinWidth>
@@ -113,10 +113,10 @@
     <chordsXmlFile>0</chordsXmlFile>
     <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
     <concertPitch>0</concertPitch>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>4</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
-    <hideEmptyStaves>1</hideEmptyStaves>
+    <hideEmptyStaves>0</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
@@ -319,7 +319,7 @@ $:source:</oddFooterL>
       <halign>center</halign>
       <valign>baseline</valign>
       <xoffset>0</xoffset>
-      <yoffset>-1</yoffset>
+      <yoffset>-1.6</yoffset>
       <offsetType>spatium</offsetType>
       <name>Dynamics</name>
       <family>FreeSerif</family>
