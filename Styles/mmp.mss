@@ -113,11 +113,11 @@
     <chordsXmlFile>0</chordsXmlFile>
     <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
     <concertPitch>0</concertPitch>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
-    <minEmptyMeasures>4</minEmptyMeasures>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
-    <hideEmptyStaves>0</hideEmptyStaves>
-    <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
+    <hideEmptyStaves>1</hideEmptyStaves>
+    <dontHidStavesInFirstSystm>1</dontHidStavesInFirstSystm>
     <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
     <tenutoGateTime>100</tenutoGateTime>
