@@ -432,7 +432,7 @@ $:source:</oddFooterL>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">https://musescore.com/user/1886256/scores/5176751</metaTag>
+    <metaTag name="source">https://musescore.com/user/1886256/scores/3404196</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Tee ilu segakoorile</metaTag>
@@ -1167,7 +1167,6 @@ L. Laula, laula, suukene,
         <Tempo>
           <tempo>1.6</tempo>
           <followText>1</followText>
-          <lid>0</lid>
           <text><sym>unicodeNoteQuarterUp</sym> = 96</text>
           </Tempo>
         <Rest>
@@ -2390,6 +2389,7 @@ L. Laula, laula, suukene,
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <endSpanner id="4"/>
         <endSpanner id="5"/>
         <endSpanner id="6"/>
         <endSpanner id="7"/>
@@ -2402,7 +2402,6 @@ L. Laula, laula, suukene,
         <endSpanner id="14"/>
         <endSpanner id="15"/>
         <endSpanner id="16"/>
-        <endSpanner id="4"/>
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
@@ -2498,7 +2497,6 @@ L. Laula, laula, suukene,
         <Tempo>
           <tempo>0.75</tempo>
           <followText>1</followText>
-          <lid>1</lid>
           <text><sym>unicodeNoteQuarterUp</sym> = 45</text>
           </Tempo>
         <Rest>
@@ -2806,7 +2804,7 @@ L. Laula, laula, suukene,
         <Tempo>
           <tempo>0.666667</tempo>
           <followText>1</followText>
-          <pos x="-3.35" y="-4.6"/>
+          <pos x="-3.34" y="-4.6"/>
           <text>Poco meno mosso ca <sym>unicodeNoteQuarterUp</sym> = 40</text>
           </Tempo>
         <Rest>
@@ -4826,7 +4824,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="76">
-        <Volta id="16">
+        <Volta id="5">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -4876,7 +4874,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="77">
-        <Volta id="26">
+        <Volta id="17">
           <beginText>
             <text>2.</text>
             </beginText>
@@ -6538,7 +6536,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="76">
-        <Volta id="15">
+        <Volta id="6">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -6566,7 +6564,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="77">
-        <Volta id="25">
+        <Volta id="18">
           <beginText>
             <text>2.</text>
             </beginText>
@@ -10000,7 +9998,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="76">
-        <Volta id="14">
+        <Volta id="7">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -10066,7 +10064,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="77">
-        <Volta id="24">
+        <Volta id="19">
           <beginText>
             <text>2.</text>
             </beginText>
@@ -11291,7 +11289,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="3052.42" y="-2.5"/>
+            <pos x="3183.03" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -14523,7 +14521,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="76">
-        <Volta id="13">
+        <Volta id="8">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -14592,7 +14590,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="77">
-        <Volta id="23">
+        <Volta id="20">
           <beginText>
             <text>2.</text>
             </beginText>
@@ -15993,7 +15991,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="-0.195279" y="0"/>
-            <pos x="2957.47" y="-2"/>
+            <pos x="3088.08" y="-2"/>
             </Segment>
           <beginText>
             <text>solo</text>
@@ -16128,7 +16126,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="3052.42" y="-2.5"/>
+            <pos x="3183.03" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -19099,7 +19097,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="76">
-        <Volta id="12">
+        <Volta id="9">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -19175,7 +19173,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="77">
-        <Volta id="22">
+        <Volta id="21">
           <beginText>
             <text>2.</text>
             </beginText>
@@ -20702,7 +20700,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="-1.05133" y="0"/>
-            <pos x="3040.54" y="-2.5"/>
+            <pos x="3171.15" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -24269,7 +24267,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="76">
-        <Volta id="11">
+        <Volta id="10">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -24342,7 +24340,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="77">
-        <Volta id="21">
+        <Volta id="22">
           <beginText>
             <text>2.</text>
             </beginText>
@@ -25763,7 +25761,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="-1.49496" y="0"/>
-            <pos x="3016.38" y="-2"/>
+            <pos x="3146.99" y="-2"/>
             </Segment>
           <beginText>
             <text>solo</text>
@@ -25834,7 +25832,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="-3.62126" y="0"/>
-            <pos x="3043" y="-2.5"/>
+            <pos x="3173.61" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -28266,7 +28264,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="76">
-        <Volta id="10">
+        <Volta id="11">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -28323,7 +28321,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="77">
-        <Volta id="20">
+        <Volta id="23">
           <beginText>
             <text>2.</text>
             </beginText>
@@ -30124,7 +30122,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="76">
-        <Volta id="9">
+        <Volta id="12">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -31852,7 +31850,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="76">
-        <Volta id="8">
+        <Volta id="13">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -31909,7 +31907,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="77">
-        <Volta id="19">
+        <Volta id="24">
           <beginText>
             <text>2.</text>
             </beginText>
@@ -33492,7 +33490,7 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="76">
-        <Volta id="7">
+        <Volta id="14">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -35783,7 +35781,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="76">
-        <Volta id="6">
+        <Volta id="15">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -35840,7 +35838,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="77">
-        <Volta id="18">
+        <Volta id="25">
           <beginText>
             <text>2.</text>
             </beginText>
@@ -38268,7 +38266,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="76">
-        <Volta id="5">
+        <Volta id="16">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -38325,7 +38323,7 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="77">
-        <Volta id="17">
+        <Volta id="26">
           <beginText>
             <text>2.</text>
             </beginText>
