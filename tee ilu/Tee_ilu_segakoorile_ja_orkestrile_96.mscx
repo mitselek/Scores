@@ -3,7 +3,6 @@
   <programVersion>2.3.2</programVersion>
   <programRevision>4592407</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -440,6 +439,126 @@ $:source:</oddFooterL>
       <Page>
         <System>
           </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -501,6 +620,7 @@ $:source:</oddFooterL>
           </StaffType>
         <bracket type="0" span="2"/>
         </Staff>
+      <show>0</show>
       <trackName>Vibraphone</trackName>
       <Instrument>
         <longName>Vibraphone</longName>
@@ -553,6 +673,7 @@ $:source:</oddFooterL>
         <defaultClef>F</defaultClef>
         <bracket type="-1" span="0"/>
         </Staff>
+      <show>0</show>
       <trackName>Timpani</trackName>
       <Instrument>
         <longName>Timpani</longName>
@@ -1167,6 +1288,7 @@ L. Laula, laula, suukene,
         <Tempo>
           <tempo>1.6</tempo>
           <followText>1</followText>
+          <lid>1</lid>
           <text><sym>unicodeNoteQuarterUp</sym> = 96</text>
           </Tempo>
         <Rest>
@@ -2179,6 +2301,7 @@ L. Laula, laula, suukene,
         <Tempo>
           <tempo>2.33333</tempo>
           <followText>1</followText>
+          <pos x="3" y="-4"/>
           <text><sym>unicodeNoteQuarterUp</sym> = 140</text>
           </Tempo>
         <Chord>
@@ -2270,7 +2393,7 @@ L. Laula, laula, suukene,
         </Measure>
       <Measure number="60">
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <Rest>
           <durationType>measure</durationType>
@@ -2279,6 +2402,10 @@ L. Laula, laula, suukene,
         </Measure>
       <Measure number="61">
         <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
@@ -2321,9 +2448,6 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="68">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
@@ -2386,9 +2510,6 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="77">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <endSpanner id="4"/>
         <endSpanner id="5"/>
         <endSpanner id="6"/>
@@ -2497,6 +2618,7 @@ L. Laula, laula, suukene,
         <Tempo>
           <tempo>0.75</tempo>
           <followText>1</followText>
+          <lid>2</lid>
           <text><sym>unicodeNoteQuarterUp</sym> = 45</text>
           </Tempo>
         <Rest>
@@ -2541,6 +2663,7 @@ L. Laula, laula, suukene,
         <Tempo>
           <tempo>0.75</tempo>
           <followText>1</followText>
+          <visible>0</visible>
           <text><sym>unicodeNoteQuarterUp</sym> = 45</text>
           </Tempo>
         <Rest>
@@ -2804,7 +2927,7 @@ L. Laula, laula, suukene,
         <Tempo>
           <tempo>0.666667</tempo>
           <followText>1</followText>
-          <pos x="-3.34" y="-4.6"/>
+          <pos x="-3.32" y="-4.6"/>
           <text>Poco meno mosso ca <sym>unicodeNoteQuarterUp</sym> = 40</text>
           </Tempo>
         <Rest>
@@ -4243,6 +4366,10 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
@@ -6323,6 +6450,10 @@ L. Laula, laula, suukene,
           </Chord>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
@@ -9287,6 +9418,10 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
@@ -11289,7 +11424,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="3183.03" y="-2.5"/>
+            <pos x="381.781" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -13767,6 +13902,10 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -15991,7 +16130,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="-0.195279" y="0"/>
-            <pos x="3088.08" y="-2"/>
+            <pos x="279.685" y="-2"/>
             </Segment>
           <beginText>
             <text>solo</text>
@@ -16126,7 +16265,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="3183.03" y="-2.5"/>
+            <pos x="381.781" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -18496,6 +18635,10 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
@@ -20700,7 +20843,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="-1.05133" y="0"/>
-            <pos x="3171.15" y="-2.5"/>
+            <pos x="369.805" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -23454,6 +23597,10 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
@@ -25761,7 +25908,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="-1.49496" y="0"/>
-            <pos x="3146.99" y="-2"/>
+            <pos x="343.193" y="-2"/>
             </Segment>
           <beginText>
             <text>solo</text>
@@ -25832,7 +25979,7 @@ L. Laula, laula, suukene,
           <Segment>
             <subtype>0</subtype>
             <off2 x="-3.62126" y="0"/>
-            <pos x="3173.61" y="-2.5"/>
+            <pos x="372.265" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -27946,6 +28093,10 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>2</span>
+          </BarLine>
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
@@ -31440,6 +31591,10 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>2</span>
+          </BarLine>
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
@@ -35287,6 +35442,10 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
@@ -37860,6 +38019,10 @@ L. Laula, laula, suukene,
           </Rest>
         </Measure>
       <Measure number="61">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
