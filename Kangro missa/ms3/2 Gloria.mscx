@@ -168,7 +168,6 @@ Missa  op. 40</metaTag>
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
-        <bracket type="0" span="8" col="0"/>
         </Staff>
       <trackName>S.s.</trackName>
       <Instrument>
@@ -275,6 +274,7 @@ Missa  op. 40</metaTag>
       <Staff id="3">
         <StaffType group="pitched">
           </StaffType>
+        <bracket type="0" span="6" col="0"/>
         </Staff>
       <trackName>S</trackName>
       <Instrument>
