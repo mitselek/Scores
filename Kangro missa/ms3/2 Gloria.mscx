@@ -614,8 +614,6 @@ Missa  op. 40</text>
             <followText>1</followText>
             <text><b>Rubato </b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 50</b></text>
             </Tempo>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -695,8 +693,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -803,8 +799,6 @@ Missa  op. 40</text>
             <sigN>16</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -887,8 +881,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -924,8 +916,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -1696,10 +1686,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>11/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>10</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -2804,8 +2790,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -5735,8 +5719,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -11982,10 +11964,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>11/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>10</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -18053,8 +18031,6 @@ Missa  op. 40</text>
             <subtype>f</subtype>
             <velocity>96</velocity>
             </Dynamic>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -18103,8 +18079,6 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -18196,10 +18170,6 @@ Missa  op. 40</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>10</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -19133,8 +19103,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -32582,10 +32550,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>11/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>10</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -37898,10 +37862,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>10</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -39016,8 +38976,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -54327,10 +54285,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>11/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>10</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58957,10 +58911,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>11/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>10</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -74336,10 +74286,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>11/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>10</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
