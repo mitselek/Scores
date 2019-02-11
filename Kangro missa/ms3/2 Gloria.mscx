@@ -25,8 +25,6 @@
       <lyricsOddFramePadding>0</lyricsOddFramePadding>
       <lyricsOddFrameWidth>0</lyricsOddFrameWidth>
       <lyricsEvenFontSize>12</lyricsEvenFontSize>
-      <lyricsOddFramePadding>0</lyricsOddFramePadding>
-      <lyricsOddFrameWidth>0</lyricsOddFrameWidth>
       <doubleBarDistance>0.46</doubleBarDistance>
       <endBarDistance>0.65</endBarDistance>
       <repeatBarTips>1</repeatBarTips>
@@ -1811,9 +1809,6 @@ Missa  op. 40</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -3726,9 +3721,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -4445,9 +4437,6 @@ Missa  op. 40</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -4931,9 +4920,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure len="12/4">
         <multiMeasureRest>4</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4958,9 +4944,6 @@ Missa  op. 40</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -6000,9 +5983,6 @@ Missa  op. 40</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -7398,9 +7378,6 @@ Missa  op. 40</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <TimeSig>
             <sigN>7</sigN>
@@ -8438,9 +8415,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure len="12/4">
         <multiMeasureRest>3</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <TimeSig>
             <sigN>4</sigN>
@@ -8464,9 +8438,6 @@ Missa  op. 40</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -10314,9 +10285,6 @@ Missa  op. 40</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -10700,6 +10668,12 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/4</duration>
             </Rest>
+          <location>
+            <fractions>5/4</fractions>
+            </location>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -10877,9 +10851,6 @@ Missa  op. 40</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <text><b></b>39</text>
@@ -11725,9 +11696,6 @@ Missa  op. 40</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -26330,9 +26298,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -27203,9 +27168,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -27950,9 +27912,6 @@ Missa  op. 40</text>
               <tpc>8</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -29084,9 +29043,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -30093,9 +30049,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -48583,9 +48536,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -49357,9 +49307,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -50819,9 +50766,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -51821,9 +51765,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -67607,7 +67548,6 @@ Missa  op. 40</text>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <linkedMain/>
             <text><b>Allegro</b></text>
             </StaffText>
           <Rest>
@@ -67624,9 +67564,6 @@ Missa  op. 40</text>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             <text><b>Allegro</b></text>
             </StaffText>
           <Rest>
@@ -70896,9 +70833,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -71835,9 +71769,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -75322,9 +75253,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -84050,9 +83978,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -85900,9 +85825,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -87043,9 +86965,6 @@ Missa  op. 40</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <text>dim.</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
