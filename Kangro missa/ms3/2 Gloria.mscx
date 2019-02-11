@@ -1615,10 +1615,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11912,10 +11908,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -17516,10 +17508,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32526,10 +32514,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -37417,10 +37401,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -54282,10 +54262,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58826,10 +58802,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -74209,10 +74181,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
