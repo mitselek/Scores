@@ -31566,7 +31566,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>480</ticks>
               <text>Chris</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -31607,6 +31606,7 @@ Missa  op. 40</text>
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <ticks>4800</ticks>
               <text>te</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -53094,7 +53094,6 @@ Missa  op. 40</text>
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>960</ticks>
               <text>Je</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -53150,7 +53149,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>480</ticks>
               <text>Chris</text>
               </Lyrics>
             <Spanner type="Slur">
