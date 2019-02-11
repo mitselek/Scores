@@ -9,6 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <pageWidth>8.27</pageWidth>
+      <pageHeight>11.69</pageHeight>
+      <pagePrintableWidth>7.4826</pagePrintableWidth>
       <pageEvenBottomMargin>0.551181</pageEvenBottomMargin>
       <pageOddBottomMargin>0.551181</pageOddBottomMargin>
       <pageTwosided>0</pageTwosided>
@@ -619,7 +622,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>480</ticks>
               <text>Glo</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -698,7 +700,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>240</ticks>
               <text>ex</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -756,6 +757,7 @@ Missa  op. 40</text>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
+              <ticks>960</ticks>
               <text>Deo</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -804,7 +806,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>12000</ticks>
               <text>glo</text>
               </Lyrics>
             <Note>
@@ -921,7 +922,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>240</ticks>
               <text>ex</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1040,7 +1040,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>240</ticks>
               <text>glo</text>
               </Lyrics>
             <Note>
@@ -1063,7 +1062,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <ticks>240</ticks>
               <text>ri</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1113,7 +1111,7 @@ Missa  op. 40</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Lyrics>
-              <syllabic>begin</syllabic>
+              <syllabic>end</syllabic>
               <ticks>240</ticks>
               <text>in</text>
               </Lyrics>
@@ -1149,8 +1147,7 @@ Missa  op. 40</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Lyrics>
-              <syllabic>middle</syllabic>
-              <ticks>240</ticks>
+              <syllabic>begin</syllabic>
               <text>ex</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1208,6 +1205,7 @@ Missa  op. 40</text>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
+              <ticks>960</ticks>
               <text>Deo</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1270,7 +1268,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>5760</ticks>
               <text>glo</text>
               </Lyrics>
             <Note>
@@ -1300,6 +1297,7 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <ticks>480</ticks>
               <text>ria</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1351,7 +1349,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>240</ticks>
               <text>ex</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1409,6 +1406,7 @@ Missa  op. 40</text>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
+              <ticks>1920</ticks>
               <text>Deo</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1463,8 +1461,7 @@ Missa  op. 40</text>
           <Tempo>
             <tempo>1.08333</tempo>
             <followText>1</followText>
-            <linkedMain/>
-            <text><b>Andante </b><font face="ScoreText"/><b><font face="FreeSerif"/> = 65</b></text>
+            <text><b>Andante </b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 65</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -1527,7 +1524,6 @@ Missa  op. 40</text>
             <sigD>4</sigD>
             </TimeSig>
           <RehearsalMark>
-            <linkedMain/>
             <text><b></b>1</text>
             </RehearsalMark>
           <Rest>
@@ -1634,13 +1630,12 @@ Missa  op. 40</text>
             <sigD>8</sigD>
             </TimeSig>
           <RehearsalMark>
-            <linkedMain/>
             <text><b></b>2</text>
             </RehearsalMark>
           <Tempo>
             <tempo>1.04167</tempo>
             <followText>1</followText>
-            <text><b>Allegro </b><font face="ScoreText"/><b><font face="FreeSerif"/> = 125</b></text>
+            <text><b>Allegro </b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 125</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -1773,7 +1768,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>480</ticks>
               <text>Lau</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1811,7 +1805,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <ticks>720</ticks>
               <text>da</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -1855,7 +1848,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <ticks>480</ticks>
               <text>mus</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1940,7 +1932,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>720</ticks>
               <text>be</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -1997,7 +1988,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <ticks>720</ticks>
               <text>ne</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -2189,7 +2179,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>720</ticks>
               <text>glo</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -2359,7 +2348,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>480</ticks>
               <text>Lau</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -2397,7 +2385,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <ticks>720</ticks>
               <text>da</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -2441,7 +2428,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <ticks>480</ticks>
               <text>mus</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -2526,7 +2512,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>720</ticks>
               <text>be</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -2580,7 +2565,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <ticks>720</ticks>
               <text>ne</text>
               </Lyrics>
             <StemDirection>up</StemDirection>
@@ -2772,7 +2756,6 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <ticks>720</ticks>
               <text>glo</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -10592,7 +10575,6 @@ Missa  op. 40</text>
       <Measure>
         <voice>
           <RehearsalMark>
-            <linkedMain/>
             <text><b></b>37</text>
             </RehearsalMark>
           <Rest>
@@ -18191,10 +18173,7 @@ Missa  op. 40</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -58664,10 +58643,16 @@ Missa  op. 40</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -58777,8 +58762,13 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -74042,10 +74032,16 @@ Missa  op. 40</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -74152,8 +74148,13 @@ Missa  op. 40</text>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
