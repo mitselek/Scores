@@ -3,6 +3,7 @@
   <programVersion>3.0.2</programVersion>
   <programRevision>8ca4d2c</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
@@ -35,6 +36,7 @@
       <pedalFrameWidth>0</pedalFrameWidth>
       <chordSymbolAFramePadding>0</chordSymbolAFramePadding>
       <chordSymbolAFrameWidth>0</chordSymbolAFrameWidth>
+      <genCourtesyTimesig>0</genCourtesyTimesig>
       <createMultiMeasureRests>1</createMultiMeasureRests>
       <minEmptyMeasures>4</minEmptyMeasures>
       <hideEmptyStaves>1</hideEmptyStaves>
@@ -1037,10 +1039,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>14</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -1468,10 +1466,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -1583,10 +1577,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -1739,10 +1729,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>11</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -3375,10 +3361,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -5856,10 +5838,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -6987,10 +6965,6 @@ Missa  op. 40</text>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -7307,10 +7281,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -7471,534 +7441,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -8059,10 +7501,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -8075,10 +7513,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -8091,10 +7525,42 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <TimeSig>
             <sigN>7</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -8143,10 +7609,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -8159,10 +7621,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -8175,10 +7633,438 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <TimeSig>
             <sigN>7</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -8355,10 +8241,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -10668,10 +10550,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -10708,10 +10586,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11049,10 +10923,6 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11127,10 +10997,6 @@ Missa  op. 40</text>
             <dots>1</dots>
             <durationType>half</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11762,10 +11628,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>14</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11790,10 +11652,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11894,10 +11752,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -12042,10 +11896,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>11</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -12262,10 +12112,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -13762,10 +13608,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -14334,10 +14176,6 @@ Missa  op. 40</text>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -14402,10 +14240,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -14502,534 +14336,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -15090,10 +14396,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -15106,10 +14408,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -15122,10 +14420,42 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <TimeSig>
             <sigN>7</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -15174,10 +14504,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -15190,10 +14516,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -15206,10 +14528,438 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <TimeSig>
             <sigN>7</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -15386,10 +15136,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -16343,10 +16089,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -16383,10 +16125,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -16560,10 +16298,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -16647,10 +16381,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -17193,10 +16923,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>14</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -17221,10 +16947,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -17325,10 +17047,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -18301,10 +18019,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>11</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -18616,10 +18330,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -19937,10 +19647,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -20623,10 +20329,6 @@ Missa  op. 40</text>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -20937,10 +20639,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -21101,10 +20799,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -21166,10 +20860,6 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -21418,10 +21108,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -21598,10 +21284,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -21652,10 +21334,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -21933,10 +21611,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -22161,10 +21835,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -22210,10 +21880,6 @@ Missa  op. 40</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -22394,10 +22060,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -22519,10 +22181,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -22692,10 +22350,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -22880,10 +22534,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23048,10 +22698,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23179,10 +22825,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23216,10 +22858,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23557,10 +23195,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23633,10 +23267,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23669,10 +23299,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23849,10 +23475,6 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23912,10 +23534,6 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23962,10 +23580,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -25108,10 +24722,6 @@ Missa  op. 40</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -31328,10 +30938,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -31455,10 +31061,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32128,10 +31730,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32156,10 +31754,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32427,10 +32021,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>14</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32455,10 +32045,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32559,10 +32145,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32707,10 +32289,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>11</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32927,10 +32505,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -33750,10 +33324,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -34737,10 +34307,6 @@ Missa  op. 40</text>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -34805,10 +34371,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -34905,534 +34467,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -35493,10 +34527,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -35509,10 +34539,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -35525,10 +34551,42 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <TimeSig>
             <sigN>7</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -35577,10 +34635,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -35593,10 +34647,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -35609,10 +34659,438 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <TimeSig>
             <sigN>7</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -35789,10 +35267,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -36746,10 +36220,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -36786,10 +36256,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -36963,10 +36429,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -36991,10 +36453,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -37183,10 +36641,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>14</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -37211,10 +36665,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -37315,10 +36765,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -38199,10 +37645,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>11</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -38563,10 +38005,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -39888,10 +39326,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -41849,10 +41283,6 @@ Missa  op. 40</text>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -42155,10 +41585,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -42559,10 +41985,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -42622,10 +42044,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -42929,10 +42347,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -43144,10 +42558,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -43226,10 +42636,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -43472,10 +42878,6 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -43731,10 +43133,6 @@ Missa  op. 40</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -43768,10 +43166,6 @@ Missa  op. 40</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -44019,10 +43413,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -44120,10 +43510,6 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -44297,10 +43683,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -44485,10 +43867,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -44811,10 +44189,6 @@ Missa  op. 40</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -44861,10 +44235,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -44877,10 +44247,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -45167,10 +44533,6 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -45204,10 +44566,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -45251,10 +44609,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -45567,10 +44921,6 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -45630,10 +44980,6 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -45680,10 +45026,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -47008,10 +46350,6 @@ Missa  op. 40</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -53126,10 +52464,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -53247,10 +52581,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -53941,10 +53271,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -53969,10 +53295,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -54240,10 +53562,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>14</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -54268,10 +53586,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -54372,10 +53686,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -54520,10 +53830,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>11</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -54740,10 +54046,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -55563,10 +54865,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -56224,10 +55522,6 @@ Missa  op. 40</text>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -56292,10 +55586,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -56392,534 +55682,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -56980,10 +55742,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -56996,10 +55754,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -57012,10 +55766,42 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <TimeSig>
             <sigN>7</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -57064,10 +55850,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -57080,10 +55862,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -57096,10 +55874,438 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <TimeSig>
             <sigN>7</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -57276,10 +56482,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58233,10 +57435,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58273,10 +57471,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58450,10 +57644,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58478,10 +57668,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58667,10 +57853,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>14</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58695,10 +57877,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58799,10 +57977,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -59509,10 +58683,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>11</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -59867,10 +59037,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -61885,10 +61051,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -62655,10 +61817,6 @@ Missa  op. 40</text>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -62856,10 +62014,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -63020,10 +62174,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -63048,10 +62198,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -63100,10 +62246,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -63211,10 +62353,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -63260,10 +62398,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -63492,10 +62626,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -63867,10 +62997,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -63904,10 +63030,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -64110,10 +63232,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -64178,10 +63296,6 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -64331,10 +63445,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -64550,10 +63660,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -64805,10 +63911,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -64957,10 +64059,6 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65045,10 +64143,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65313,10 +64407,6 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65356,10 +64446,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65405,10 +64491,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65611,10 +64693,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65648,10 +64726,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65684,10 +64758,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -66799,10 +65869,6 @@ Missa  op. 40</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -72747,10 +71813,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -73005,10 +72067,6 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -73793,10 +72851,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -73821,10 +72875,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -74092,10 +73142,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>14</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -74120,10 +73166,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/1</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -74224,10 +73266,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -74944,10 +73982,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>11</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -75377,10 +74411,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -77391,10 +76421,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -78131,10 +77157,6 @@ Missa  op. 40</text>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -78396,10 +77418,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -78560,10 +77578,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -78588,10 +77602,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -78640,10 +77650,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -78680,10 +77686,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -78696,10 +77698,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -78785,10 +77783,6 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -79044,10 +78038,6 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -79093,10 +78083,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -79349,10 +78335,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -79509,10 +78491,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -79645,10 +78623,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -79870,10 +78844,6 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -80095,10 +79065,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -80148,10 +79114,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -80198,10 +79160,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -80506,10 +79464,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -80647,10 +79601,6 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -80725,10 +79675,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -81025,10 +79971,6 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -81055,10 +79997,6 @@ Missa  op. 40</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -81071,10 +80009,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -82116,10 +81050,6 @@ Missa  op. 40</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -87860,10 +86790,6 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -88108,10 +87034,6 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -88824,10 +87746,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -88852,10 +87770,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
