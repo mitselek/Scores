@@ -1631,9 +1631,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/4</duration>
@@ -1650,6 +1647,11 @@ Missa  op. 40</text>
             <linkedMain/>
             <text><b></b>2</text>
             </RehearsalMark>
+          <Tempo>
+            <tempo>1.04167</tempo>
+            <followText>1</followText>
+            <text><b>Allegro </b><font face="ScoreText"/><b><font face="FreeSerif"/> = 125</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>11/8</duration>
@@ -11924,9 +11926,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/4</duration>
@@ -17654,9 +17653,6 @@ Missa  op. 40</text>
             <sigN>11</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <StaffText>
-            <text><b>Allegro</b></text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>11/8</duration>
@@ -32530,9 +32526,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/4</duration>
@@ -54278,9 +54271,6 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/4</duration>
