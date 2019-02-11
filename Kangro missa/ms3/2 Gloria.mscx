@@ -29,7 +29,6 @@
       <barNoteDistance>0</barNoteDistance>
       <noteBarDistance>0.7</noteBarDistance>
       <measureSpacing>1.1</measureSpacing>
-      <lastSystemFillLimit>0.1</lastSystemFillLimit>
       <hairpinFramePadding>0</hairpinFramePadding>
       <hairpinFrameWidth>0</hairpinFrameWidth>
       <pedalFramePadding>0</pedalFramePadding>
@@ -53,6 +52,7 @@ $:source:</oddFooterL>
       <ottavaFrameWidth>0</ottavaFrameWidth>
       <tupletFramePadding>0</tupletFramePadding>
       <tupletFrameWidth>0</tupletFrameWidth>
+      <dynamicsPlacement>0</dynamicsPlacement>
       <textLineFramePadding>0</textLineFramePadding>
       <textLineFrameWidth>0</textLineFrameWidth>
       <defaultFontSpatiumDependent>0</defaultFontSpatiumDependent>
@@ -617,6 +617,8 @@ Missa  op. 40</text>
             <followText>1</followText>
             <text><b>Rubato </b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 50</b></text>
             </Tempo>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -695,6 +697,8 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -801,6 +805,8 @@ Missa  op. 40</text>
             <sigN>16</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -882,6 +888,8 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -917,6 +925,8 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -1027,6 +1037,10 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <TimeSig>
+            <sigN>14</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -1035,6 +1049,8 @@ Missa  op. 40</text>
             <sigN>14</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -1057,6 +1073,8 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -1107,6 +1125,8 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -1143,6 +1163,8 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -1717,6 +1739,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>11</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -1763,7 +1789,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -2774,6 +2799,8 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -2959,7 +2986,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -3364,7 +3390,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -3658,7 +3683,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -4848,7 +4872,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -5703,6 +5726,8 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -5831,6 +5856,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -5894,7 +5923,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -6983,7 +7011,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7345,7 +7372,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -7969,6 +7995,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -7981,86 +8011,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -8141,6 +8091,94 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -8317,6 +8355,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -8427,7 +8469,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <StaffText>
             <text><b>Andante</b></text>
@@ -8806,7 +8847,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -9340,7 +9380,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -9731,7 +9770,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -10670,6 +10708,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -10836,7 +10878,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -11008,6 +11049,10 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11120,7 +11165,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -11718,6 +11762,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>14</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11994,6 +12042,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>11</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -12561,7 +12613,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -12807,7 +12858,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -13712,6 +13762,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -14972,6 +15026,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -14984,86 +15042,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -15144,6 +15122,94 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -15320,6 +15386,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -16313,6 +16383,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -16486,6 +16560,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -16509,7 +16587,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -17116,6 +17193,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>14</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -17259,7 +17340,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -17650,7 +17730,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -17767,7 +17846,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -17899,7 +17977,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -18033,8 +18110,9 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -18083,6 +18161,8 @@ Missa  op. 40</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -18221,6 +18301,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>11</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -18707,7 +18791,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -19105,6 +19188,8 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -19852,6 +19937,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -19883,7 +19972,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -20158,7 +20246,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -20557,7 +20644,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -20916,7 +21002,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -21043,7 +21128,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -21428,7 +21512,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -22214,7 +22297,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -22625,7 +22707,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -22838,7 +22919,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -23136,6 +23216,10 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23183,7 +23267,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -23550,6 +23633,10 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -23724,7 +23811,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -23876,6 +23962,10 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -24112,7 +24202,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -24721,7 +24810,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -24862,7 +24950,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -25021,6 +25108,10 @@ Missa  op. 40</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -25204,7 +25295,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -25805,7 +25895,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -26337,7 +26426,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -26385,7 +26473,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -26981,7 +27068,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -27192,7 +27278,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -27249,7 +27334,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -27315,7 +27399,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -27714,7 +27797,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -27952,7 +28034,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -28036,7 +28117,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -28847,7 +28927,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -29068,7 +29147,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -29865,7 +29943,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -29988,7 +30065,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -30133,7 +30209,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -31142,7 +31217,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <StaffText>
             <text><b>Piu mosso</b></text>
@@ -31330,7 +31404,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -31382,6 +31455,10 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -31525,7 +31602,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -32052,6 +32128,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32219,7 +32299,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -32348,6 +32427,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>14</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -32624,6 +32707,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>11</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -33663,6 +33750,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -33726,7 +33817,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -35339,6 +35429,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -35351,86 +35445,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -35511,6 +35525,94 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -35687,6 +35789,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -36680,6 +36786,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -36853,6 +36963,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -37069,6 +37183,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>14</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -37212,7 +37330,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -37552,7 +37669,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -37643,7 +37759,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -37734,7 +37849,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -37825,7 +37939,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -37919,7 +38032,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -38087,6 +38199,10 @@ Missa  op. 40</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <TimeSig>
+            <sigN>11</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -38622,7 +38738,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -39024,6 +39139,8 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -39771,6 +39888,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -39802,7 +39923,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -40077,7 +40197,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -42101,7 +42220,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -42152,7 +42270,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -43811,7 +43928,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -43938,7 +44054,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -44762,6 +44877,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -44785,7 +44904,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -44929,7 +45047,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -45087,6 +45204,10 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -45408,7 +45529,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -45560,6 +45680,10 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -45796,7 +45920,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -46279,7 +46402,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -46381,7 +46503,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -46594,7 +46715,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -46734,7 +46854,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -46889,6 +47008,10 @@ Missa  op. 40</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -47060,7 +47183,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -47566,7 +47688,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -47859,7 +47980,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -48267,7 +48387,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -48478,7 +48597,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -48535,7 +48653,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -48614,7 +48731,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -49026,7 +49142,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -49265,7 +49380,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -49325,7 +49439,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -49972,7 +50085,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -50819,7 +50931,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -50914,7 +51025,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -50969,7 +51079,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -51509,7 +51618,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -51624,7 +51732,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -51760,7 +51867,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -52922,7 +53028,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -53094,7 +53199,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -53143,6 +53247,10 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -53280,7 +53388,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -53834,6 +53941,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -54001,7 +54112,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -54130,6 +54240,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>14</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -54406,6 +54520,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>10/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>11</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -55445,6 +55563,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -55508,7 +55630,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -56795,6 +56916,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -56807,86 +56932,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>7/8</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>5</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          <TimeSig>
-            <sigN>7</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -56967,6 +57012,94 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -57143,6 +57276,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58136,6 +58273,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58309,6 +58450,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58522,6 +58667,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>14</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -58673,7 +58822,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -59022,7 +59170,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -59362,6 +59509,10 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>11</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -59891,7 +60042,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -60377,7 +60527,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -60626,7 +60775,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -61162,7 +61310,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -61738,6 +61885,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -61769,7 +61920,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -62081,7 +62231,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -62533,7 +62682,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -62773,7 +62921,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -62980,7 +63127,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -63333,7 +63479,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -63992,7 +64137,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -64107,7 +64251,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -64902,6 +65045,10 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65128,7 +65275,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -65210,6 +65356,10 @@ Missa  op. 40</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65534,6 +65684,10 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -65581,7 +65735,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -66047,7 +66200,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -66142,7 +66294,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -66355,7 +66506,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -66495,7 +66645,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -66650,6 +66799,10 @@ Missa  op. 40</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -66817,7 +66970,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -67282,7 +67434,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -68367,7 +68518,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -69036,7 +69186,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -70473,7 +70622,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -70697,7 +70845,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -70789,7 +70936,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -71443,7 +71589,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -71536,7 +71681,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -71672,7 +71816,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -72497,7 +72640,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -72664,7 +72806,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -72816,7 +72957,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -72865,6 +73005,10 @@ Missa  op. 40</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -72964,7 +73108,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -73122,7 +73265,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -73651,6 +73793,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -73818,7 +73964,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -73947,6 +74092,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>16/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>14</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -74098,7 +74247,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -74446,7 +74594,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -74797,6 +74944,10 @@ Missa  op. 40</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>11</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -74843,7 +74994,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -75031,7 +75181,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -75403,7 +75552,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -75889,7 +76037,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -76134,7 +76281,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -76670,7 +76816,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -77246,6 +77391,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -77277,7 +77426,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -77562,7 +77710,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -78011,7 +78158,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -78315,7 +78461,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -78602,7 +78747,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -79685,7 +79829,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -79967,7 +80110,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -80056,6 +80198,10 @@ Missa  op. 40</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -80112,7 +80258,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -80502,6 +80647,10 @@ Missa  op. 40</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -80837,7 +80986,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -80923,6 +81071,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -81045,7 +81197,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -81387,7 +81538,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -81457,7 +81607,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -81670,7 +81819,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -81810,7 +81958,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -81969,6 +82116,10 @@ Missa  op. 40</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -82136,7 +82287,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -82590,7 +82740,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -83764,7 +83913,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -83814,7 +83962,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -83877,7 +84024,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -84088,7 +84234,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -85787,7 +85932,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -85890,7 +86034,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -86619,7 +86762,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -86734,7 +86876,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -86871,7 +87012,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -87275,7 +87415,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -87338,7 +87477,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -87618,7 +87756,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -87923,7 +88060,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -87972,6 +88108,10 @@ Missa  op. 40</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -88064,7 +88204,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -88210,7 +88349,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>half</durationType>
@@ -88686,6 +88824,10 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -88853,7 +88995,6 @@ Missa  op. 40</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <placement>above</placement>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
