@@ -4535,6 +4535,11 @@ Missa  op. 40</text>
           <RehearsalMark>
             <text><b></b>9</text>
             </RehearsalMark>
+          <Tempo>
+            <tempo>1.25</tempo>
+            <followText>1</followText>
+            <text><b>Moderato </b><font face="ScoreText"/><b><font face="FreeSerif"/> = 75</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -6973,9 +6978,11 @@ Missa  op. 40</text>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <text><b><i>Veloce</i></b></text>
-            </StaffText>
+          <Tempo>
+            <tempo>2.16667</tempo>
+            <followText>1</followText>
+            <text><b>Veloce </b><font face="ScoreText"/><b><font face="FreeSerif"/> = 130</b></text>
+            </Tempo>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -7292,6 +7299,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -8352,9 +8366,11 @@ Missa  op. 40</text>
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
-          <StaffText>
-            <text><b>Andante</b></text>
-            </StaffText>
+          <Tempo>
+            <tempo>1.08333</tempo>
+            <followText>1</followText>
+            <text><b>Andante </b><font face="ScoreText"/><b><font face="FreeSerif"/> = 65</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -9919,6 +9935,11 @@ Missa  op. 40</text>
             <sigN>5</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.66667</tempo>
+            <followText>1</followText>
+            <text><b>Allegro </b><font face="ScoreText"/><b><font face="FreeSerif"/> = 160</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>5/4</duration>
@@ -10488,6 +10509,11 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <text><b>Accel. </b><font face="ScoreText"/><b><font face="FreeSerif"/> 160-&gt;170</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>5/4</duration>
@@ -10534,6 +10560,11 @@ Missa  op. 40</text>
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <text>Deccel.</text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>5/4</duration>
@@ -12429,9 +12460,6 @@ Missa  op. 40</text>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <text>Moderato</text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -17468,6 +17496,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17591,6 +17626,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17707,6 +17749,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17849,6 +17898,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -20323,9 +20379,6 @@ Missa  op. 40</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <StaffText>
-            <text><b>Veloce</b></text>
-            </StaffText>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
@@ -20650,6 +20703,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -21131,6 +21191,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -30828,9 +30895,6 @@ Missa  op. 40</text>
             <subtype>ff</subtype>
             <velocity>112</velocity>
             </Dynamic>
-          <StaffText>
-            <text><b>Piu mosso</b></text>
-            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -37119,6 +37183,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -37209,6 +37280,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -37299,6 +37377,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -37389,6 +37474,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -41596,6 +41688,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -43252,6 +43351,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -52891,7 +52997,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <ticks>240</ticks>
               <text>tis</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -52933,7 +53038,6 @@ Missa  op. 40</text>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <ticks>240</ticks>
               <text>si</text>
               </Lyrics>
             <Spanner type="Slur">
@@ -59687,9 +59791,6 @@ Missa  op. 40</text>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <text>Moderato</text>
-            </StaffText>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -62025,6 +62126,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -66462,9 +66570,6 @@ Missa  op. 40</text>
             <sigN>5</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <text><b>Allegro</b></text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>5/4</duration>
@@ -77429,6 +77534,13 @@ Missa  op. 40</text>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.5"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -87093,23 +87205,30 @@ Missa  op. 40</text>
               <ticks>960</ticks>
               <text>tus</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>4</measures>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>55</pitch>
@@ -87319,13 +87438,6 @@ Missa  op. 40</text>
               </Lyrics>
             <StemDirection>down</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-4</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
