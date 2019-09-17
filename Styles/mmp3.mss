@@ -21,7 +21,8 @@
     <lyricsPosAbove x="0" y="-2"/>
     <lyricsPosBelow x="0" y="3"/>
     <lyricsMinTopDistance>1</lyricsMinTopDistance>
-    <lyricsMinBottomDistance>4</lyricsMinBottomDistance>
+    <lyricsMinBottomDistance>1</lyricsMinBottomDistance>
+    <lyricsMinDistance>0</lyricsMinDistance>
     <lyricsLineHeight>1</lyricsLineHeight>
     <lyricsDashMinLength>0.4</lyricsDashMinLength>
     <lyricsDashMaxLegth>0.8</lyricsDashMaxLegth>
@@ -89,6 +90,7 @@
     <ambitusMargin>0.5</ambitusMargin>
     <timesigLeftMargin>0.5</timesigLeftMargin>
     <timesigScale w="1" h="1"/>
+    <midClefKeyRightMargin>1</midClefKeyRightMargin>
     <clefKeyRightMargin>1.75</clefKeyRightMargin>
     <clefKeyDistance>1</clefKeyDistance>
     <clefTimesigDistance>1</clefTimesigDistance>
@@ -127,6 +129,9 @@
     <propertyDistance>1</propertyDistance>
     <articulationMag>1</articulationMag>
     <articulationPosAbove x="0" y="0"/>
+    <articulationAnchorDefault>2</articulationAnchorDefault>
+    <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
+    <articulationAnchorOther>0</articulationAnchorOther>
     <lastSystemFillLimit>0.1</lastSystemFillLimit>
     <hairpinPlacement>0</hairpinPlacement>
     <hairpinPosAbove x="0" y="-1.5"/>
@@ -217,8 +222,10 @@
     <fretPlacement>0</fretPlacement>
     <fretStrings>6</fretStrings>
     <fretFrets>5</fretFrets>
-    <fretOffset>0</fretOffset>
-    <fretBarre>0</fretBarre>
+    <fretNut>1</fretNut>
+    <fretDotSize>1</fretDotSize>
+    <fretStringSpacing>0.7</fretStringSpacing>
+    <fretFretSpacing>0.8</fretFretSpacing>
     <showPageNumber>1</showPageNumber>
     <showPageNumberOne>0</showPageNumberOne>
     <pageNumberOddEven>1</pageNumberOddEven>
@@ -349,6 +356,7 @@ $:source:</oddFooterL>
     <tremoloBoxHeight>0.65</tremoloBoxHeight>
     <tremoloLineWidth>0.5</tremoloLineWidth>
     <tremoloDistance>0.8</tremoloDistance>
+    <tremoloPlacement>0</tremoloPlacement>
     <linearStretch>1.5</linearStretch>
     <crossMeasureValues>0</crossMeasureValues>
     <keySigNaturals>2</keySigNaturals>
@@ -795,6 +803,22 @@ $:source:</oddFooterL>
     <instrumentChangeFrameRound>0</instrumentChangeFrameRound>
     <instrumentChangeFrameFgColor r="0" g="0" b="0" a="255"/>
     <instrumentChangeFrameBgColor r="255" g="255" b="255" a="0"/>
+    <stickingFontFace>FreeSerif</stickingFontFace>
+    <stickingFontSize>12</stickingFontSize>
+    <stickingFontSpatiumDependent>1</stickingFontSpatiumDependent>
+    <stickingFontStyle>0</stickingFontStyle>
+    <stickingColor r="0" g="0" b="0" a="255"/>
+    <stickingOffset x="0" y="0"/>
+    <stickingPlacement>1</stickingPlacement>
+    <stickingPosAbove x="0" y="-2"/>
+    <stickingPosBelow x="0" y="2"/>
+    <stickingMinDistance>0.5</stickingMinDistance>
+    <stickingFrameType>0</stickingFrameType>
+    <stickingFramePadding>0.2</stickingFramePadding>
+    <stickingFrameWidth>0.1</stickingFrameWidth>
+    <stickingFrameRound>0</stickingFrameRound>
+    <stickingFrameFgColor r="0" g="0" b="0" a="255"/>
+    <stickingFrameBgColor r="255" g="255" b="255" a="0"/>
     <figuredBassFontFace>MScoreBC</figuredBassFontFace>
     <figuredBassFontSize>8</figuredBassFontSize>
     <figuredBassFontSpatiumDependent>1</figuredBassFontSpatiumDependent>
@@ -904,6 +928,7 @@ $:source:</oddFooterL>
     <letRingFrameRound>0</letRingFrameRound>
     <letRingFrameFgColor r="0" g="0" b="0" a="255"/>
     <letRingFrameBgColor r="255" g="255" b="255" a="0"/>
+    <letRingEndHookType>3</letRingEndHookType>
     <palmMuteFontFace>FreeSerif</palmMuteFontFace>
     <palmMuteFontSize>10</palmMuteFontSize>
     <palmMuteFontSpatiumDependent>1</palmMuteFontSpatiumDependent>
@@ -923,10 +948,26 @@ $:source:</oddFooterL>
     <palmMuteFrameRound>0</palmMuteFrameRound>
     <palmMuteFrameFgColor r="0" g="0" b="0" a="255"/>
     <palmMuteFrameBgColor r="255" g="255" b="255" a="0"/>
+    <palmMuteEndHookType>3</palmMuteEndHookType>
     <fermataPosAbove x="0" y="-1"/>
     <fermataPosBelow x="0" y="1"/>
     <fermataMinDistance>0.4</fermataMinDistance>
     <fingeringPlacement>0</fingeringPlacement>
+    <articulationMinDistance>0.5</articulationMinDistance>
+    <fingeringMinDistance>0.5</fingeringMinDistance>
+    <hairpinMinDistance>0.7</hairpinMinDistance>
+    <letRingMinDistance>0.7</letRingMinDistance>
+    <ottavaMinDistance>0.7</ottavaMinDistance>
+    <palmMuteMinDistance>0.7</palmMuteMinDistance>
+    <pedalMinDistance>0.7</pedalMinDistance>
+    <repeatMinDistance>0.5</repeatMinDistance>
+    <textLineMinDistance>0.7</textLineMinDistance>
+    <trillMinDistance>1</trillMinDistance>
+    <vibratoMinDistance>1</vibratoMinDistance>
+    <voltaMinDistance>1</voltaMinDistance>
+    <figuredBassMinDistance>0.5</figuredBassMinDistance>
+    <tupletMinDistance>0.5</tupletMinDistance>
+    <autoplaceEnabled>1</autoplaceEnabled>
     <Spatium>1.55</Spatium>
     </Style>
   </museScore>
