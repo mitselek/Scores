@@ -50,12 +50,12 @@
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
     <lyricsEvenFontStyle>0</lyricsEvenFontStyle>
     <lyricsEvenColor r="0" g="0" b="0" a="255"/>
-    <lyricsOddFrameType>0</lyricsOddFrameType>
-    <lyricsOddFramePadding>0.2</lyricsOddFramePadding>
-    <lyricsOddFrameWidth>0.1</lyricsOddFrameWidth>
-    <lyricsOddFrameRound>0</lyricsOddFrameRound>
-    <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
-    <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
+    <lyricsEvenFrameType>0</lyricsEvenFrameType>
+    <lyricsEvenFramePadding>0.2</lyricsEvenFramePadding>
+    <lyricsEvenFrameWidth>0.1</lyricsEvenFrameWidth>
+    <lyricsEvenFrameRound>0</lyricsEvenFrameRound>
+    <lyricsEvenFrameFgColor r="0" g="0" b="0" a="255"/>
+    <lyricsEvenFrameBgColor r="255" g="255" b="255" a="0"/>
     <figuredBassFontFamily>MScoreBC</figuredBassFontFamily>
     <figuredBassYOffset>6</figuredBassYOffset>
     <figuredBassLineHeight>1</figuredBassLineHeight>
@@ -187,10 +187,16 @@
     <minHarmonyDistance>0.5</minHarmonyDistance>
     <maxHarmonyBarDistance>3</maxHarmonyBarDistance>
     <harmonyPlacement>0</harmonyPlacement>
+    <romanNumeralPlacement>1</romanNumeralPlacement>
+    <nashvilleNumberPlacement>0</nashvilleNumberPlacement>
     <chordSymbolPosAbove x="0" y="-2.5"/>
     <chordSymbolPosBelow x="0" y="3.5"/>
     <chordSymbolBPosAbove x="0" y="-5"/>
     <chordSymbolBPosBelow x="0" y="3.5"/>
+    <romanNumeralPosAbove x="0" y="-2.5"/>
+    <romanNumeralPosBelow x="0" y="3.5"/>
+    <nashvilleNumberPosAbove x="0" y="-2.5"/>
+    <nashvilleNumberPosBelow x="0" y="3.5"/>
     <chordSymbolAFontFace>FreeSerif</chordSymbolAFontFace>
     <chordSymbolAFontSize>12</chordSymbolAFontSize>
     <chordSymbolAFontSpatiumDependent>1</chordSymbolAFontSpatiumDependent>
@@ -213,6 +219,28 @@
     <chordSymbolBFrameRound>0</chordSymbolBFrameRound>
     <chordSymbolBFrameFgColor r="0" g="0" b="0" a="255"/>
     <chordSymbolBFrameBgColor r="255" g="255" b="255" a="0"/>
+    <romanNumeralFontFace>Campania</romanNumeralFontFace>
+    <romanNumeralFontSize>12</romanNumeralFontSize>
+    <romanNumeralFontSpatiumDependent>1</romanNumeralFontSpatiumDependent>
+    <romanNumeralFontStyle>0</romanNumeralFontStyle>
+    <romanNumeralColor r="0" g="0" b="0" a="255"/>
+    <romanNumeralFrameType>0</romanNumeralFrameType>
+    <romanNumeralFramePadding>0.2</romanNumeralFramePadding>
+    <romanNumeralFrameWidth>0.1</romanNumeralFrameWidth>
+    <romanNumeralFrameRound>0</romanNumeralFrameRound>
+    <romanNumeralFrameFgColor r="0" g="0" b="0" a="255"/>
+    <romanNumeralFrameBgColor r="255" g="255" b="255" a="0"/>
+    <nashvilleNumberFontFace>FreeSerif</nashvilleNumberFontFace>
+    <nashvilleNumberFontSize>12</nashvilleNumberFontSize>
+    <nashvilleNumberFontSpatiumDependent>1</nashvilleNumberFontSpatiumDependent>
+    <nashvilleNumberFontStyle>0</nashvilleNumberFontStyle>
+    <nashvilleNumberColor r="0" g="0" b="0" a="255"/>
+    <nashvilleNumberFrameType>0</nashvilleNumberFrameType>
+    <nashvilleNumberFramePadding>0.2</nashvilleNumberFramePadding>
+    <nashvilleNumberFrameWidth>0.1</nashvilleNumberFrameWidth>
+    <nashvilleNumberFrameRound>0</nashvilleNumberFrameRound>
+    <nashvilleNumberFrameFgColor r="0" g="0" b="0" a="255"/>
+    <nashvilleNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <capoPosition>0</capoPosition>
     <fretNumMag>2</fretNumMag>
     <fretNumPos>0</fretNumPos>
@@ -257,11 +285,15 @@
     <chordStyle>std</chordStyle>
     <chordsXmlFile>0</chordsXmlFile>
     <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
+    <chordExtensionMag>1</chordExtensionMag>
+    <chordExtensionAdjust>0</chordExtensionAdjust>
+    <chordModifierMag>1</chordModifierMag>
+    <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>4</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
-    <hideEmptyStaves>1</hideEmptyStaves>
+    <hideEmptyStaves>0</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
@@ -322,17 +354,29 @@ $:source:</oddFooterL>
     <ottava22MAPlacement>0</ottava22MAPlacement>
     <ottava22MBPlacement>1</ottava22MBPlacement>
     <ottava8VAText>&lt;sym&gt;ottavaAlta&lt;/sym&gt;</ottava8VAText>
+    <ottava8VAContinueText>&lt;sym&gt;ottavaAlta&lt;/sym&gt;</ottava8VAContinueText>
     <ottava8VBText>&lt;sym&gt;ottavaBassaBa&lt;/sym&gt;</ottava8VBText>
+    <ottava8VBContinueText>&lt;sym&gt;ottavaBassa&lt;/sym&gt;</ottava8VBContinueText>
     <ottava15MAText>&lt;sym&gt;quindicesimaAlta&lt;/sym&gt;</ottava15MAText>
+    <ottava15MAContinueText>&lt;sym&gt;quindicesimaAlta&lt;/sym&gt;</ottava15MAContinueText>
     <ottava15MBText>&lt;sym&gt;quindicesimaBassa&lt;/sym&gt;</ottava15MBText>
+    <ottava15MBContinueText>&lt;sym&gt;quindicesimaBassa&lt;/sym&gt;</ottava15MBContinueText>
     <ottava22MAText>&lt;sym&gt;ventiduesimaAlta&lt;/sym&gt;</ottava22MAText>
+    <ottava22MAContinueText>&lt;sym&gt;ventiduesimaAlta&lt;/sym&gt;</ottava22MAContinueText>
     <ottava22MBText>&lt;sym&gt;ventiduesimaBassa&lt;/sym&gt;</ottava22MBText>
+    <ottava22MBContinueText>&lt;sym&gt;ventiduesimaBassa&lt;/sym&gt;</ottava22MBContinueText>
     <ottava8VAnoText>&lt;sym&gt;ottava&lt;/sym&gt;</ottava8VAnoText>
+    <ottava8VAnoContinueText>&lt;sym&gt;ottava&lt;/sym&gt;</ottava8VAnoContinueText>
     <ottava8VBnoText>&lt;sym&gt;ottava&lt;/sym&gt;</ottava8VBnoText>
+    <ottava8VBnoContinueText>&lt;sym&gt;ottava&lt;/sym&gt;</ottava8VBnoContinueText>
     <ottava15MAnoText>&lt;sym&gt;quindicesima&lt;/sym&gt;</ottava15MAnoText>
+    <ottava15MAnoContinueText>&lt;sym&gt;quindicesima&lt;/sym&gt;</ottava15MAnoContinueText>
     <ottava15MBnoText>&lt;sym&gt;quindicesima&lt;/sym&gt;</ottava15MBnoText>
+    <ottava15MBnoContinueText>&lt;sym&gt;quindicesima&lt;/sym&gt;</ottava15MBnoContinueText>
     <ottava22MAnoText>&lt;sym&gt;ventiduesima&lt;/sym&gt;</ottava22MAnoText>
+    <ottava22MAnoContinueText>&lt;sym&gt;ventiduesima&lt;/sym&gt;</ottava22MAnoContinueText>
     <ottava22MBnoText>&lt;sym&gt;ventiduesima&lt;/sym&gt;</ottava22MBnoText>
+    <ottava22MBnoContinueText>&lt;sym&gt;ventiduesima&lt;/sym&gt;</ottava22MBnoContinueText>
     <ottavaPosAbove x="0" y="-3"/>
     <ottavaPosBelow x="0" y="3"/>
     <ottavaHookAbove>1.9</ottavaHookAbove>
@@ -424,7 +468,7 @@ $:source:</oddFooterL>
     <defaultOffsetType>1</defaultOffsetType>
     <defaultSystemFlag>0</defaultSystemFlag>
     <defaultText></defaultText>
-    <titleFontFace>FreeSerif</titleFontFace>
+    <titleFontFace>Didot</titleFontFace>
     <titleFontSize>24</titleFontSize>
     <titleFontSpatiumDependent>0</titleFontSpatiumDependent>
     <titleFontStyle>0</titleFontStyle>
@@ -437,7 +481,7 @@ $:source:</oddFooterL>
     <titleFrameRound>25</titleFrameRound>
     <titleFrameFgColor r="0" g="0" b="0" a="255"/>
     <titleFrameBgColor r="255" g="255" b="255" a="0"/>
-    <subTitleFontFace>FreeSerif</subTitleFontFace>
+    <subTitleFontFace>Didot</subTitleFontFace>
     <subTitleFontSize>14</subTitleFontSize>
     <subTitleFontSpatiumDependent>0</subTitleFontSpatiumDependent>
     <subTitleFontStyle>0</subTitleFontStyle>
@@ -450,7 +494,7 @@ $:source:</oddFooterL>
     <subTitleFrameRound>25</subTitleFrameRound>
     <subTitleFrameFgColor r="0" g="0" b="0" a="255"/>
     <subTitleFrameBgColor r="255" g="255" b="255" a="0"/>
-    <composerFontFace>FreeSerif</composerFontFace>
+    <composerFontFace>Didot</composerFontFace>
     <composerFontSize>12</composerFontSize>
     <composerFontSpatiumDependent>0</composerFontSpatiumDependent>
     <composerFontStyle>0</composerFontStyle>
@@ -463,7 +507,7 @@ $:source:</oddFooterL>
     <composerFrameRound>25</composerFrameRound>
     <composerFrameFgColor r="0" g="0" b="0" a="255"/>
     <composerFrameBgColor r="255" g="255" b="255" a="0"/>
-    <lyricistFontFace>FreeSerif</lyricistFontFace>
+    <lyricistFontFace>Didot</lyricistFontFace>
     <lyricistFontSize>12</lyricistFontSize>
     <lyricistFontSpatiumDependent>0</lyricistFontSpatiumDependent>
     <lyricistFontStyle>0</lyricistFontStyle>
@@ -621,6 +665,7 @@ $:source:</oddFooterL>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
     <measureNumberOffset x="0" y="-2"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
+    <measureNumberAlign>center,bottom</measureNumberAlign>
     <measureNumberFrameType>1</measureNumberFrameType>
     <measureNumberFramePadding>0.5</measureNumberFramePadding>
     <measureNumberFrameWidth>0.1</measureNumberFrameWidth>
