@@ -62,7 +62,7 @@
     <lyricsEvenFontSize>10</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
-    <lyricsEvenFontStyle>2</lyricsEvenFontStyle>
+    <lyricsEvenFontStyle>0</lyricsEvenFontStyle>
     <lyricsEvenColor r="0" g="0" b="0" a="255"/>
     <lyricsEvenAlign>center,baseline</lyricsEvenAlign>
     <lyricsEvenFrameType>0</lyricsEvenFrameType>
@@ -364,7 +364,7 @@
     <oddHeaderC></oddHeaderC>
     <oddHeaderR></oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>0</footerFirstPage>
+    <footerFirstPage>1</footerFirstPage>
     <footerOddEven>0</footerOddEven>
     <evenFooterL>$p</evenFooterL>
     <evenFooterC>$:copyright:</evenFooterC>
@@ -752,7 +752,7 @@
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
     <measureNumberOffset x="0" y="-2"/>
-    <measureNumberPosBelow x="0" y="2"/>
+    <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
     <measureNumberHPlacement>0</measureNumberHPlacement>
