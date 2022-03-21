@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <Style>
-    <pageWidth>8.27</pageWidth>
-    <pageHeight>11.69</pageHeight>
-    <pagePrintableWidth>7.4826</pagePrintableWidth>
+    <pageWidth>8.27008</pageWidth>
+    <pageHeight>11.6902</pageHeight>
+    <pagePrintableWidth>7.48268</pagePrintableWidth>
     <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
     <pageOddLeftMargin>0.393701</pageOddLeftMargin>
     <pageEvenTopMargin>0.393701</pageEvenTopMargin>
@@ -17,7 +17,7 @@
     <akkoladeDistance>6.5</akkoladeDistance>
     <minSystemDistance>8.5</minSystemDistance>
     <maxSystemDistance>31.5</maxSystemDistance>
-    <enableVerticalSpread>0</enableVerticalSpread>
+    <enableVerticalSpread>1</enableVerticalSpread>
     <spreadSystem>2.5</spreadSystem>
     <spreadSquareBracket>1.2</spreadSquareBracket>
     <spreadCurlyBracket>1.1</spreadCurlyBracket>
@@ -85,7 +85,7 @@
     <doubleBarDistance>0.55</doubleBarDistance>
     <endBarDistance>0.7</endBarDistance>
     <repeatBarlineDotSeparation>0.7</repeatBarlineDotSeparation>
-    <repeatBarTips>1</repeatBarTips>
+    <repeatBarTips>0</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <bracketWidth>0.44</bracketWidth>
@@ -369,7 +369,8 @@
     <evenFooterL>$p</evenFooterL>
     <evenFooterC>$:copyright:</evenFooterC>
     <evenFooterR></evenFooterR>
-    <oddFooterL>$:source:</oddFooterL>
+    <oddFooterL>$:workTitle:
+$:source:</oddFooterL>
     <oddFooterC>-– $P –-</oddFooterC>
     <oddFooterR>Ilusa Noodi Instituut $:version:</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
@@ -484,7 +485,7 @@
     <ornamentStyle>0</ornamentStyle>
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
     <dynamicsPlacement>0</dynamicsPlacement>
-    <dynamicsPosAbove x="0" y="-1"/>
+    <dynamicsPosAbove x="-3" y="-1"/>
     <dynamicsPosBelow x="0" y="4"/>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
     <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
@@ -1266,6 +1267,6 @@
     <autoplaceEnabled>1</autoplaceEnabled>
     <usePre_3_6_defaults>1</usePre_3_6_defaults>
     <defaultsVersion>301</defaultsVersion>
-    <Spatium>1.55</Spatium>
+    <Spatium>1.5</Spatium>
     </Style>
   </museScore>
