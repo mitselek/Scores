@@ -32,7 +32,7 @@
     <lyricsPosBelow x="0" y="3"/>
     <lyricsMinTopDistance>1</lyricsMinTopDistance>
     <lyricsMinBottomDistance>1</lyricsMinBottomDistance>
-    <lyricsMinDistance>0.25</lyricsMinDistance>
+    <lyricsMinDistance>0</lyricsMinDistance>
     <lyricsLineHeight>1</lyricsLineHeight>
     <lyricsDashMinLength>0.4</lyricsDashMinLength>
     <lyricsDashMaxLength>0.8</lyricsDashMaxLength>
@@ -44,9 +44,9 @@
     <lyricsMelismaPad>0.1</lyricsMelismaPad>
     <lyricsDashPad>0.05</lyricsDashPad>
     <lyricsDashLineThickness>0.15</lyricsDashLineThickness>
-    <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
-    <lyricsOddFontFace>Edwin</lyricsOddFontFace>
-    <lyricsOddFontSize>10</lyricsOddFontSize>
+    <lyricsDashYposRatio>0.67</lyricsDashYposRatio>
+    <lyricsOddFontFace>Calibri</lyricsOddFontFace>
+    <lyricsOddFontSize>12</lyricsOddFontSize>
     <lyricsOddLineSpacing>1</lyricsOddLineSpacing>
     <lyricsOddFontSpatiumDependent>1</lyricsOddFontSpatiumDependent>
     <lyricsOddFontStyle>0</lyricsOddFontStyle>
@@ -58,8 +58,8 @@
     <lyricsOddFrameRound>0</lyricsOddFrameRound>
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
-    <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
-    <lyricsEvenFontSize>10</lyricsEvenFontSize>
+    <lyricsEvenFontFace>FreeSerif</lyricsEvenFontFace>
+    <lyricsEvenFontSize>11</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
     <lyricsEvenFontStyle>0</lyricsEvenFontStyle>
@@ -79,16 +79,16 @@
     <systemFrameDistance>7</systemFrameDistance>
     <frameSystemDistance>7</frameSystemDistance>
     <minMeasureWidth>5</minMeasureWidth>
-    <barWidth>0.18</barWidth>
-    <doubleBarWidth>0.18</doubleBarWidth>
-    <endBarWidth>0.55</endBarWidth>
-    <doubleBarDistance>0.55</doubleBarDistance>
-    <endBarDistance>0.7</endBarDistance>
-    <repeatBarlineDotSeparation>0.7</repeatBarlineDotSeparation>
+    <barWidth>0.16</barWidth>
+    <doubleBarWidth>0.16</doubleBarWidth>
+    <endBarWidth>0.5</endBarWidth>
+    <doubleBarDistance>0.56</doubleBarDistance>
+    <endBarDistance>0.73</endBarDistance>
+    <repeatBarlineDotSeparation>0.63</repeatBarlineDotSeparation>
     <repeatBarTips>0</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
-    <bracketWidth>0.44</bracketWidth>
+    <bracketWidth>0.45</bracketWidth>
     <bracketDistance>0.1</bracketDistance>
     <akkoladeWidth>1.6</akkoladeWidth>
     <akkoladeBarDistance>0.4</akkoladeBarDistance>
@@ -115,7 +115,7 @@
     <systemHeaderTimeSigDistance>2</systemHeaderTimeSigDistance>
     <clefBarlineDistance>0.5</clefBarlineDistance>
     <timesigBarlineDistance>0.5</timesigBarlineDistance>
-    <stemWidth>0.11</stemWidth>
+    <stemWidth>0.13</stemWidth>
     <shortenStem>1</shortenStem>
     <shortStemProgression>0.25</shortStemProgression>
     <shortestStem>2.25</shortestStem>
@@ -126,9 +126,9 @@
     <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
     <noteBarDistance>1</noteBarDistance>
     <measureSpacing>1.2</measureSpacing>
-    <staffLineWidth>0.11</staffLineWidth>
+    <staffLineWidth>0.08</staffLineWidth>
     <ledgerLineWidth>0.16</ledgerLineWidth>
-    <ledgerLineLength>0.35</ledgerLineLength>
+    <ledgerLineLength>0.38</ledgerLineLength>
     <accidentalDistance>0.22</accidentalDistance>
     <accidentalNoteDistance>0.22</accidentalNoteDistance>
     <bracketedAccidentalPadding>0</bracketedAccidentalPadding>
@@ -151,15 +151,15 @@
     <articulationAnchorOther>0</articulationAnchorOther>
     <lastSystemFillLimit>0.1</lastSystemFillLimit>
     <hairpinPlacement>0</hairpinPlacement>
-    <hairpinPosAbove x="0" y="-1.5"/>
+    <hairpinPosAbove x="0" y="-4.5"/>
     <hairpinPosBelow x="0" y="3.5"/>
     <hairpinLinePosAbove x="0" y="-3"/>
     <hairpinLinePosBelow x="0" y="4"/>
     <hairpinHeight>1.2</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
-    <hairpinWidth>0.12</hairpinWidth>
-    <hairpinFontFace>Edwin</hairpinFontFace>
-    <hairpinFontSize>10</hairpinFontSize>
+    <hairpinWidth>0.13</hairpinWidth>
+    <hairpinFontFace>FreeSerif</hairpinFontFace>
+    <hairpinFontSize>12</hairpinFontSize>
     <hairpinLineSpacing>1</hairpinLineSpacing>
     <hairpinFontSpatiumDependent>1</hairpinFontSpatiumDependent>
     <hairpinFontStyle>2</hairpinFontStyle>
@@ -181,11 +181,11 @@
     <pedalPlacement>1</pedalPlacement>
     <pedalPosAbove x="0" y="-4"/>
     <pedalPosBelow x="0" y="4"/>
-    <pedalLineWidth>0.11</pedalLineWidth>
+    <pedalLineWidth>0.15</pedalLineWidth>
     <pedalListStyle>1</pedalListStyle>
     <pedalBeginTextOffset x="0" y="0.15"/>
     <pedalHookHeight>-1.2</pedalHookHeight>
-    <pedalFontFace>Edwin</pedalFontFace>
+    <pedalFontFace>FreeSerif</pedalFontFace>
     <pedalFontSize>12</pedalFontSize>
     <pedalLineSpacing>1</pedalLineSpacing>
     <pedalFontSpatiumDependent>1</pedalFontSpatiumDependent>
@@ -224,8 +224,8 @@
     <romanNumeralPosBelow x="0" y="3.5"/>
     <nashvilleNumberPosAbove x="0" y="-2.5"/>
     <nashvilleNumberPosBelow x="0" y="3.5"/>
-    <chordSymbolAFontFace>Edwin</chordSymbolAFontFace>
-    <chordSymbolAFontSize>11</chordSymbolAFontSize>
+    <chordSymbolAFontFace>FreeSerif</chordSymbolAFontFace>
+    <chordSymbolAFontSize>12</chordSymbolAFontSize>
     <chordSymbolALineSpacing>1</chordSymbolALineSpacing>
     <chordSymbolAFontSpatiumDependent>1</chordSymbolAFontSpatiumDependent>
     <chordSymbolAFontStyle>0</chordSymbolAFontStyle>
@@ -237,8 +237,8 @@
     <chordSymbolAFrameRound>0</chordSymbolAFrameRound>
     <chordSymbolAFrameFgColor r="0" g="0" b="0" a="255"/>
     <chordSymbolAFrameBgColor r="255" g="255" b="255" a="0"/>
-    <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
-    <chordSymbolBFontSize>11</chordSymbolBFontSize>
+    <chordSymbolBFontFace>FreeSerif</chordSymbolBFontFace>
+    <chordSymbolBFontSize>12</chordSymbolBFontSize>
     <chordSymbolBLineSpacing>1</chordSymbolBLineSpacing>
     <chordSymbolBFontSpatiumDependent>1</chordSymbolBFontSpatiumDependent>
     <chordSymbolBFontStyle>2</chordSymbolBFontStyle>
@@ -263,7 +263,7 @@
     <romanNumeralFrameRound>0</romanNumeralFrameRound>
     <romanNumeralFrameFgColor r="0" g="0" b="0" a="255"/>
     <romanNumeralFrameBgColor r="255" g="255" b="255" a="0"/>
-    <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+    <nashvilleNumberFontFace>FreeSerif</nashvilleNumberFontFace>
     <nashvilleNumberFontSize>12</nashvilleNumberFontSize>
     <nashvilleNumberLineSpacing>1</nashvilleNumberLineSpacing>
     <nashvilleNumberFontSpatiumDependent>1</nashvilleNumberFontSpatiumDependent>
@@ -332,7 +332,7 @@
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <mmRestNumberPos>-1.5</mmRestNumberPos>
-    <hideEmptyStaves>1</hideEmptyStaves>
+    <hideEmptyStaves>0</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
@@ -347,13 +347,13 @@
     <ArpeggioHookLen>0.8</ArpeggioHookLen>
     <ArpeggioHiddenInStdIfTab>0</ArpeggioHiddenInStdIfTab>
     <slurEndWidth>0.07</slurEndWidth>
-    <slurMidWidth>0.21</slurMidWidth>
+    <slurMidWidth>0.15</slurMidWidth>
     <slurDottedWidth>0.1</slurDottedWidth>
     <minTieLength>1</minTieLength>
     <slurMinDistance>0.5</slurMinDistance>
     <sectionPause>3</sectionPause>
-    <musicalSymbolFont>Leland</musicalSymbolFont>
-    <musicalTextFont>Leland Text</musicalTextFont>
+    <musicalSymbolFont>Emmentaler</musicalSymbolFont>
+    <musicalTextFont>MScore Text</musicalTextFont>
     <showHeader>0</showHeader>
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
@@ -375,7 +375,7 @@ $:source:</oddFooterL>
     <oddFooterR>Ilusa Noodi Instituut $:version:</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>1.9</voltaHook>
-    <voltaLineWidth>0.11</voltaLineWidth>
+    <voltaLineWidth>0.1</voltaLineWidth>
     <voltaLineStyle>1</voltaLineStyle>
     <voltaFontFace>FreeSerif</voltaFontFace>
     <voltaFontSize>11</voltaFontSize>
@@ -425,10 +425,10 @@ $:source:</oddFooterL>
     <ottavaPosBelow x="0" y="3"/>
     <ottavaHookAbove>1.9</ottavaHookAbove>
     <ottavaHookBelow>-1.9</ottavaHookBelow>
-    <ottavaLineWidth>0.11</ottavaLineWidth>
+    <ottavaLineWidth>0.1</ottavaLineWidth>
     <ottavaLineStyle>2</ottavaLineStyle>
     <ottavaNumbersOnly>1</ottavaNumbersOnly>
-    <ottavaFontFace>Edwin</ottavaFontFace>
+    <ottavaFontFace>FreeSerif</ottavaFontFace>
     <ottavaFontSize>10</ottavaFontSize>
     <ottavaLineSpacing>1</ottavaLineSpacing>
     <ottavaFontSpatiumDependent>1</ottavaFontSpatiumDependent>
@@ -463,8 +463,8 @@ $:source:</oddFooterL>
     <tupletDirection>0</tupletDirection>
     <tupletNumberType>0</tupletNumberType>
     <tupletBracketType>0</tupletBracketType>
-    <tupletFontFace>Edwin</tupletFontFace>
-    <tupletFontSize>9</tupletFontSize>
+    <tupletFontFace>FreeSerif</tupletFontFace>
+    <tupletFontSize>10</tupletFontSize>
     <tupletLineSpacing>1</tupletLineSpacing>
     <tupletFontSpatiumDependent>1</tupletFontSpatiumDependent>
     <tupletFontStyle>2</tupletFontStyle>
@@ -485,7 +485,7 @@ $:source:</oddFooterL>
     <ornamentStyle>0</ornamentStyle>
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
     <dynamicsPlacement>0</dynamicsPlacement>
-    <dynamicsPosAbove x="-3" y="-1"/>
+    <dynamicsPosAbove x="-3" y="-4"/>
     <dynamicsPosBelow x="0" y="4"/>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
     <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
@@ -510,7 +510,7 @@ $:source:</oddFooterL>
     <tremoloBarLineWidth>0.12</tremoloBarLineWidth>
     <jumpPosAbove x="0" y="-2"/>
     <markerPosAbove x="0" y="-2"/>
-    <defaultFontFace>Edwin</defaultFontFace>
+    <defaultFontFace>FreeSerif</defaultFontFace>
     <defaultFontSize>10</defaultFontSize>
     <defaultLineSpacing>1</defaultLineSpacing>
     <defaultFontSpatiumDependent>0</defaultFontSpatiumDependent>
@@ -527,8 +527,8 @@ $:source:</oddFooterL>
     <defaultOffsetType>1</defaultOffsetType>
     <defaultSystemFlag>0</defaultSystemFlag>
     <defaultText></defaultText>
-    <titleFontFace>Edwin</titleFontFace>
-    <titleFontSize>22</titleFontSize>
+    <titleFontFace>FreeSerif</titleFontFace>
+    <titleFontSize>24</titleFontSize>
     <titleLineSpacing>1</titleLineSpacing>
     <titleFontSpatiumDependent>0</titleFontSpatiumDependent>
     <titleFontStyle>0</titleFontStyle>
@@ -542,8 +542,8 @@ $:source:</oddFooterL>
     <titleFrameRound>25</titleFrameRound>
     <titleFrameFgColor r="0" g="0" b="0" a="255"/>
     <titleFrameBgColor r="255" g="255" b="255" a="0"/>
-    <subTitleFontFace>Edwin</subTitleFontFace>
-    <subTitleFontSize>16</subTitleFontSize>
+    <subTitleFontFace>FreeSerif</subTitleFontFace>
+    <subTitleFontSize>14</subTitleFontSize>
     <subTitleLineSpacing>1</subTitleLineSpacing>
     <subTitleFontSpatiumDependent>0</subTitleFontSpatiumDependent>
     <subTitleFontStyle>0</subTitleFontStyle>
@@ -557,8 +557,8 @@ $:source:</oddFooterL>
     <subTitleFrameRound>25</subTitleFrameRound>
     <subTitleFrameFgColor r="0" g="0" b="0" a="255"/>
     <subTitleFrameBgColor r="255" g="255" b="255" a="0"/>
-    <composerFontFace>Edwin</composerFontFace>
-    <composerFontSize>10</composerFontSize>
+    <composerFontFace>FreeSerif</composerFontFace>
+    <composerFontSize>12</composerFontSize>
     <composerLineSpacing>1</composerLineSpacing>
     <composerFontSpatiumDependent>0</composerFontSpatiumDependent>
     <composerFontStyle>0</composerFontStyle>
@@ -572,8 +572,8 @@ $:source:</oddFooterL>
     <composerFrameRound>25</composerFrameRound>
     <composerFrameFgColor r="0" g="0" b="0" a="255"/>
     <composerFrameBgColor r="255" g="255" b="255" a="0"/>
-    <lyricistFontFace>Edwin</lyricistFontFace>
-    <lyricistFontSize>10</lyricistFontSize>
+    <lyricistFontFace>FreeSerif</lyricistFontFace>
+    <lyricistFontSize>12</lyricistFontSize>
     <lyricistLineSpacing>1</lyricistLineSpacing>
     <lyricistFontSpatiumDependent>0</lyricistFontSpatiumDependent>
     <lyricistFontStyle>0</lyricistFontStyle>
@@ -587,7 +587,7 @@ $:source:</oddFooterL>
     <lyricistFrameRound>25</lyricistFrameRound>
     <lyricistFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricistFrameBgColor r="255" g="255" b="255" a="0"/>
-    <fingeringFontFace>Edwin</fingeringFontFace>
+    <fingeringFontFace>FreeSerif</fingeringFontFace>
     <fingeringFontSize>8</fingeringFontSize>
     <fingeringLineSpacing>1</fingeringLineSpacing>
     <fingeringFontSpatiumDependent>1</fingeringFontSpatiumDependent>
@@ -601,7 +601,7 @@ $:source:</oddFooterL>
     <fingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <fingeringFrameBgColor r="255" g="255" b="255" a="0"/>
     <fingeringOffset x="0" y="0"/>
-    <lhGuitarFingeringFontFace>Edwin</lhGuitarFingeringFontFace>
+    <lhGuitarFingeringFontFace>FreeSerif</lhGuitarFingeringFontFace>
     <lhGuitarFingeringFontSize>8</lhGuitarFingeringFontSize>
     <lhGuitarFingeringLineSpacing>1</lhGuitarFingeringLineSpacing>
     <lhGuitarFingeringFontSpatiumDependent>1</lhGuitarFingeringFontSpatiumDependent>
@@ -615,11 +615,11 @@ $:source:</oddFooterL>
     <lhGuitarFingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <lhGuitarFingeringFrameBgColor r="255" g="255" b="255" a="0"/>
     <lhGuitarFingeringOffset x="-0.5" y="0"/>
-    <rhGuitarFingeringFontFace>Edwin</rhGuitarFingeringFontFace>
+    <rhGuitarFingeringFontFace>FreeSerif</rhGuitarFingeringFontFace>
     <rhGuitarFingeringFontSize>8</rhGuitarFingeringFontSize>
     <rhGuitarFingeringLineSpacing>1</rhGuitarFingeringLineSpacing>
     <rhGuitarFingeringFontSpatiumDependent>1</rhGuitarFingeringFontSpatiumDependent>
-    <rhGuitarFingeringFontStyle>2</rhGuitarFingeringFontStyle>
+    <rhGuitarFingeringFontStyle>0</rhGuitarFingeringFontStyle>
     <rhGuitarFingeringColor r="0" g="0" b="0" a="255"/>
     <rhGuitarFingeringAlign>center,center</rhGuitarFingeringAlign>
     <rhGuitarFingeringFrameType>0</rhGuitarFingeringFrameType>
@@ -629,7 +629,7 @@ $:source:</oddFooterL>
     <rhGuitarFingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <rhGuitarFingeringFrameBgColor r="255" g="255" b="255" a="0"/>
     <rhGuitarFingeringOffset x="0" y="0"/>
-    <stringNumberFontFace>Edwin</stringNumberFontFace>
+    <stringNumberFontFace>FreeSerif</stringNumberFontFace>
     <stringNumberFontSize>8</stringNumberFontSize>
     <stringNumberLineSpacing>1</stringNumberLineSpacing>
     <stringNumberFontSpatiumDependent>1</stringNumberFontSpatiumDependent>
@@ -643,8 +643,8 @@ $:source:</oddFooterL>
     <stringNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <stringNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <stringNumberOffset x="0" y="-2"/>
-    <longInstrumentFontFace>Edwin</longInstrumentFontFace>
-    <longInstrumentFontSize>10</longInstrumentFontSize>
+    <longInstrumentFontFace>FreeSerif</longInstrumentFontFace>
+    <longInstrumentFontSize>12</longInstrumentFontSize>
     <longInstrumentLineSpacing>1</longInstrumentLineSpacing>
     <longInstrumentFontSpatiumDependent>1</longInstrumentFontSpatiumDependent>
     <longInstrumentFontStyle>0</longInstrumentFontStyle>
@@ -657,8 +657,8 @@ $:source:</oddFooterL>
     <longInstrumentFrameRound>0</longInstrumentFrameRound>
     <longInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <longInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
-    <shortInstrumentFontFace>Edwin</shortInstrumentFontFace>
-    <shortInstrumentFontSize>10</shortInstrumentFontSize>
+    <shortInstrumentFontFace>FreeSerif</shortInstrumentFontFace>
+    <shortInstrumentFontSize>12</shortInstrumentFontSize>
     <shortInstrumentLineSpacing>1</shortInstrumentLineSpacing>
     <shortInstrumentFontSpatiumDependent>1</shortInstrumentFontSpatiumDependent>
     <shortInstrumentFontStyle>0</shortInstrumentFontStyle>
@@ -671,8 +671,8 @@ $:source:</oddFooterL>
     <shortInstrumentFrameRound>0</shortInstrumentFrameRound>
     <shortInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <shortInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
-    <partInstrumentFontFace>Edwin</partInstrumentFontFace>
-    <partInstrumentFontSize>14</partInstrumentFontSize>
+    <partInstrumentFontFace>FreeSerif</partInstrumentFontFace>
+    <partInstrumentFontSize>18</partInstrumentFontSize>
     <partInstrumentLineSpacing>1</partInstrumentLineSpacing>
     <partInstrumentFontSpatiumDependent>0</partInstrumentFontSpatiumDependent>
     <partInstrumentFontStyle>0</partInstrumentFontStyle>
@@ -685,8 +685,8 @@ $:source:</oddFooterL>
     <partInstrumentFrameRound>25</partInstrumentFrameRound>
     <partInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <partInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
-    <dynamicsFontFace>Edwin</dynamicsFontFace>
-    <dynamicsFontSize>11</dynamicsFontSize>
+    <dynamicsFontFace>FreeSerif</dynamicsFontFace>
+    <dynamicsFontSize>12</dynamicsFontSize>
     <dynamicsLineSpacing>1</dynamicsLineSpacing>
     <dynamicsFontSpatiumDependent>1</dynamicsFontSpatiumDependent>
     <dynamicsFontStyle>2</dynamicsFontStyle>
@@ -698,8 +698,8 @@ $:source:</oddFooterL>
     <dynamicsFrameRound>0</dynamicsFrameRound>
     <dynamicsFrameFgColor r="0" g="0" b="0" a="255"/>
     <dynamicsFrameBgColor r="255" g="255" b="255" a="0"/>
-    <expressionFontFace>Edwin</expressionFontFace>
-    <expressionFontSize>10</expressionFontSize>
+    <expressionFontFace>FreeSerif</expressionFontFace>
+    <expressionFontSize>11</expressionFontSize>
     <expressionLineSpacing>1</expressionLineSpacing>
     <expressionFontSpatiumDependent>1</expressionFontSpatiumDependent>
     <expressionFontStyle>2</expressionFontStyle>
@@ -713,7 +713,7 @@ $:source:</oddFooterL>
     <expressionFrameRound>0</expressionFrameRound>
     <expressionFrameFgColor r="0" g="0" b="0" a="255"/>
     <expressionFrameBgColor r="255" g="255" b="255" a="0"/>
-    <tempoFontFace>Edwin</tempoFontFace>
+    <tempoFontFace>FreeSerif</tempoFontFace>
     <tempoFontSize>12</tempoFontSize>
     <tempoLineSpacing>1</tempoLineSpacing>
     <tempoFontSpatiumDependent>1</tempoFontSpatiumDependent>
@@ -731,11 +731,11 @@ $:source:</oddFooterL>
     <tempoFrameRound>25</tempoFrameRound>
     <tempoFrameFgColor r="0" g="0" b="0" a="255"/>
     <tempoFrameBgColor r="255" g="255" b="255" a="0"/>
-    <metronomeFontFace>Edwin</metronomeFontFace>
+    <metronomeFontFace>FreeSerif</metronomeFontFace>
     <metronomeFontSize>12</metronomeFontSize>
     <metronomeLineSpacing>1</metronomeLineSpacing>
     <metronomeFontSpatiumDependent>0</metronomeFontSpatiumDependent>
-    <metronomeFontStyle>0</metronomeFontStyle>
+    <metronomeFontStyle>1</metronomeFontStyle>
     <metronomeColor r="0" g="0" b="0" a="255"/>
     <metronomePlacement>0</metronomePlacement>
     <metronomeAlign>left,top</metronomeAlign>
@@ -746,24 +746,24 @@ $:source:</oddFooterL>
     <metronomeFrameRound>0</metronomeFrameRound>
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
-    <measureNumberFontFace>Edwin</measureNumberFontFace>
+    <measureNumberFontFace>FreeSerif</measureNumberFontFace>
     <measureNumberFontSize>12</measureNumberFontSize>
     <measureNumberLineSpacing>1</measureNumberLineSpacing>
-    <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
-    <measureNumberFontStyle>2</measureNumberFontStyle>
-    <measureNumberColor r="0" g="0" b="0" a="255"/>
+    <measureNumberFontSpatiumDependent>1</measureNumberFontSpatiumDependent>
+    <measureNumberFontStyle>1</measureNumberFontStyle>
+    <measureNumberColor r="0" g="85" b="255" a="255"/>
     <measureNumberOffset x="0" y="-2"/>
     <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
     <measureNumberHPlacement>0</measureNumberHPlacement>
     <measureNumberAlign>center,baseline</measureNumberAlign>
-    <measureNumberFrameType>0</measureNumberFrameType>
-    <measureNumberFramePadding>0.5</measureNumberFramePadding>
-    <measureNumberFrameWidth>0</measureNumberFrameWidth>
-    <measureNumberFrameRound>2</measureNumberFrameRound>
-    <measureNumberFrameFgColor r="0" g="0" b="0" a="255"/>
-    <measureNumberFrameBgColor r="255" g="255" b="255" a="255"/>
+    <measureNumberFrameType>2</measureNumberFrameType>
+    <measureNumberFramePadding>0.7</measureNumberFramePadding>
+    <measureNumberFrameWidth>0.3</measureNumberFrameWidth>
+    <measureNumberFrameRound>0</measureNumberFrameRound>
+    <measureNumberFrameFgColor r="0" g="85" b="255" a="255"/>
+    <measureNumberFrameBgColor r="255" g="255" b="0" a="255"/>
     <mmRestShowMeasureNumberRange>0</mmRestShowMeasureNumberRange>
     <mmRestRangeBracketType>0</mmRestRangeBracketType>
     <mmRestRangeFontFace>Edwin</mmRestRangeFontFace>
@@ -783,8 +783,8 @@ $:source:</oddFooterL>
     <mmRestRangeFrameRound>0</mmRestRangeFrameRound>
     <mmRestRangeFrameFgColor r="0" g="0" b="0" a="255"/>
     <mmRestRangeFrameBgColor r="255" g="255" b="255" a="0"/>
-    <translatorFontFace>Edwin</translatorFontFace>
-    <translatorFontSize>10</translatorFontSize>
+    <translatorFontFace>FreeSerif</translatorFontFace>
+    <translatorFontSize>11</translatorFontSize>
     <translatorLineSpacing>1</translatorLineSpacing>
     <translatorFontSpatiumDependent>0</translatorFontSpatiumDependent>
     <translatorFontStyle>0</translatorFontStyle>
@@ -797,7 +797,7 @@ $:source:</oddFooterL>
     <translatorFrameRound>0</translatorFrameRound>
     <translatorFrameFgColor r="0" g="0" b="0" a="255"/>
     <translatorFrameBgColor r="255" g="255" b="255" a="0"/>
-    <systemFontFace>Edwin</systemFontFace>
+    <systemFontFace>FreeSerif</systemFontFace>
     <systemFontSize>10</systemFontSize>
     <systemTextLineSpacing>1</systemTextLineSpacing>
     <systemFontSpatiumDependent>1</systemFontSpatiumDependent>
@@ -815,7 +815,7 @@ $:source:</oddFooterL>
     <systemFrameRound>25</systemFrameRound>
     <systemFrameFgColor r="0" g="0" b="0" a="255"/>
     <systemFrameBgColor r="255" g="255" b="255" a="0"/>
-    <staffFontFace>Edwin</staffFontFace>
+    <staffFontFace>FreeSerif</staffFontFace>
     <staffFontSize>10</staffFontSize>
     <staffTextLineSpacing>1</staffTextLineSpacing>
     <staffFontSpatiumDependent>1</staffFontSpatiumDependent>
@@ -833,7 +833,7 @@ $:source:</oddFooterL>
     <staffFrameRound>25</staffFrameRound>
     <staffFrameFgColor r="0" g="0" b="0" a="255"/>
     <staffFrameBgColor r="255" g="255" b="255" a="0"/>
-    <rehearsalMarkFontFace>Edwin</rehearsalMarkFontFace>
+    <rehearsalMarkFontFace>FreeSerif</rehearsalMarkFontFace>
     <rehearsalMarkFontSize>14</rehearsalMarkFontSize>
     <rehearsalMarkLineSpacing>1</rehearsalMarkLineSpacing>
     <rehearsalMarkFontSpatiumDependent>1</rehearsalMarkFontSpatiumDependent>
@@ -842,16 +842,16 @@ $:source:</oddFooterL>
     <rehearsalMarkAlign>center,baseline</rehearsalMarkAlign>
     <rehearsalMarkFrameType>1</rehearsalMarkFrameType>
     <rehearsalMarkFramePadding>0.5</rehearsalMarkFramePadding>
-    <rehearsalMarkFrameWidth>0.16</rehearsalMarkFrameWidth>
-    <rehearsalMarkFrameRound>0</rehearsalMarkFrameRound>
+    <rehearsalMarkFrameWidth>0.2</rehearsalMarkFrameWidth>
+    <rehearsalMarkFrameRound>20</rehearsalMarkFrameRound>
     <rehearsalMarkFrameFgColor r="0" g="0" b="0" a="255"/>
     <rehearsalMarkFrameBgColor r="255" g="255" b="255" a="0"/>
     <rehearsalMarkPlacement>0</rehearsalMarkPlacement>
     <rehearsalMarkPosAbove x="0" y="-3"/>
     <rehearsalMarkPosBelow x="0" y="4"/>
     <rehearsalMarkMinDistance>0.5</rehearsalMarkMinDistance>
-    <repeatLeftFontFace>Edwin</repeatLeftFontFace>
-    <repeatLeftFontSize>18</repeatLeftFontSize>
+    <repeatLeftFontFace>FreeSerif</repeatLeftFontFace>
+    <repeatLeftFontSize>20</repeatLeftFontSize>
     <repeatLeftLineSpacing>1</repeatLeftLineSpacing>
     <repeatLeftFontSpatiumDependent>1</repeatLeftFontSpatiumDependent>
     <repeatLeftFontStyle>0</repeatLeftFontStyle>
@@ -864,8 +864,8 @@ $:source:</oddFooterL>
     <repeatLeftFrameRound>25</repeatLeftFrameRound>
     <repeatLeftFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatLeftFrameBgColor r="255" g="255" b="255" a="0"/>
-    <repeatRightFontFace>Edwin</repeatRightFontFace>
-    <repeatRightFontSize>11</repeatRightFontSize>
+    <repeatRightFontFace>FreeSerif</repeatRightFontFace>
+    <repeatRightFontSize>12</repeatRightFontSize>
     <repeatRightLineSpacing>1</repeatRightLineSpacing>
     <repeatRightFontSpatiumDependent>1</repeatRightFontSpatiumDependent>
     <repeatRightFontStyle>0</repeatRightFontStyle>
@@ -878,8 +878,8 @@ $:source:</oddFooterL>
     <repeatRightFrameRound>25</repeatRightFrameRound>
     <repeatRightFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatRightFrameBgColor r="255" g="255" b="255" a="0"/>
-    <frameFontFace>Edwin</frameFontFace>
-    <frameFontSize>10</frameFontSize>
+    <frameFontFace>FreeSerif</frameFontFace>
+    <frameFontSize>12</frameFontSize>
     <frameLineSpacing>1</frameLineSpacing>
     <frameFontSpatiumDependent>0</frameFontSpatiumDependent>
     <frameFontStyle>0</frameFontStyle>
