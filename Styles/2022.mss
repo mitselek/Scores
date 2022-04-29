@@ -151,9 +151,9 @@
     <articulationAnchorOther>0</articulationAnchorOther>
     <lastSystemFillLimit>0.1</lastSystemFillLimit>
     <hairpinPlacement>0</hairpinPlacement>
-    <hairpinPosAbove x="0" y="-4.5"/>
+    <hairpinPosAbove x="0" y="-1.5"/>
     <hairpinPosBelow x="0" y="3.5"/>
-    <hairpinLinePosAbove x="0" y="-3"/>
+    <hairpinLinePosAbove x="0" y="-1.5"/>
     <hairpinLinePosBelow x="0" y="4"/>
     <hairpinHeight>1.2</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
@@ -485,7 +485,7 @@ $:source:</oddFooterL>
     <ornamentStyle>0</ornamentStyle>
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
     <dynamicsPlacement>0</dynamicsPlacement>
-    <dynamicsPosAbove x="-3" y="-1.5"/>
+    <dynamicsPosAbove x="0" y="-1.5"/>
     <dynamicsPosBelow x="0" y="4"/>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
     <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
