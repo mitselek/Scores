@@ -58,8 +58,8 @@
     <lyricsOddFrameRound>0</lyricsOddFrameRound>
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
-    <lyricsEvenFontFace>FreeSerif</lyricsEvenFontFace>
-    <lyricsEvenFontSize>11</lyricsEvenFontSize>
+    <lyricsEvenFontFace>Lucida Grande</lyricsEvenFontFace>
+    <lyricsEvenFontSize>12</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
     <lyricsEvenFontStyle>0</lyricsEvenFontStyle>
@@ -151,9 +151,9 @@
     <articulationAnchorOther>0</articulationAnchorOther>
     <lastSystemFillLimit>0.1</lastSystemFillLimit>
     <hairpinPlacement>0</hairpinPlacement>
-    <hairpinPosAbove x="0" y="-4.5"/>
+    <hairpinPosAbove x="0" y="-1.5"/>
     <hairpinPosBelow x="0" y="3.5"/>
-    <hairpinLinePosAbove x="0" y="-3"/>
+    <hairpinLinePosAbove x="0" y="-1.5"/>
     <hairpinLinePosBelow x="0" y="4"/>
     <hairpinHeight>1.2</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
@@ -328,11 +328,11 @@
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <mmRestNumberPos>-1.5</mmRestNumberPos>
-    <hideEmptyStaves>0</hideEmptyStaves>
+    <hideEmptyStaves>1</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
@@ -485,7 +485,7 @@ $:source:</oddFooterL>
     <ornamentStyle>0</ornamentStyle>
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
     <dynamicsPlacement>0</dynamicsPlacement>
-    <dynamicsPosAbove x="-3" y="-4"/>
+    <dynamicsPosAbove x="0" y="-1.5"/>
     <dynamicsPosBelow x="0" y="4"/>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
     <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
