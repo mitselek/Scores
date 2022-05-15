@@ -372,7 +372,7 @@
     <oddFooterL>$:workTitle:
 $:source:</oddFooterL>
     <oddFooterC>-– $P –-</oddFooterC>
-    <oddFooterR>Ilusa Noodi Instituut $:version:</oddFooterR>
+    <oddFooterR>Ilusa Noodi Instituut $:creationDate:</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>1.9</voltaHook>
     <voltaLineWidth>0.1</voltaLineWidth>
