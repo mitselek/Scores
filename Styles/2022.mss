@@ -12,7 +12,7 @@
     <pageOddBottomMargin>0.19685</pageOddBottomMargin>
     <pageTwosided>0</pageTwosided>
     <staffUpperBorder>6.5</staffUpperBorder>
-    <staffLowerBorder>12.5</staffLowerBorder>
+    <staffLowerBorder>7</staffLowerBorder>
     <staffDistance>6.5</staffDistance>
     <akkoladeDistance>6.5</akkoladeDistance>
     <minSystemDistance>8.5</minSystemDistance>
@@ -58,7 +58,7 @@
     <lyricsOddFrameRound>0</lyricsOddFrameRound>
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
-    <lyricsEvenFontFace>Lucida Grande</lyricsEvenFontFace>
+    <lyricsEvenFontFace>Calibri</lyricsEvenFontFace>
     <lyricsEvenFontSize>12</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
