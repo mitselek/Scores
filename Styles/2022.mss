@@ -329,10 +329,10 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <createMultiMeasureRests>1</createMultiMeasureRests>
-    <minEmptyMeasures>3</minEmptyMeasures>
+    <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>2</minMMRestWidth>
     <mmRestNumberPos>-1.5</mmRestNumberPos>
-    <hideEmptyStaves>1</hideEmptyStaves>
+    <hideEmptyStaves>0</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
