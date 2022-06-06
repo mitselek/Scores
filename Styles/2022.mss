@@ -150,7 +150,7 @@
     <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
     <articulationAnchorOther>0</articulationAnchorOther>
     <lastSystemFillLimit>0.1</lastSystemFillLimit>
-    <hairpinPlacement>0</hairpinPlacement>
+    <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-1.5"/>
     <hairpinPosBelow x="0" y="3.5"/>
     <hairpinLinePosAbove x="0" y="-1.5"/>
@@ -484,7 +484,7 @@ $:source:</oddFooterL>
     <minVerticalDistance>0.5</minVerticalDistance>
     <ornamentStyle>0</ornamentStyle>
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
-    <dynamicsPlacement>0</dynamicsPlacement>
+    <dynamicsPlacement>1</dynamicsPlacement>
     <dynamicsPosAbove x="0" y="-1.5"/>
     <dynamicsPosBelow x="0" y="4"/>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
@@ -972,19 +972,19 @@ $:source:</oddFooterL>
     <instrumentChangeLineSpacing>1</instrumentChangeLineSpacing>
     <instrumentChangeFontSpatiumDependent>1</instrumentChangeFontSpatiumDependent>
     <instrumentChangeFontStyle>1</instrumentChangeFontStyle>
-    <instrumentChangeColor r="0" g="0" b="0" a="255"/>
+    <instrumentChangeColor r="255" g="255" b="255" a="255"/>
     <instrumentChangeAlign>left,bottom</instrumentChangeAlign>
-    <instrumentChangeOffset x="0" y="0"/>
+    <instrumentChangeOffset x="-10" y="0"/>
     <instrumentChangePlacement>0</instrumentChangePlacement>
     <instrumentChangePosAbove x="0" y="-2"/>
     <instrumentChangePosBelow x="0" y="3.5"/>
     <instrumentChangeMinDistance>0.5</instrumentChangeMinDistance>
-    <instrumentChangeFrameType>0</instrumentChangeFrameType>
-    <instrumentChangeFramePadding>0</instrumentChangeFramePadding>
+    <instrumentChangeFrameType>1</instrumentChangeFrameType>
+    <instrumentChangeFramePadding>0.8</instrumentChangeFramePadding>
     <instrumentChangeFrameWidth>0</instrumentChangeFrameWidth>
-    <instrumentChangeFrameRound>0</instrumentChangeFrameRound>
+    <instrumentChangeFrameRound>39</instrumentChangeFrameRound>
     <instrumentChangeFrameFgColor r="0" g="0" b="0" a="255"/>
-    <instrumentChangeFrameBgColor r="255" g="255" b="255" a="0"/>
+    <instrumentChangeFrameBgColor r="0" g="0" b="128" a="255"/>
     <stickingFontFace>FreeSerif</stickingFontFace>
     <stickingFontSize>12</stickingFontSize>
     <stickingLineSpacing>1</stickingLineSpacing>
