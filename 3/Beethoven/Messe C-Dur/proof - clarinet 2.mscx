@@ -2901,13 +2901,13 @@ $:source:</oddFooterL>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -5420,7 +5420,7 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="bb-clarinet">
-              <longName>B</longName>
+              <longName>B♭ Clarinet</longName>
               <shortName>B</shortName>
               <trackName>B♭ Clarinet</trackName>
               <minPitchP>50</minPitchP>
@@ -10524,7 +10524,7 @@ $:source:</oddFooterL>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>96</velocity>
-            <text><i>più </i><font face="ScoreText"/></text>
+            <text><i>più </i><font face="ScoreText"></font></text>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -12318,7 +12318,7 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="bb-clarinet">
-              <longName>B</longName>
+              <longName>B♭ Clarinet</longName>
               <shortName>B</shortName>
               <trackName>B♭ Clarinet</trackName>
               <minPitchP>50</minPitchP>
@@ -13849,6 +13849,7 @@ $:source:</oddFooterL>
           <InstrumentChange>
             <Instrument id="c-clarinet">
               <longName>C Clarinet</longName>
+              <shortName>C</shortName>
               <trackName>C Clarinet</trackName>
               <minPitchP>52</minPitchP>
               <maxPitchP>94</maxPitchP>
@@ -13901,7 +13902,7 @@ $:source:</oddFooterL>
                 <program value="71"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>0</midiChannel>
+                <midiChannel>4</midiChannel>
                 </Channel>
               </Instrument>
             <linkedMain/>
@@ -14063,6 +14064,10 @@ $:source:</oddFooterL>
       <Measure>
         <stretch>0.7</stretch>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -14118,6 +14123,18 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -14152,6 +14169,18 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -14167,6 +14196,10 @@ $:source:</oddFooterL>
       <Measure>
         <stretch>0.7</stretch>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -14933,6 +14966,10 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -15096,6 +15133,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -15311,6 +15352,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -15595,6 +15640,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -16034,6 +16083,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -16075,6 +16128,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -16309,6 +16366,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -16577,6 +16638,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -16665,6 +16730,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -16944,6 +17013,10 @@ $:source:</oddFooterL>
           <RehearsalMark>
             <text>L</text>
             </RehearsalMark>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -17182,6 +17255,29 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>other-dynamics</subtype>
+            <velocity>49</velocity>
+            <text><i></i><font face="ScoreText"/><i><font face="FreeSerif"/> cresc.</i></text>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <visible>0</visible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -17201,6 +17297,17 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17303,6 +17410,10 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17361,13 +17472,12 @@ $:source:</oddFooterL>
             </TimeSig>
           <Tempo>
             <tempo>1.1499999999999999</tempo>
-            <offset x="-5.3" y="-2"/>
             <text>Adagio.</text>
             </Tempo>
           <InstrumentChange>
             <Instrument id="a-clarinet">
-              <longName>A Clarinet</longName>
-              <shortName>A Cl.</shortName>
+              <longName>A</longName>
+              <shortName>A</shortName>
               <trackName>A Clarinet</trackName>
               <minPitchP>49</minPitchP>
               <maxPitchP>93</maxPitchP>
@@ -17426,8 +17536,12 @@ $:source:</oddFooterL>
                 </Channel>
               </Instrument>
             <init>1</init>
-            <text>To A Clarinet</text>
+            <text>in A.</text>
             </InstrumentChange>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -17546,6 +17660,9 @@ $:source:</oddFooterL>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -17564,6 +17681,16 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -17580,6 +17707,24 @@ $:source:</oddFooterL>
               <tpc2>14</tpc2>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -17608,6 +17753,14 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -17673,6 +17826,10 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -17700,6 +17857,17 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -17739,6 +17907,17 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -17788,6 +17967,16 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -17805,6 +17994,24 @@ $:source:</oddFooterL>
               <tpc2>14</tpc2>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -17836,6 +18043,14 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -17879,15 +18094,17 @@ $:source:</oddFooterL>
             <text>Allegro.</text>
             </Tempo>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -17963,10 +18180,8 @@ $:source:</oddFooterL>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18088,6 +18303,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -18116,6 +18335,10 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -18124,6 +18347,10 @@ $:source:</oddFooterL>
               <tpc2>16</tpc2>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -18313,10 +18540,8 @@ $:source:</oddFooterL>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18325,6 +18550,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -18513,6 +18742,19 @@ $:source:</oddFooterL>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <beginText>cresc. poco a poco</beginText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -18692,6 +18934,14 @@ $:source:</oddFooterL>
               <tpc2>14</tpc2>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -18700,10 +18950,20 @@ $:source:</oddFooterL>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18713,10 +18973,8 @@ $:source:</oddFooterL>
           </LayoutBreak>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18725,6 +18983,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -18801,6 +19063,10 @@ $:source:</oddFooterL>
               <tpc2>15</tpc2>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -18895,6 +19161,10 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -20164,54 +20434,58 @@ $:source:</oddFooterL>
       <Measure>
         <voice>
           <KeySig>
+            <linkedMain/>
             <accidental>0</accidental>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
+            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
             <tempo>2</tempo>
             <followText>1</followText>
+            <linkedMain/>
             <text>Allegro.</text>
             </Tempo>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <tpc2>14</tpc2>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <tpc2>14</tpc2>
-              </Note>
-            </Chord>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <subtype>1</subtype>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>Allegro.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <tpc2>14</tpc2>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <tpc2>14</tpc2>
-              </Note>
-            </Chord>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -20219,6 +20493,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -20594,20 +20872,25 @@ $:source:</oddFooterL>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -20616,6 +20899,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -20692,6 +20979,10 @@ $:source:</oddFooterL>
               <tpc2>15</tpc2>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -20786,6 +21077,10 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -20891,12 +21186,13 @@ $:source:</oddFooterL>
             </TimeSig>
           <Tempo>
             <tempo>1.31667</tempo>
+            <offset x="1.6" y="-2"/>
             <text>Poco Andante.</text>
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-clarinet">
-              <longName>C Clarinet</longName>
-              <shortName>C Cl.</shortName>
+              <longName>C</longName>
+              <shortName>C</shortName>
               <trackName>C Clarinet</trackName>
               <minPitchP>52</minPitchP>
               <maxPitchP>94</maxPitchP>
@@ -20953,8 +21249,12 @@ $:source:</oddFooterL>
                 </Channel>
               </Instrument>
             <init>1</init>
-            <text>To C Clarinet</text>
+            <text>in C.</text>
             </InstrumentChange>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -20962,7 +21262,7 @@ $:source:</oddFooterL>
                 </Slur>
               <next>
                 <location>
-                  <fractions>5/8</fractions>
+                  <fractions>3/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -21016,10 +21316,21 @@ $:source:</oddFooterL>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-3/4</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -21030,17 +21341,6 @@ $:source:</oddFooterL>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
             <Tremolo>
               <subtype>r8</subtype>
               </Tremolo>
@@ -21075,6 +21375,17 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -21132,6 +21443,17 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -21266,6 +21588,10 @@ $:source:</oddFooterL>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -21415,6 +21741,18 @@ $:source:</oddFooterL>
             <dots>1</dots>
             <durationType>half</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -21484,6 +21822,18 @@ $:source:</oddFooterL>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -21544,6 +21894,10 @@ $:source:</oddFooterL>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -22019,33 +22373,43 @@ $:source:</oddFooterL>
       <Measure>
         <voice>
           <RehearsalMark>
+            <linkedMain/>
             <text>B</text>
             </RehearsalMark>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -22054,6 +22418,17 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -22100,6 +22475,17 @@ $:source:</oddFooterL>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -22191,26 +22577,35 @@ $:source:</oddFooterL>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -22248,6 +22643,9 @@ $:source:</oddFooterL>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -22273,10 +22671,8 @@ $:source:</oddFooterL>
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -22304,6 +22700,9 @@ $:source:</oddFooterL>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -22350,6 +22749,10 @@ $:source:</oddFooterL>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -22374,6 +22777,17 @@ $:source:</oddFooterL>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>4</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -22425,6 +22839,17 @@ $:source:</oddFooterL>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-4</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -22469,6 +22894,10 @@ $:source:</oddFooterL>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -22479,6 +22908,10 @@ $:source:</oddFooterL>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -22486,6 +22919,10 @@ $:source:</oddFooterL>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -22523,6 +22960,10 @@ $:source:</oddFooterL>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -22816,33 +23257,43 @@ $:source:</oddFooterL>
       <Measure>
         <voice>
           <RehearsalMark>
+            <linkedMain/>
             <text>D</text>
             </RehearsalMark>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>D</text>
+            </RehearsalMark>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -22851,6 +23302,17 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -22897,6 +23359,17 @@ $:source:</oddFooterL>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -23235,6 +23708,16 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -23261,6 +23744,17 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -23413,6 +23907,10 @@ $:source:</oddFooterL>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -23671,6 +24169,16 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -23697,6 +24205,17 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -24089,6 +24608,10 @@ tempo del Kyrie.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
