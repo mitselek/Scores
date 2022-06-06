@@ -44,7 +44,8 @@
       <evenHeaderL>- $P -</evenHeaderL>
       <footerOddEven>0</footerOddEven>
       <oddFooterL>$:workTitle:
-$:source:</oddFooterL>
+$:source:
+Clarinet II</oddFooterL>
       <oddFooterC>-– $P –-</oddFooterC>
       <oddFooterR>Ilusa Noodi Instituut $:creationDate:</oddFooterR>
       <voltaFramePadding>0</voltaFramePadding>
@@ -257,6 +258,10 @@ $:source:</oddFooterL>
         <Text>
           <style>Title</style>
           <text>Kyrie</text>
+          </Text>
+        <Text>
+          <style>Instrument Name (Part)</style>
+          <text>Clarinet II</text>
           </Text>
         </VBox>
       <Measure>
