@@ -28,6 +28,7 @@
       <barNoteDistance>1.2</barNoteDistance>
       <lastSystemFillLimit>0.1</lastSystemFillLimit>
       <hairpinPosAbove x="0" y="-1.5"/>
+      <hairpinPosBelow x="0" y="2.5"/>
       <hairpinLinePosAbove x="0" y="-1.5"/>
       <pedalFramePadding>0</pedalFramePadding>
       <pedalFrameWidth>0</pedalFrameWidth>
@@ -37,6 +38,7 @@
       <measureNumberInterval>1</measureNumberInterval>
       <createMultiMeasureRests>1</createMultiMeasureRests>
       <minMMRestWidth>2</minMMRestWidth>
+      <mmRestNumberPos>5.5</mmRestNumberPos>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
       <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
       <evenHeaderL>- $P -</evenHeaderL>
@@ -54,6 +56,7 @@ $:source:</oddFooterL>
       <tupletFramePadding>0</tupletFramePadding>
       <tupletFrameWidth>0</tupletFrameWidth>
       <dynamicsPosAbove x="0" y="-1.5"/>
+      <dynamicsPosBelow x="0" y="2.5"/>
       <textLinePosAbove x="0" y="-3.5"/>
       <textLinePosBelow x="0" y="3.5"/>
       <textLineFramePadding>0</textLineFramePadding>
@@ -95,6 +98,7 @@ $:source:</oddFooterL>
       <partInstrumentFrameRound>25</partInstrumentFrameRound>
       <dynamicsFramePadding>0</dynamicsFramePadding>
       <dynamicsFrameWidth>0</dynamicsFrameWidth>
+      <tempoPosAbove x="0" y="-1"/>
       <tempoFramePadding>0</tempoFramePadding>
       <tempoFrameWidth>0</tempoFrameWidth>
       <tempoFrameRound>25</tempoFrameRound>
@@ -121,6 +125,7 @@ $:source:</oddFooterL>
       <staffFramePadding>0</staffFramePadding>
       <staffFrameWidth>0</staffFrameWidth>
       <staffFrameRound>25</staffFrameRound>
+      <rehearsalMarkPosAbove x="0" y="-1.5"/>
       <repeatLeftFramePadding>0</repeatLeftFramePadding>
       <repeatLeftFrameWidth>0</repeatLeftFrameWidth>
       <repeatLeftFrameRound>25</repeatLeftFrameRound>
@@ -1721,6 +1726,12 @@ $:source:</oddFooterL>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2921,7 +2932,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <VBox>
-        <height>6</height>
+        <height>4</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
@@ -4855,7 +4866,7 @@ $:source:</oddFooterL>
       <Measure>
         <stretch>0.9</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -5476,7 +5487,7 @@ $:source:</oddFooterL>
                 <program value="71"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>1</midiChannel>
+                <midiChannel>2</midiChannel>
                 </Channel>
               </Instrument>
             <linkedMain/>
@@ -9733,10 +9744,10 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>section</subtype>
           </LayoutBreak>
         <LayoutBreak>
-          <subtype>section</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -9836,7 +9847,7 @@ $:source:</oddFooterL>
                 <program value="71"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>2</midiChannel>
+                <midiChannel>4</midiChannel>
                 </Channel>
               </Instrument>
             <linkedMain/>
@@ -12374,7 +12385,7 @@ $:source:</oddFooterL>
                 <program value="71"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>3</midiChannel>
+                <midiChannel>6</midiChannel>
                 </Channel>
               </Instrument>
             <linkedMain/>
@@ -14585,7 +14596,7 @@ $:source:</oddFooterL>
       <Measure len="12/4">
         <multiMeasureRest>3</multiMeasureRest>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -14610,7 +14621,7 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -17258,7 +17269,7 @@ $:source:</oddFooterL>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
-            <text><i></i><font face="ScoreText"/><i><font face="FreeSerif"/> cresc.</i></text>
+            <text><i></i><font face="ScoreText"></font><i><font face="FreeSerif"></font> cresc.</i></text>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -19228,6 +19239,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -19290,7 +19304,7 @@ $:source:</oddFooterL>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
-            <offset x="0" y="-4"/>
+            <minDistance>-999</minDistance>
             <text>Allegretto ma non troppo.</text>
             </Tempo>
           <Rest>
@@ -20439,7 +20453,6 @@ $:source:</oddFooterL>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20460,9 +20473,6 @@ $:source:</oddFooterL>
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20470,7 +20480,7 @@ $:source:</oddFooterL>
             <tempo>2</tempo>
             <followText>1</followText>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>Allegro.</text>
             </Tempo>
@@ -21186,7 +21196,8 @@ $:source:</oddFooterL>
             </TimeSig>
           <Tempo>
             <tempo>1.31667</tempo>
-            <offset x="1.6" y="-2"/>
+            <minDistance>-4.50475</minDistance>
+            <offset x="1.5" y="-1"/>
             <text>Poco Andante.</text>
             </Tempo>
           <InstrumentChange>

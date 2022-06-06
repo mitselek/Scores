@@ -21,11 +21,14 @@
       <lyricsOddFontSize>12</lyricsOddFontSize>
       <lyricsEvenFontFace>Calibri</lyricsEvenFontFace>
       <lyricsEvenFontSize>12</lyricsEvenFontSize>
+      <systemFrameDistance>10</systemFrameDistance>
+      <frameSystemDistance>0</frameSystemDistance>
       <clefLeftMargin>0.64</clefLeftMargin>
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <barNoteDistance>1.2</barNoteDistance>
       <lastSystemFillLimit>0.1</lastSystemFillLimit>
       <hairpinPosAbove x="0" y="-1.5"/>
+      <hairpinPosBelow x="0" y="2.5"/>
       <hairpinLinePosAbove x="0" y="-1.5"/>
       <pedalFramePadding>0</pedalFramePadding>
       <pedalFrameWidth>0</pedalFrameWidth>
@@ -35,6 +38,7 @@
       <measureNumberInterval>1</measureNumberInterval>
       <createMultiMeasureRests>1</createMultiMeasureRests>
       <minMMRestWidth>2</minMMRestWidth>
+      <mmRestNumberPos>5.5</mmRestNumberPos>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
       <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
       <evenHeaderL>- $P -</evenHeaderL>
@@ -52,6 +56,7 @@ $:source:</oddFooterL>
       <tupletFramePadding>0</tupletFramePadding>
       <tupletFrameWidth>0</tupletFrameWidth>
       <dynamicsPosAbove x="0" y="-1.5"/>
+      <dynamicsPosBelow x="0" y="2.5"/>
       <textLinePosAbove x="0" y="-3.5"/>
       <textLinePosBelow x="0" y="3.5"/>
       <textLineFramePadding>0</textLineFramePadding>
@@ -93,6 +98,7 @@ $:source:</oddFooterL>
       <partInstrumentFrameRound>25</partInstrumentFrameRound>
       <dynamicsFramePadding>0</dynamicsFramePadding>
       <dynamicsFrameWidth>0</dynamicsFrameWidth>
+      <tempoPosAbove x="0" y="-1"/>
       <tempoFramePadding>0</tempoFramePadding>
       <tempoFrameWidth>0</tempoFrameWidth>
       <tempoFrameRound>25</tempoFrameRound>
@@ -119,6 +125,7 @@ $:source:</oddFooterL>
       <staffFramePadding>0</staffFramePadding>
       <staffFrameWidth>0</staffFrameWidth>
       <staffFrameRound>25</staffFrameRound>
+      <rehearsalMarkPosAbove x="0" y="-1.5"/>
       <repeatLeftFramePadding>0</repeatLeftFramePadding>
       <repeatLeftFrameWidth>0</repeatLeftFrameWidth>
       <repeatLeftFrameRound>25</repeatLeftFrameRound>
@@ -324,7 +331,7 @@ $:source:</oddFooterL>
                 <program value="71"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>10</midiChannel>
+                <midiChannel>7</midiChannel>
                 </Channel>
               </Instrument>
             <linkedMain/>
@@ -412,7 +419,7 @@ $:source:</oddFooterL>
                 <program value="71"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>10</midiChannel>
+                <midiChannel>7</midiChannel>
                 </Channel>
               </Instrument>
             <linked>
@@ -514,7 +521,7 @@ $:source:</oddFooterL>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>96</velocity>
-            <text><i>cresc. </i><font face="ScoreText"/></text>
+            <text><i>cresc. </i><font face="ScoreText"></font></text>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -1945,7 +1952,7 @@ $:source:</oddFooterL>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>96</velocity>
-            <text><i>cresc. </i><font face="ScoreText"/></text>
+            <text><i>cresc. </i><font face="ScoreText"></font></text>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -4391,6 +4398,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -4418,6 +4426,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4445,6 +4454,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4472,6 +4482,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4490,6 +4501,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4501,6 +4513,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4512,6 +4525,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4523,6 +4537,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <RehearsalMark>
             <text>B</text>
@@ -4552,6 +4567,7 @@ $:source:</oddFooterL>
         </Measure>
       <Measure len="14/2">
         <multiMeasureRest>7</multiMeasureRest>
+        <stretch>0.9</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4608,6 +4624,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4622,6 +4639,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4642,6 +4660,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4669,6 +4688,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4687,6 +4707,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4698,6 +4719,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4718,6 +4740,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4739,6 +4762,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -4769,6 +4793,7 @@ $:source:</oddFooterL>
         </Measure>
       <Measure len="4/2">
         <multiMeasureRest>2</multiMeasureRest>
+        <stretch>0.9</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4785,6 +4810,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -4809,6 +4835,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4836,6 +4863,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -5646,7 +5674,7 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="bb-clarinet">
-              <longName>B♭ Clarinet</longName>
+              <longName>B</longName>
               <shortName>B</shortName>
               <trackName>B♭ Clarinet</trackName>
               <minPitchP>50</minPitchP>
@@ -5702,7 +5730,7 @@ $:source:</oddFooterL>
                 <program value="71"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>1</midiChannel>
+                <midiChannel>2</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -5734,8 +5762,8 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="bb-clarinet">
-              <longName>B♭ Clarinet</longName>
-              <shortName>B♭ Cl.</shortName>
+              <longName>B</longName>
+              <shortName>B</shortName>
               <trackName>B♭ Clarinet</trackName>
               <minPitchP>50</minPitchP>
               <maxPitchP>94</maxPitchP>
@@ -10369,7 +10397,7 @@ $:source:</oddFooterL>
                 <program value="71"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>2</midiChannel>
+                <midiChannel>3</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -10399,8 +10427,8 @@ $:source:</oddFooterL>
             </TimeSig>
           <InstrumentChange>
             <Instrument id="c-clarinet">
-              <longName>C Clarinet</longName>
-              <shortName>C Cl.</shortName>
+              <longName>C</longName>
+              <shortName>C</shortName>
               <trackName>C Clarinet</trackName>
               <minPitchP>52</minPitchP>
               <maxPitchP>94</maxPitchP>
@@ -11048,7 +11076,7 @@ $:source:</oddFooterL>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>96</velocity>
-            <text><i>più </i><font face="ScoreText"/></text>
+            <text><i>più </i><font face="ScoreText"></font></text>
             </Dynamic>
           <Chord>
             <dots>1</dots>
@@ -13316,11 +13344,6 @@ $:source:</oddFooterL>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="-2.57902" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -14813,8 +14836,8 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-clarinet">
-              <longName>C Clarinet</longName>
-              <shortName>C Cl.</shortName>
+              <longName>C</longName>
+              <shortName>C</shortName>
               <trackName>C Clarinet</trackName>
               <minPitchP>52</minPitchP>
               <maxPitchP>94</maxPitchP>
@@ -18025,7 +18048,7 @@ $:source:</oddFooterL>
             <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
             <offset x="2" y="4"/>
-            <text><i></i><font face="ScoreText"/><i><font face="FreeSerif"/> cresc.</i></text>
+            <text><i></i><font face="ScoreText"></font><i><font face="FreeSerif"></font> cresc.</i></text>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -18067,7 +18090,7 @@ $:source:</oddFooterL>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>112</velocity>
-            <text><i></i><font face="ScoreText"/></text>
+            <text><i></i><font face="ScoreText"></font></text>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -22207,11 +22230,6 @@ $:source:</oddFooterL>
             <HairPin>
               <subtype>2</subtype>
               <endText></endText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1" y="4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>

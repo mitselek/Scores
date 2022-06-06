@@ -76,8 +76,8 @@
     <figuredBassLineHeight>1</figuredBassLineHeight>
     <figuredBassAlignment>0</figuredBassAlignment>
     <figuredBassStyle>0</figuredBassStyle>
-    <systemFrameDistance>7</systemFrameDistance>
-    <frameSystemDistance>7</frameSystemDistance>
+    <systemFrameDistance>10</systemFrameDistance>
+    <frameSystemDistance>0</frameSystemDistance>
     <minMeasureWidth>5</minMeasureWidth>
     <barWidth>0.16</barWidth>
     <doubleBarWidth>0.16</doubleBarWidth>
@@ -152,7 +152,7 @@
     <lastSystemFillLimit>0.1</lastSystemFillLimit>
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-1.5"/>
-    <hairpinPosBelow x="0" y="3.5"/>
+    <hairpinPosBelow x="0" y="2.5"/>
     <hairpinLinePosAbove x="0" y="-1.5"/>
     <hairpinLinePosBelow x="0" y="4"/>
     <hairpinHeight>1.2</hairpinHeight>
@@ -331,7 +331,7 @@
     <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>2</minMMRestWidth>
-    <mmRestNumberPos>-1.5</mmRestNumberPos>
+    <mmRestNumberPos>5.5</mmRestNumberPos>
     <hideEmptyStaves>0</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
@@ -486,7 +486,7 @@ $:source:</oddFooterL>
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
     <dynamicsPlacement>1</dynamicsPlacement>
     <dynamicsPosAbove x="0" y="-1.5"/>
-    <dynamicsPosBelow x="0" y="4"/>
+    <dynamicsPosBelow x="0" y="2.5"/>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
     <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
     <textLinePlacement>0</textLinePlacement>
@@ -722,7 +722,7 @@ $:source:</oddFooterL>
     <tempoAlign>left,baseline</tempoAlign>
     <tempoSystemFlag>1</tempoSystemFlag>
     <tempoPlacement>0</tempoPlacement>
-    <tempoPosAbove x="0" y="-2"/>
+    <tempoPosAbove x="0" y="-1"/>
     <tempoPosBelow x="0" y="3"/>
     <tempoMinDistance>0.5</tempoMinDistance>
     <tempoFrameType>0</tempoFrameType>
@@ -847,7 +847,7 @@ $:source:</oddFooterL>
     <rehearsalMarkFrameFgColor r="0" g="0" b="0" a="255"/>
     <rehearsalMarkFrameBgColor r="255" g="255" b="255" a="0"/>
     <rehearsalMarkPlacement>0</rehearsalMarkPlacement>
-    <rehearsalMarkPosAbove x="0" y="-3"/>
+    <rehearsalMarkPosAbove x="0" y="-1.5"/>
     <rehearsalMarkPosBelow x="0" y="4"/>
     <rehearsalMarkMinDistance>0.5</rehearsalMarkMinDistance>
     <repeatLeftFontFace>FreeSerif</repeatLeftFontFace>
