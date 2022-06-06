@@ -192,6 +192,8 @@ $:source:</oddFooterL>
         </Staff>
       <trackName>C Clarinet</trackName>
       <Instrument id="c-clarinet">
+        <longName>C</longName>
+        <shortName>C</shortName>
         <trackName>C Clarinet</trackName>
         <minPitchP>52</minPitchP>
         <maxPitchP>94</maxPitchP>
@@ -367,6 +369,8 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-clarinet">
+              <longName>C</longName>
+              <shortName>C</shortName>
               <trackName>C Clarinet</trackName>
               <minPitchP>52</minPitchP>
               <maxPitchP>94</maxPitchP>
@@ -5431,7 +5435,7 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="bb-clarinet">
-              <longName>B♭ Clarinet</longName>
+              <longName>B</longName>
               <shortName>B</shortName>
               <trackName>B♭ Clarinet</trackName>
               <minPitchP>50</minPitchP>
@@ -5518,8 +5522,8 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="bb-clarinet">
-              <longName>B♭ Clarinet</longName>
-              <shortName>B♭ Cl.</shortName>
+              <longName>B</longName>
+              <shortName>B</shortName>
               <trackName>B♭ Clarinet</trackName>
               <minPitchP>50</minPitchP>
               <maxPitchP>94</maxPitchP>
@@ -9878,8 +9882,8 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-clarinet">
-              <longName>C Clarinet</longName>
-              <shortName>C Cl.</shortName>
+              <longName>C</longName>
+              <shortName>C</shortName>
               <trackName>C Clarinet</trackName>
               <minPitchP>52</minPitchP>
               <maxPitchP>94</maxPitchP>
@@ -12329,7 +12333,7 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="bb-clarinet">
-              <longName>B♭ Clarinet</longName>
+              <longName>B</longName>
               <shortName>B</shortName>
               <trackName>B♭ Clarinet</trackName>
               <minPitchP>50</minPitchP>
@@ -12425,8 +12429,8 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="bb-clarinet">
-              <longName>B♭ Clarinet</longName>
-              <shortName>B♭ Cl.</shortName>
+              <longName>B</longName>
+              <shortName>B</shortName>
               <trackName>B♭ Clarinet</trackName>
               <minPitchP>50</minPitchP>
               <maxPitchP>94</maxPitchP>
@@ -13859,7 +13863,7 @@ $:source:</oddFooterL>
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-clarinet">
-              <longName>C Clarinet</longName>
+              <longName>C</longName>
               <shortName>C</shortName>
               <trackName>C Clarinet</trackName>
               <minPitchP>52</minPitchP>
@@ -13935,8 +13939,8 @@ $:source:</oddFooterL>
             </TimeSig>
           <InstrumentChange>
             <Instrument id="c-clarinet">
-              <longName>C Clarinet</longName>
-              <shortName>C Cl.</shortName>
+              <longName>C</longName>
+              <shortName>C</shortName>
               <trackName>C Clarinet</trackName>
               <minPitchP>52</minPitchP>
               <maxPitchP>94</maxPitchP>
