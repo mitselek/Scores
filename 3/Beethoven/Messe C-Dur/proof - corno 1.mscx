@@ -30,6 +30,7 @@
       <hairpinPosAbove x="0" y="-1.5"/>
       <hairpinPosBelow x="0" y="2.5"/>
       <hairpinLinePosAbove x="0" y="-1.5"/>
+      <hairpinLinePosBelow x="0" y="2.5"/>
       <pedalFramePadding>0</pedalFramePadding>
       <pedalFrameWidth>0</pedalFrameWidth>
       <harmonyFretDist>0.5</harmonyFretDist>
@@ -15241,7 +15242,6 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -15653,6 +15653,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -15987,6 +15990,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>ff</subtype>
@@ -16294,6 +16300,9 @@ $:source:</oddFooterL>
         </Measure>
       <Measure len="32/4">
         <multiMeasureRest>8</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -16350,6 +16359,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -16576,7 +16588,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <VBox>
-        <height>4</height>
+        <height>2</height>
         <topGap>7.5</topGap>
         <boxAutoSize>0</boxAutoSize>
         <linkedMain/>
@@ -17430,6 +17442,9 @@ $:source:</oddFooterL>
         </Measure>
       <Measure len="40/4">
         <multiMeasureRest>20</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -17600,6 +17615,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -17611,6 +17629,7 @@ $:source:</oddFooterL>
       <Measure>
         <voice>
           <RehearsalMark>
+            <offset x="2.1" y="-1.5"/>
             <text>E</text>
             </RehearsalMark>
           <Rest>
@@ -18157,6 +18176,9 @@ $:source:</oddFooterL>
         </Measure>
       <Measure len="4/4">
         <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -18169,6 +18191,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -18502,7 +18527,6 @@ $:source:</oddFooterL>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -18533,7 +18557,7 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <VBox>
-        <height>4</height>
+        <height>3</height>
         <topGap>7.5</topGap>
         <boxAutoSize>0</boxAutoSize>
         <linkedMain/>
@@ -20026,6 +20050,12 @@ $:source:</oddFooterL>
             <HairPin>
               <subtype>2</subtype>
               <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.5" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <minDistance>-1.88148</minDistance>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -20364,6 +20394,7 @@ $:source:</oddFooterL>
             <HairPin>
               <subtype>2</subtype>
               <endText></endText>
+              <continueText></continueText>
               </HairPin>
             <next>
               <location>
@@ -20398,6 +20429,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -20985,6 +21019,9 @@ $:source:</oddFooterL>
         </Measure>
       <Measure len="12/4">
         <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <linked>
@@ -21008,6 +21045,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -21025,6 +21065,12 @@ $:source:</oddFooterL>
             <HairPin>
               <subtype>2</subtype>
               <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-2.5" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <minDistance>-1.88148</minDistance>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -21359,6 +21405,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -21832,6 +21881,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -22254,6 +22306,9 @@ $:source:</oddFooterL>
         </Measure>
       <Measure len="68/4">
         <multiMeasureRest>17</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -22405,6 +22460,9 @@ $:source:</oddFooterL>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -22515,6 +22573,11 @@ tempo del Kyrie.</text>
             <HairPin>
               <subtype>2</subtype>
               <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-3.1" y="2.5"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
