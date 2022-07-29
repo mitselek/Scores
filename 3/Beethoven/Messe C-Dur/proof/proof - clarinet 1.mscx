@@ -6912,9 +6912,12 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>61</pitch>
-              <tpc>9</tpc>
-              <tpc2>11</tpc2>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <tpc2>18</tpc2>
               </Note>
             </Chord>
           </voice>
@@ -22173,9 +22176,6 @@
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
-            <Tremolo>
-              <subtype>r8</subtype>
-              </Tremolo>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>

@@ -60,7 +60,6 @@
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
       <measureNumberInterval>1</measureNumberInterval>
-      <createMultiMeasureRests>1</createMultiMeasureRests>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
       <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
       <slurMidWidth>0.21</slurMidWidth>
@@ -440,110 +439,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="16/4">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <TimeSig>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            <Groups>
-              <Node pos="4" action="512"/>
-              <Node pos="8" action="272"/>
-              <Node pos="12" action="512"/>
-              </Groups>
-            </TimeSig>
-          <Tempo>
-            <tempo>1.5</tempo>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <text>Andante con moto assai vivace quasi Allegretto ma non troppo.</text>
-            </Tempo>
-          <InstrumentChange>
-            <Instrument id="c-horn">
-              <longName>C</longName>
-              <shortName>C</shortName>
-              <trackName>Horn in C</trackName>
-              <minPitchP>30</minPitchP>
-              <maxPitchP>72</maxPitchP>
-              <minPitchA>34</minPitchA>
-              <maxPitchA>67</maxPitchA>
-              <transposeDiatonic>-7</transposeDiatonic>
-              <transposeChromatic>-12</transposeChromatic>
-              <instrumentId>brass.natural-horn</instrumentId>
-              <concertClef>F</concertClef>
-              <transposingClef>G</transposingClef>
-              <Articulation>
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
-                </Articulation>
-              <Articulation name="staccato">
-                <velocity>100</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="portato">
-                <velocity>100</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="tenuto">
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="marcato">
-                <velocity>120</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="sforzato">
-                <velocity>150</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="sforzatoStaccato">
-                <velocity>150</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoStaccato">
-                <velocity>120</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoTenuto">
-                <velocity>120</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Channel name="open">
-                <controller ctrl="0" value="0"/>
-                <controller ctrl="32" value="17"/>
-                <program value="60"/>
-                <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>0</midiChannel>
-                </Channel>
-              <Channel name="mute">
-                <controller ctrl="0" value="0"/>
-                <controller ctrl="32" value="17"/>
-                <program value="59"/>
-                <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>1</midiChannel>
-                </Channel>
-              </Instrument>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <text>in C.</text>
-            </InstrumentChange>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
@@ -763,15 +658,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>12</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>24/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
@@ -901,18 +787,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="28/4">
-        <multiMeasureRest>14</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1080,15 +954,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>6</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
@@ -1242,15 +1107,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="16/4">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
@@ -1415,15 +1271,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="10/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>10/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1601,15 +1448,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="6/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1815,15 +1653,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>6</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <stretch>0.8</stretch>
         <voice>
@@ -1939,15 +1768,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>12</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>24/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -3036,15 +2856,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/2">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -3222,15 +3033,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/2">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -3394,15 +3196,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/2">
-        <multiMeasureRest>6</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -3512,15 +3305,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="6/2">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -3737,15 +3521,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="6/2">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -4243,15 +4018,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/2">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -4333,21 +4099,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="78/2">
-        <multiMeasureRest>39</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>B</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>78/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -4664,21 +4415,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="36/2">
-        <multiMeasureRest>18</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>C</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>36/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -4837,29 +4573,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="111/4">
-        <multiMeasureRest>37</multiMeasureRest>
-        <voice>
-          <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Tempo>
-            <tempo>1.26667</tempo>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
-            <text>Andante mosso.</text>
-            </Tempo>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>42/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5406,15 +5119,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="6/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -5632,15 +5336,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="54/4">
-        <multiMeasureRest>18</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -5819,15 +5514,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -6323,18 +6009,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="44/4">
-        <multiMeasureRest>11</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>44/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -6469,15 +6143,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -6560,15 +6225,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="48/4">
-        <multiMeasureRest>12</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>48/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -6918,15 +6574,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="40/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>40/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -7224,15 +6871,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="36/4">
-        <multiMeasureRest>9</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>36/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -7496,15 +7134,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>6</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>24/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -7610,15 +7239,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="36/4">
-        <multiMeasureRest>9</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -7855,15 +7475,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="32/4">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -7932,21 +7543,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>I</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -7992,15 +7588,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>6</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8150,15 +7737,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -8204,15 +7782,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8505,105 +8074,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <TimeSig>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Tempo>
-            <tempo>2.3333300000000001</tempo>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <text>Allegro con brio.</text>
-            </Tempo>
-          <InstrumentChange>
-            <Instrument id="c-horn">
-              <longName>C</longName>
-              <shortName>C</shortName>
-              <trackName>Horn in C</trackName>
-              <minPitchP>30</minPitchP>
-              <maxPitchP>72</maxPitchP>
-              <minPitchA>34</minPitchA>
-              <maxPitchA>67</maxPitchA>
-              <transposeDiatonic>-7</transposeDiatonic>
-              <transposeChromatic>-12</transposeChromatic>
-              <instrumentId>brass.natural-horn</instrumentId>
-              <concertClef>F</concertClef>
-              <transposingClef>G</transposingClef>
-              <Articulation>
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
-                </Articulation>
-              <Articulation name="staccato">
-                <velocity>100</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="portato">
-                <velocity>100</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="tenuto">
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="marcato">
-                <velocity>120</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="sforzato">
-                <velocity>150</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="sforzatoStaccato">
-                <velocity>150</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoStaccato">
-                <velocity>120</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoTenuto">
-                <velocity>120</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Channel name="open">
-                <controller ctrl="0" value="0"/>
-                <controller ctrl="32" value="17"/>
-                <program value="60"/>
-                <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>4</midiChannel>
-                </Channel>
-              <Channel name="mute">
-                <controller ctrl="0" value="0"/>
-                <controller ctrl="32" value="17"/>
-                <program value="59"/>
-                <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>5</midiChannel>
-                </Channel>
-              </Instrument>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <text>in C.</text>
-            </InstrumentChange>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -9075,15 +8545,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="9/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>9/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -9270,15 +8731,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -9393,15 +8845,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="9/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>9/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -9471,15 +8914,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="15/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -9650,21 +9084,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="9/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>B</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>9/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -9740,15 +9159,6 @@
           <Rest>
             <dots>1</dots>
             <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="9/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>57/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -10253,15 +9663,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="30/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>30/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -10784,78 +10185,63 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>8</multiMeasureRest>
+      <Measure>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>24/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
             <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -10890,41 +10276,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="32/4">
-        <multiMeasureRest>16</multiMeasureRest>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            <Groups>
-              <Node pos="2" action="16"/>
-              <Node pos="4" action="529"/>
-              <Node pos="6" action="16"/>
-              <Node pos="8" action="273"/>
-              <Node pos="10" action="16"/>
-              <Node pos="12" action="529"/>
-              <Node pos="14" action="16"/>
-              </Groups>
-            </TimeSig>
-          <Tempo>
-            <tempo>1.1499999999999999</tempo>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>Adagio.</text>
-            </Tempo>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <text>D</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>32/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -11122,15 +10473,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="26/4">
-        <multiMeasureRest>13</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>26/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -11237,15 +10579,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -11286,129 +10619,111 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="28/4">
-        <multiMeasureRest>14</multiMeasureRest>
+      <Measure>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>16/4</duration>
+            <duration>2/4</duration>
             </Rest>
-          <location>
-            <fractions>3/1</fractions>
-            </location>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
           <BarLine>
             <subtype>double</subtype>
             <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -11437,37 +10752,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="40/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <voice>
-          <TimeSig>
-            <subtype>1</subtype>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <text>F</text>
-            </RehearsalMark>
-          <Tempo>
-            <tempo>2</tempo>
-            <followText>1</followText>
-            <linked>
-              <indexDiff>-3</indexDiff>
-              </linked>
-            <text>Allegro ma non troppo.</text>
-            </Tempo>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>40/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -12432,15 +11716,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="68/4">
-        <multiMeasureRest>17</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>68/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -12827,15 +12102,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="36/4">
-        <multiMeasureRest>9</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>36/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -13168,15 +12434,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="16/2">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -13298,15 +12555,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="8/2">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -13652,15 +12900,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="16/2">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -13809,15 +13048,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="6/2">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -14173,15 +13403,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="6/2">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -14268,15 +13489,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="8/2">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -14390,15 +13602,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="18/2">
-        <multiMeasureRest>9</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>18/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15044,15 +14247,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -15158,15 +14352,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15426,15 +14611,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15759,15 +14935,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="32/4">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>32/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -16067,27 +15234,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="42/4">
-        <multiMeasureRest>21</multiMeasureRest>
-        <stretch>0.9</stretch>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Tempo>
-            <tempo>1.8666700000000001</tempo>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>Allegretto ma non troppo.</text>
-            </Tempo>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -16257,22 +15403,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="28/4">
-        <multiMeasureRest>14</multiMeasureRest>
-        <stretch>0.9</stretch>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>B</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>28/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -16495,16 +15625,6 @@
         <voice>
           <Rest>
             <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="52/4">
-        <multiMeasureRest>26</multiMeasureRest>
-        <stretch>0.9</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -16834,16 +15954,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="40/4">
-        <multiMeasureRest>20</multiMeasureRest>
-        <stretch>0.9</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -17113,15 +16223,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="16/4">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -17238,15 +16339,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="26/4">
-        <multiMeasureRest>13</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -17351,21 +16443,6 @@
             </RehearsalMark>
           <Rest>
             <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="10/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>F</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>10/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17519,22 +16596,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
       <Measure>
         <LayoutBreak>
           <subtype>line</subtype>
@@ -17546,9 +16607,7 @@
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
+            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -17568,28 +16627,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="36/4">
-        <multiMeasureRest>9</multiMeasureRest>
-        <voice>
-          <TimeSig>
-            <subtype>1</subtype>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Tempo>
-            <tempo>2</tempo>
-            <followText>1</followText>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>Allegro.</text>
-            </Tempo>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>36/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17907,8 +16944,8 @@
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-horn">
-              <longName>C</longName>
-              <shortName>C</shortName>
+              <longName>Hn.2</longName>
+              <shortName>Hn.2</shortName>
               <trackName>Horn in C</trackName>
               <minPitchP>30</minPitchP>
               <maxPitchP>72</maxPitchP>
@@ -17964,16 +17001,16 @@
                 <controller ctrl="32" value="17"/>
                 <program value="60"/>
                 <synti>Fluid</synti>
-                <midiPort>1</midiPort>
-                <midiChannel>4</midiChannel>
+                <midiPort>0</midiPort>
+                <midiChannel>6</midiChannel>
                 </Channel>
               <Channel name="mute">
                 <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
-                <midiPort>1</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiPort>0</midiPort>
+                <midiChannel>7</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -18237,18 +17274,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="36/8">
-        <multiMeasureRest>3</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>36/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -18506,15 +17531,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="60/8">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>60/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -18629,18 +17645,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="36/8">
-        <multiMeasureRest>3</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>36/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18848,15 +17852,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/8">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>24/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -19048,73 +18043,55 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="84/8">
-        <multiMeasureRest>7</multiMeasureRest>
+      <Measure>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>24/8</duration>
+            <duration>12/8</duration>
             </Rest>
-          <location>
-            <fractions>15/2</fractions>
-            </location>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
           <BarLine>
             <subtype>double</subtype>
             <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -19137,27 +18114,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="16/4">
-        <multiMeasureRest>4</multiMeasureRest>
-        <voice>
-          <TimeSig>
-            <subtype>1</subtype>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Tempo>
-            <tempo>1.5</tempo>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>Allegro ma non troppo.</text>
-            </Tempo>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -19324,24 +18280,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>B</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -19587,15 +18525,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -20036,15 +18965,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="72/4">
-        <multiMeasureRest>18</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>48/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -20292,24 +19212,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>3</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <RehearsalMark>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>D</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -20823,15 +19725,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -20961,15 +19854,6 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="24/4">
-        <multiMeasureRest>6</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -21428,15 +20312,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -21569,25 +20444,6 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="68/4">
-        <multiMeasureRest>17</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/4</duration>
-            </Rest>
-          <location>
-            <fractions>14/1</fractions>
-            </location>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -21719,9 +20575,7 @@
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
+            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -21739,64 +20593,48 @@
 tempo del Kyrie.</text>
             </Tempo>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>6</multiMeasureRest>
+      <Measure>
         <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Tempo>
-            <tempo>2</tempo>
-            <followText>1</followText>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text>Andante con moto 
-tempo del Kyrie.</text>
-            </Tempo>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/4</duration>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>

@@ -1,0 +1,1 @@
+- täistakti pauside asemel esineb mõõdetud pausidega takte;
