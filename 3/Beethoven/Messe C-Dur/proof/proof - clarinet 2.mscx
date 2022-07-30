@@ -17176,13 +17176,6 @@
             <durationType>measure</durationType>
             <duration>58/2</duration>
             </Rest>
-          <location>
-            <fractions>-8/1</fractions>
-            </location>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -17539,7 +17532,6 @@
               <location>
                 <fractions>-8/1</fractions>
                 </location>
-              <indexDiff>-1</indexDiff>
               </linked>
             </BarLine>
           </voice>
@@ -17884,13 +17876,6 @@
             <durationType>measure</durationType>
             <duration>48/4</duration>
             </Rest>
-          <location>
-            <fractions>-8/1</fractions>
-            </location>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -17912,7 +17897,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>whole</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18174,7 +18160,6 @@
               <location>
                 <fractions>-8/1</fractions>
                 </location>
-              <indexDiff>-1</indexDiff>
               </linked>
             </BarLine>
           </voice>
