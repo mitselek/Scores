@@ -3470,32 +3470,14 @@
         <stretch>0.9</stretch>
         <voice>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -3506,32 +3488,14 @@
             <text>B</text>
             </RehearsalMark>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -5528,6 +5492,7 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -5980,6 +5945,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              </Articulation>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -6971,25 +6939,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>89</pitch>
               <tpc>13</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>89</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>89</pitch>
-              <tpc>13</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -29150,25 +29108,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -29395,25 +29343,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -29646,7 +29584,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -29655,20 +29594,9 @@
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -29681,25 +29609,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -30304,25 +30222,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -30781,25 +30689,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>86</pitch>
               <tpc>16</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>86</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>86</pitch>
-              <tpc>16</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -30812,25 +30710,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -30847,7 +30735,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -30855,20 +30744,9 @@
               <pitch>82</pitch>
               <tpc>12</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>82</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>82</pitch>
-              <tpc>12</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -30881,31 +30759,17 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            </Dynamic>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -30962,7 +30826,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Fingering>
                 <text>3</text>
@@ -30970,20 +30835,9 @@
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -30993,10 +30847,6 @@
           <RehearsalMark>
             <text>H</text>
             </RehearsalMark>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            </Dynamic>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -31007,7 +30857,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Fingering>
                 <text>4</text>
@@ -31015,20 +30866,9 @@
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31041,7 +30881,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Fingering>
                 <text>1</text>
@@ -31049,60 +30890,9 @@
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>sf</subtype>
-            <velocity>126</velocity>
-            </Dynamic>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            <visible>0</visible>
-            </Dynamic>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31115,7 +30905,29 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -31123,20 +30935,9 @@
               <pitch>80</pitch>
               <tpc>10</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -31156,25 +30957,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31187,65 +30978,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>sf</subtype>
-            <velocity>126</velocity>
-            </Dynamic>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            <visible>0</visible>
-            </Dynamic>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31258,7 +30999,29 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -31266,20 +31029,9 @@
               <pitch>82</pitch>
               <tpc>12</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>82</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>82</pitch>
-              <tpc>12</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -31296,25 +31048,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31327,65 +31069,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>sf</subtype>
-            <velocity>126</velocity>
-            </Dynamic>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            <visible>0</visible>
-            </Dynamic>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31398,25 +31090,36 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -31433,25 +31136,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31464,7 +31157,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Fingering>
                 <text>2</text>
@@ -31472,55 +31166,9 @@
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>sf</subtype>
-            <velocity>112</velocity>
-            </Dynamic>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31533,7 +31181,29 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -31541,20 +31211,9 @@
               <pitch>80</pitch>
               <tpc>10</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -31571,7 +31230,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -31580,20 +31240,9 @@
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31606,7 +31255,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -31614,20 +31264,9 @@
               <pitch>80</pitch>
               <tpc>10</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31640,25 +31279,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31671,7 +31300,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Fingering>
                 <text>2</text>
@@ -31679,20 +31309,9 @@
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -31712,7 +31331,8 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -31720,20 +31340,9 @@
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31746,25 +31355,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31777,25 +31376,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31808,25 +31397,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -31843,25 +31422,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31874,25 +31443,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31905,25 +31464,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Tuplet>
@@ -31936,25 +31485,15 @@
               </Number>
             </Tuplet>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -33382,7 +32921,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <visible>0</visible>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
@@ -34975,92 +34513,38 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -36246,32 +35730,14 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -37461,64 +36927,28 @@
             <velocity>49</velocity>
             </Dynamic>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
@@ -37581,32 +37011,14 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <Dynamic>
             <subtype>sf</subtype>
@@ -46187,7 +45599,8 @@
               </next>
             </Spanner>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <Fingering>
                 <text>4</text>
@@ -46195,83 +45608,20 @@
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -46594,46 +45944,15 @@
             <velocity>33</velocity>
             </Dynamic>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -46651,7 +45970,8 @@
               </next>
             </Spanner>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <Fingering>
                 <text>1</text>
@@ -46659,62 +45979,20 @@
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
@@ -48191,25 +47469,15 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
             <dots>1</dots>
@@ -48667,25 +47935,15 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
@@ -49797,7 +49055,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/4</fractions>
+                  <fractions>7/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -49829,13 +49087,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -49843,6 +49094,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-7/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>

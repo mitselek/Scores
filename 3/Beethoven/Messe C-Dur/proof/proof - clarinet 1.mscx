@@ -570,6 +570,23 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.5" y="4"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -596,8 +613,16 @@
             <subtype>other-dynamics</subtype>
             <velocity>96</velocity>
             <family>FreeSerif</family>
-            <text><i>cresc. </i><font face="ScoreText"></font></text>
+            <text><i></i><font face="ScoreText"></font></text>
             </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -1832,16 +1857,6 @@
             <subtype>ff</subtype>
             <velocity>112</velocity>
             </Dynamic>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -1863,6 +1878,16 @@
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -1898,7 +1923,7 @@
           <Spanner type="HairPin">
             <prev>
               <location>
-                <measures>-2</measures>
+                <measures>-1</measures>
                 </location>
               </prev>
             </Spanner>
@@ -2622,32 +2647,14 @@
         <stretch>0.9</stretch>
         <voice>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -2655,32 +2662,14 @@
         <stretch>0.9</stretch>
         <voice>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -2688,32 +2677,14 @@
         <stretch>0.9</stretch>
         <voice>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -2724,32 +2695,14 @@
           </LayoutBreak>
         <voice>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>

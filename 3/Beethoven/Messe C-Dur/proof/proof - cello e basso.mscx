@@ -46448,6 +46448,15 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>41</pitch>
               <tpc>13</tpc>
@@ -46462,6 +46471,13 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -68842,6 +68858,7 @@ tempo del Kyrie.</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
+            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -68869,6 +68886,9 @@ tempo del Kyrie.</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
             </BarLine>
           </voice>
         </Measure>

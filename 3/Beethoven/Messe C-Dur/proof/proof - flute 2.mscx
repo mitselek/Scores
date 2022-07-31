@@ -2589,7 +2589,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -2744,7 +2746,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -2767,7 +2771,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -4734,7 +4740,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -5083,7 +5091,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -5276,7 +5286,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -5341,8 +5353,10 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -6080,7 +6094,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6123,7 +6139,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6240,7 +6258,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6455,7 +6475,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6557,7 +6579,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6697,7 +6721,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6844,7 +6870,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6885,8 +6913,10 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -6966,7 +6996,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6995,7 +7027,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           <BarLine>
@@ -10155,7 +10189,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -10173,7 +10209,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -10188,7 +10226,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -10453,7 +10493,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -10497,7 +10539,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -10579,7 +10623,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -10832,7 +10878,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -11330,7 +11378,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -11524,7 +11574,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -11578,7 +11630,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -11795,8 +11849,10 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Dynamic>
             <subtype>ff</subtype>
@@ -12034,7 +12090,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -12137,8 +12195,10 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -12259,8 +12319,10 @@
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Dynamic>
             <subtype>ff</subtype>
@@ -12342,7 +12404,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -12580,7 +12644,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -12679,7 +12745,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -12853,7 +12921,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>

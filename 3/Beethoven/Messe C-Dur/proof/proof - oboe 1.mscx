@@ -318,9 +318,7 @@
       <VBox>
         <height>8.71762</height>
         <boxAutoSize>0</boxAutoSize>
-        <linkedMain/>
         <Text>
-          <linkedMain/>
           <style>Title</style>
           <text>Kyrie</text>
           </Text>
@@ -343,7 +341,6 @@
             <text>Andante con moto assai vivace quasi Allegretto ma non troppo.</text>
             </Tempo>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -354,7 +351,7 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
@@ -362,7 +359,7 @@
           <Tempo>
             <tempo>1.5</tempo>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <text>Andante con moto assai vivace quasi Allegretto ma non troppo.</text>
             </Tempo>
@@ -376,7 +373,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -386,7 +382,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -396,7 +391,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -406,7 +400,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -416,7 +409,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -426,7 +418,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -436,7 +427,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -741,7 +731,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -763,7 +752,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -773,7 +761,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -786,7 +773,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -898,7 +884,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -917,7 +902,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -927,7 +911,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1152,7 +1135,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1174,7 +1156,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1184,7 +1165,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1194,7 +1174,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1204,7 +1183,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1214,7 +1192,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1227,7 +1204,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1339,7 +1315,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1358,7 +1333,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1368,7 +1342,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1497,7 +1470,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1565,15 +1537,10 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.63667"/>
-                <off2 x="-5.18342" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
-                <measures>2</measures>
+                <measures>1</measures>
                 <fractions>-1/4</fractions>
                 </location>
               </next>
@@ -1593,6 +1560,14 @@
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -1615,14 +1590,6 @@
       <Measure>
         <stretch>0.9</stretch>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -1649,7 +1616,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1671,7 +1637,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1684,7 +1649,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1813,7 +1777,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1937,7 +1900,6 @@
             <text>B</text>
             </RehearsalMark>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1948,7 +1910,7 @@
         <voice>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>B</text>
             </RehearsalMark>
@@ -1962,7 +1924,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1972,7 +1933,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1982,7 +1942,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -1992,7 +1951,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2002,7 +1960,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2012,7 +1969,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2178,7 +2134,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2210,7 +2165,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2268,7 +2222,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2287,7 +2240,6 @@
         <stretch>0.8</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2297,7 +2249,6 @@
         <stretch>0.8</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2307,7 +2258,6 @@
         <stretch>0.8</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2317,7 +2267,6 @@
         <stretch>0.8</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2327,7 +2276,6 @@
         <stretch>0.8</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2337,7 +2285,6 @@
         <stretch>0.8</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2347,7 +2294,6 @@
         <stretch>0.8</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2636,7 +2582,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2655,7 +2600,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2665,7 +2609,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -2682,7 +2625,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2918,7 +2860,6 @@
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -3077,7 +3018,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -3096,7 +3036,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -3106,7 +3045,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -3116,7 +3054,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -3140,7 +3077,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -3313,7 +3249,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -3332,7 +3267,6 @@
         <stretch>0.9</stretch>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -3601,7 +3535,6 @@
       <Measure>
         <stretch>0.9</stretch>
         <LayoutBreak>
-          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -3627,9 +3560,7 @@
       <VBox>
         <height>10</height>
         <boxAutoSize>0</boxAutoSize>
-        <linkedMain/>
         <Text>
-          <linkedMain/>
           <style>Title</style>
           <text>Gloria</text>
           </Text>
@@ -3653,7 +3584,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -3729,7 +3659,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -3789,7 +3718,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -3807,7 +3735,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -3816,7 +3743,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -3873,7 +3799,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -3911,7 +3836,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -3963,7 +3887,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -3984,7 +3907,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -3993,7 +3915,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4002,7 +3923,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4011,7 +3931,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4020,7 +3939,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4029,7 +3947,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4038,7 +3955,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4047,7 +3963,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4056,7 +3971,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4065,7 +3979,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4077,7 +3990,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4225,7 +4137,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -4286,7 +4197,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4304,7 +4214,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4313,7 +4222,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4322,7 +4230,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4395,7 +4302,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -4496,7 +4402,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4514,7 +4419,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4523,7 +4427,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -4543,7 +4446,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -4790,7 +4692,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -4825,7 +4726,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -4886,7 +4786,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -5067,7 +4966,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -5128,7 +5026,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5146,7 +5043,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5155,7 +5051,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5164,7 +5059,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5173,7 +5067,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5182,7 +5075,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5191,7 +5083,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5200,7 +5091,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5209,7 +5099,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5218,7 +5107,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5369,7 +5257,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5387,7 +5274,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5396,7 +5282,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5405,7 +5290,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5414,7 +5298,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5423,7 +5306,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5432,7 +5314,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5441,7 +5322,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5450,7 +5330,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5459,7 +5338,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5468,7 +5346,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5477,7 +5354,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5486,7 +5362,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5495,7 +5370,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5504,7 +5378,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5513,7 +5386,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5522,7 +5394,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5531,7 +5402,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5540,7 +5410,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5549,7 +5418,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5558,7 +5426,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5567,7 +5434,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5576,7 +5442,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5585,7 +5450,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5594,7 +5458,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5603,7 +5466,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5612,7 +5474,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5621,7 +5482,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5630,7 +5490,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5639,7 +5498,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5648,7 +5506,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5657,7 +5514,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5666,7 +5522,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5675,7 +5530,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5684,7 +5538,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5697,7 +5550,6 @@
             <text>C</text>
             </RehearsalMark>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5708,7 +5560,7 @@
         <voice>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>C</text>
             </RehearsalMark>
@@ -5721,7 +5573,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5730,7 +5581,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5739,7 +5589,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5944,7 +5793,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5965,7 +5813,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5974,7 +5821,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5983,7 +5829,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -5992,7 +5837,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -6001,7 +5845,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -6010,7 +5853,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -6019,7 +5861,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -6031,7 +5872,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -6054,7 +5894,6 @@
             <text>Andante mosso.</text>
             </Tempo>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6065,7 +5904,7 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -6073,7 +5912,7 @@
           <Tempo>
             <tempo>1.26667</tempo>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <text>Andante mosso.</text>
             </Tempo>
@@ -6086,7 +5925,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6095,7 +5933,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6104,7 +5941,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6113,7 +5949,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6122,7 +5957,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6131,7 +5965,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6140,7 +5973,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6149,7 +5981,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6158,7 +5989,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6167,7 +5997,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6176,7 +6005,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6185,7 +6013,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6194,7 +6021,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6203,7 +6029,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6212,7 +6037,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6221,7 +6045,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6230,7 +6053,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6239,7 +6061,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6248,7 +6069,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6257,7 +6077,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6266,7 +6085,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6275,7 +6093,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6284,7 +6101,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6293,7 +6109,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6302,7 +6117,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6311,7 +6125,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6320,7 +6133,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6329,7 +6141,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6338,7 +6149,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6347,7 +6157,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6356,7 +6165,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6365,7 +6173,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6374,7 +6181,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6383,7 +6189,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6392,7 +6197,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6401,7 +6205,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6908,7 +6711,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -6975,7 +6777,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -6993,7 +6794,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7002,7 +6802,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7011,7 +6810,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7020,7 +6818,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7029,7 +6826,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7038,7 +6834,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7047,7 +6842,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7056,7 +6850,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7065,7 +6858,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7074,7 +6866,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7083,7 +6874,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7092,7 +6882,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7101,7 +6890,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7110,7 +6898,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7226,7 +7013,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7250,7 +7036,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -7489,7 +7274,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -7815,7 +7599,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -7967,7 +7750,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -7988,7 +7770,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -7997,7 +7778,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8006,7 +7786,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8015,7 +7794,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8024,7 +7802,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8033,7 +7810,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8042,7 +7818,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8051,7 +7826,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8060,7 +7834,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8072,7 +7845,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8230,7 +8002,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -8268,7 +8039,6 @@
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -8332,7 +8102,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -8487,7 +8256,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8505,7 +8273,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8521,7 +8288,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -8763,7 +8529,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -8920,7 +8685,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8938,7 +8702,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8947,7 +8710,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8956,7 +8718,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8965,7 +8726,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8974,7 +8734,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -8983,7 +8742,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -9046,7 +8804,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -9097,7 +8854,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -9250,7 +9006,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -9361,7 +9116,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -9430,7 +9184,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -9595,7 +9348,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -9678,7 +9430,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -9909,7 +9660,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -9927,7 +9677,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -9936,7 +9685,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -9945,7 +9693,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -9954,7 +9701,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -9963,7 +9709,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -9972,7 +9717,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -9981,7 +9725,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -9990,7 +9733,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10178,7 +9920,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10196,7 +9937,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10205,7 +9945,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10214,7 +9953,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10223,7 +9961,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10232,7 +9969,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10241,7 +9977,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10250,7 +9985,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10263,7 +9997,6 @@
             <text>I</text>
             </RehearsalMark>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10277,7 +10010,7 @@
         <voice>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>I</text>
             </RehearsalMark>
@@ -10293,7 +10026,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10334,7 +10066,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10352,7 +10083,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10361,7 +10091,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10370,7 +10099,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10705,7 +10433,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10723,7 +10450,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10760,7 +10486,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10778,7 +10503,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10787,7 +10511,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -10926,7 +10649,6 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <LayoutBreak>
@@ -10954,9 +10676,7 @@
       <VBox>
         <height>10</height>
         <boxAutoSize>0</boxAutoSize>
-        <linkedMain/>
         <Text>
-          <linkedMain/>
           <style>Title</style>
           <text>Credo</text>
           </Text>
@@ -10974,7 +10694,6 @@
             <text>Allegro con brio.</text>
             </Tempo>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -10985,7 +10704,7 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -10993,7 +10712,7 @@
           <Tempo>
             <tempo>2.3333300000000001</tempo>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <text>Allegro con brio.</text>
             </Tempo>
@@ -11006,7 +10725,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11015,7 +10733,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11024,7 +10741,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11033,7 +10749,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11042,7 +10757,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11051,7 +10765,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11060,7 +10773,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11125,7 +10837,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -11220,7 +10931,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -11318,7 +11028,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -11463,7 +11172,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11481,7 +11189,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11490,7 +11197,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11499,7 +11205,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11508,7 +11213,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11517,7 +11221,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11538,7 +11241,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -11588,7 +11290,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -11654,7 +11355,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11672,7 +11372,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11681,7 +11380,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11722,7 +11420,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -11775,7 +11472,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11793,7 +11489,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11936,7 +11631,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11954,7 +11648,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -11963,7 +11656,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12113,7 +11805,6 @@
             <text>B</text>
             </RehearsalMark>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12124,7 +11815,7 @@
         <voice>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>B</text>
             </RehearsalMark>
@@ -12137,7 +11828,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12146,7 +11836,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12215,7 +11904,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12233,7 +11921,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12297,7 +11984,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -12458,7 +12144,6 @@
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -12496,7 +12181,6 @@
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -12533,7 +12217,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -12763,7 +12446,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -12849,7 +12531,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12867,7 +12548,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12876,7 +12556,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12885,7 +12564,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12894,7 +12572,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12903,7 +12580,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12912,7 +12588,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12921,7 +12596,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -12930,7 +12604,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13097,7 +12770,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13115,7 +12787,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13124,7 +12795,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13133,7 +12803,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13142,7 +12811,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13151,7 +12819,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13160,7 +12827,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13169,7 +12835,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13287,7 +12952,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13305,7 +12969,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13314,7 +12977,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13323,7 +12985,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13332,7 +12993,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13341,7 +13001,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13350,7 +13009,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13359,7 +13017,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -13386,7 +13043,6 @@
             <text>Adagio.</text>
             </Tempo>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13397,21 +13053,21 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-4</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <RehearsalMark>
             <linked>
-              <indexDiff>-4</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>D</text>
             </RehearsalMark>
           <Tempo>
             <tempo>1.1499999999999999</tempo>
             <linked>
-              <indexDiff>-4</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Adagio.</text>
             </Tempo>
@@ -13424,7 +13080,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13433,7 +13088,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13442,7 +13096,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13451,7 +13104,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13460,7 +13112,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13469,7 +13120,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13478,7 +13128,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13487,7 +13136,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13496,7 +13144,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13505,7 +13152,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13514,7 +13160,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13523,7 +13168,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13532,7 +13176,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13541,7 +13184,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13550,7 +13192,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13574,7 +13215,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -13616,7 +13256,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -13658,7 +13297,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -13722,7 +13360,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -13765,7 +13402,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -13819,7 +13455,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -13861,7 +13496,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -13921,7 +13555,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13939,7 +13572,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13948,7 +13580,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13957,7 +13588,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13966,7 +13596,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13975,7 +13604,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13984,7 +13612,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -13993,7 +13620,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14002,7 +13628,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14011,7 +13636,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14028,7 +13652,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -14158,7 +13781,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14176,7 +13798,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14185,7 +13806,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14194,7 +13814,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14203,7 +13822,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14212,7 +13830,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14221,7 +13838,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14230,7 +13846,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14239,7 +13854,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14248,7 +13862,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14257,7 +13870,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14266,7 +13878,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14275,7 +13886,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14284,7 +13894,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -14312,7 +13921,6 @@
             <text>Allegro ma non troppo.</text>
             </Tempo>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14323,14 +13931,14 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-4</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <RehearsalMark>
             <linked>
-              <indexDiff>-4</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>F</text>
             </RehearsalMark>
@@ -14338,7 +13946,7 @@
             <tempo>2</tempo>
             <followText>1</followText>
             <linked>
-              <indexDiff>-4</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Allegro ma non troppo.</text>
             </Tempo>
@@ -14351,7 +13959,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14360,7 +13967,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14369,7 +13975,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14378,7 +13983,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14387,7 +13991,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14396,7 +13999,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14648,7 +14250,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -14933,7 +14534,6 @@
             <text>G</text>
             </RehearsalMark>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14944,7 +14544,7 @@
         <voice>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>G</text>
             </RehearsalMark>
@@ -14957,7 +14557,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14966,7 +14565,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15016,7 +14614,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15034,7 +14631,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15197,7 +14793,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -15424,7 +15019,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15442,7 +15036,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15451,7 +15044,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15460,7 +15052,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15469,7 +15060,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15478,7 +15068,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15487,7 +15076,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15496,7 +15084,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15505,7 +15092,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15514,7 +15100,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15523,7 +15108,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15532,7 +15116,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15541,7 +15124,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15550,7 +15132,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15559,7 +15140,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15568,7 +15148,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15676,7 +15255,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -15897,7 +15475,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15915,7 +15492,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15924,7 +15500,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15933,7 +15508,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15942,7 +15516,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15951,7 +15524,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15960,7 +15532,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15969,7 +15540,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15978,7 +15548,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -16156,7 +15725,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -16174,7 +15742,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -16578,7 +16145,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -16689,7 +16255,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -16707,7 +16272,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -16716,7 +16280,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -16725,7 +16288,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17127,7 +16689,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17151,7 +16712,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17167,7 +16727,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -17204,7 +16763,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -17244,7 +16802,6 @@
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -17318,7 +16875,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -17368,7 +16924,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17386,7 +16941,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17395,7 +16949,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17408,7 +16961,6 @@
             <text>K</text>
             </RehearsalMark>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17419,7 +16971,7 @@
         <voice>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>K</text>
             </RehearsalMark>
@@ -17432,7 +16984,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17441,7 +16992,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17450,7 +17000,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17606,7 +17155,6 @@
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -17670,7 +17218,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -17851,7 +17398,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17869,7 +17415,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -17878,7 +17423,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -18069,7 +17613,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -18283,7 +17826,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -18301,7 +17843,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -18310,7 +17851,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -18319,7 +17859,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -18328,7 +17867,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -18337,7 +17875,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -18346,7 +17883,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -18355,7 +17891,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -18615,7 +18150,6 @@
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -18731,7 +18265,6 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -18756,9 +18289,7 @@
       <VBox>
         <height>7.03838</height>
         <boxAutoSize>0</boxAutoSize>
-        <linkedMain/>
         <Text>
-          <linkedMain/>
           <style>Title</style>
           <text>Sanctus</text>
           </Text>
@@ -18780,7 +18311,6 @@
             <text>Adagio.</text>
             </Tempo>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -18791,7 +18321,7 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
@@ -18799,7 +18329,7 @@
           <Tempo>
             <tempo>1.1499999999999999</tempo>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <text>Adagio.</text>
             </Tempo>
@@ -18812,7 +18342,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -18949,7 +18478,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -18967,7 +18495,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -18976,7 +18503,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -18985,7 +18511,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -18994,7 +18519,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19003,7 +18527,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19012,7 +18535,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19021,7 +18543,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19030,7 +18551,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19039,7 +18559,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19048,7 +18567,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19057,7 +18575,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19261,7 +18778,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19279,7 +18795,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19288,7 +18803,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19507,7 +19021,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19525,7 +19038,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19534,7 +19046,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19543,7 +19054,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19552,7 +19062,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19561,7 +19070,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19570,7 +19078,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19579,7 +19086,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -19602,7 +19108,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -19803,9 +19308,7 @@
       <VBox>
         <height>6.74221</height>
         <boxAutoSize>0</boxAutoSize>
-        <linkedMain/>
         <Text>
-          <linkedMain/>
           <style>Title</style>
           <text>Benedictus</text>
           </Text>
@@ -19827,7 +19330,6 @@
             <text>Allegretto ma non troppo.</text>
             </Tempo>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -19838,7 +19340,7 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
@@ -19846,7 +19348,7 @@
           <Tempo>
             <tempo>1.8666700000000001</tempo>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <text>Allegretto ma non troppo.</text>
             </Tempo>
@@ -19859,7 +19361,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -19868,7 +19369,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -19877,7 +19377,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -20023,7 +19522,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -20041,7 +19539,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -20050,7 +19547,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -20234,7 +19730,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -20258,7 +19753,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -20334,7 +19828,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -20691,7 +20184,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -21079,7 +20571,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -21187,7 +20678,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21205,7 +20695,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21214,7 +20703,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21223,7 +20711,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21232,7 +20719,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21377,7 +20863,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21395,7 +20880,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21613,7 +21097,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -21772,7 +21255,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21790,7 +21272,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21799,7 +21280,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21808,7 +21288,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21817,7 +21296,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21826,7 +21304,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -21917,7 +21394,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -22642,7 +22118,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22660,7 +22135,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22669,7 +22143,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22678,7 +22151,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22687,7 +22159,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22696,7 +22167,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22705,7 +22175,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22714,7 +22183,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22723,7 +22191,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22732,7 +22199,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22741,7 +22207,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -22958,7 +22423,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -22979,7 +22443,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -23027,7 +22490,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -23045,7 +22507,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -23069,7 +22530,6 @@
             <text>Allegro.</text>
             </Tempo>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -23080,7 +22540,7 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
@@ -23089,7 +22549,7 @@
             <tempo>2</tempo>
             <followText>1</followText>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <text>Allegro.</text>
             </Tempo>
@@ -23102,7 +22562,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -23111,7 +22570,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -23120,7 +22578,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -23129,7 +22586,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -23138,7 +22594,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -23147,7 +22602,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -23156,7 +22610,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -23165,7 +22618,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -23188,7 +22640,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -23371,7 +22822,6 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -23393,9 +22843,7 @@
       <VBox>
         <height>10</height>
         <boxAutoSize>0</boxAutoSize>
-        <linkedMain/>
         <Text>
-          <linkedMain/>
           <style>Title</style>
           <text>Agnus Dei</text>
           </Text>
@@ -23609,7 +23057,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23627,7 +23074,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23636,7 +23082,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23645,7 +23090,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23654,7 +23098,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23688,7 +23131,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -23764,7 +23206,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23785,7 +23226,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23794,7 +23234,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23803,7 +23242,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23815,7 +23253,6 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23836,7 +23273,6 @@
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -23909,7 +23345,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23927,7 +23362,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23936,7 +23370,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23945,7 +23378,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23954,7 +23386,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -23994,7 +23425,6 @@
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -24070,7 +23500,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -24088,7 +23517,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -24118,7 +23546,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -24322,7 +23749,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -24340,7 +23766,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -24349,7 +23774,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -24358,7 +23782,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -24367,7 +23790,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -24376,7 +23798,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -24385,7 +23806,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -24785,7 +24205,6 @@
             <text>B</text>
             </RehearsalMark>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -24796,7 +24215,7 @@
         <voice>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>B</text>
             </RehearsalMark>
@@ -24809,7 +24228,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -24818,7 +24236,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25388,7 +24805,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -25447,7 +24863,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -25468,7 +24883,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -25519,7 +24933,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25537,7 +24950,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25546,7 +24958,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25555,7 +24966,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25564,7 +24974,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25573,7 +24982,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25582,7 +24990,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25591,7 +24998,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25600,7 +25006,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25609,7 +25014,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25618,7 +25022,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25627,7 +25030,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -25994,7 +25396,6 @@
             <text>D</text>
             </RehearsalMark>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26005,7 +25406,7 @@
         <voice>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>D</text>
             </RehearsalMark>
@@ -26018,7 +25419,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26027,7 +25427,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26160,7 +25559,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26197,7 +25595,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26234,7 +25631,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26271,7 +25667,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26308,7 +25703,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26345,7 +25739,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26382,7 +25775,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26464,7 +25856,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26482,7 +25873,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26491,7 +25881,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26500,7 +25889,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26509,7 +25897,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26518,7 +25905,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26527,7 +25913,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26536,7 +25921,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26545,7 +25929,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26554,7 +25937,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26563,7 +25945,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26572,7 +25953,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26581,7 +25961,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26590,7 +25969,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26599,7 +25977,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26622,7 +25999,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26659,7 +26035,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26696,7 +26071,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26733,7 +26107,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26770,7 +26143,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26807,7 +26179,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26844,7 +26215,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -26929,7 +26299,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26947,7 +26316,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26956,7 +26324,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26965,7 +26332,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26974,7 +26340,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26983,7 +26348,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -26992,7 +26356,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -27001,7 +26364,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -27010,7 +26372,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -27019,7 +26380,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -27028,7 +26388,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -27037,7 +26396,6 @@
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -27196,7 +26554,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -27217,7 +26574,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -27259,7 +26615,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -27378,7 +26733,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -27563,7 +26917,6 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -27581,7 +26934,6 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -27590,7 +26942,6 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -27599,7 +26950,6 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -27608,7 +26958,6 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -27722,7 +27071,6 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -27740,7 +27088,6 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -27749,7 +27096,6 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -27762,7 +27108,6 @@ tempo del Kyrie.</text>
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
