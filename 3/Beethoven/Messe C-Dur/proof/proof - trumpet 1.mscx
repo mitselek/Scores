@@ -258,7 +258,7 @@
           <name>stdNormal</name>
           </StaffType>
         </Staff>
-      <trackName>C Trumpet</trackName>
+      <trackName>Trumpet 1</trackName>
       <Instrument id="c-trumpet">
         <trackName>C Trumpet</trackName>
         <minPitchP>54</minPitchP>
@@ -1660,6 +1660,76 @@
             <subtype>ff</subtype>
             <velocity>112</velocity>
             </Dynamic>
+          <InstrumentChange>
+            <Instrument id="c-trumpet">
+              <longName>C Trumpet 1</longName>
+              <shortName>C Tpt.1</shortName>
+              <trackName>C Trumpet</trackName>
+              <minPitchP>54</minPitchP>
+              <maxPitchP>85</maxPitchP>
+              <minPitchA>54</minPitchA>
+              <maxPitchA>82</maxPitchA>
+              <instrumentId>brass.trumpet.c</instrumentId>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel name="open">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="56"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>2</midiChannel>
+                </Channel>
+              <Channel name="mute">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="59"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>3</midiChannel>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <text>in C</text>
+            </InstrumentChange>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -6631,6 +6701,77 @@
             <linkedMain/>
             <text>Allegro con brio.</text>
             </Tempo>
+          <InstrumentChange>
+            <Instrument id="c-trumpet">
+              <longName>C Trumpet 1</longName>
+              <shortName>C Tpt.1</shortName>
+              <trackName>C Trumpet</trackName>
+              <minPitchP>54</minPitchP>
+              <maxPitchP>85</maxPitchP>
+              <minPitchA>54</minPitchA>
+              <maxPitchA>82</maxPitchA>
+              <instrumentId>brass.trumpet.c</instrumentId>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel name="open">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="56"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>8</midiChannel>
+                </Channel>
+              <Channel name="mute">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="59"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>10</midiChannel>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <linkedMain/>
+            <text>in C</text>
+            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -6642,7 +6783,7 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -6650,10 +6791,83 @@
           <Tempo>
             <tempo>2.3333300000000001</tempo>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Allegro con brio.</text>
             </Tempo>
+          <InstrumentChange>
+            <Instrument id="c-trumpet">
+              <longName>C Trumpet 1</longName>
+              <shortName>C Tpt.1</shortName>
+              <trackName>C Trumpet</trackName>
+              <minPitchP>54</minPitchP>
+              <maxPitchP>85</maxPitchP>
+              <minPitchA>54</minPitchA>
+              <maxPitchA>82</maxPitchA>
+              <instrumentId>brass.trumpet.c</instrumentId>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel name="open">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="56"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>8</midiChannel>
+                </Channel>
+              <Channel name="mute">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="59"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>10</midiChannel>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <text>in C</text>
+            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
             <duration>12/4</duration>
@@ -12327,6 +12541,8 @@
             </Tempo>
           <InstrumentChange>
             <Instrument id="d-trumpet">
+              <longName>D Trumpet 1</longName>
+              <shortName>D Tpt.1</shortName>
               <trackName>D Trumpet</trackName>
               <minPitchP>56</minPitchP>
               <maxPitchP>86</maxPitchP>
@@ -12381,7 +12597,7 @@
                 <program value="56"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>6</midiChannel>
+                <midiChannel>4</midiChannel>
                 </Channel>
               <Channel name="mute">
                 <controller ctrl="0" value="0"/>
@@ -12389,12 +12605,12 @@
                 <program value="59"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>7</midiChannel>
+                <midiChannel>5</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
             <linkedMain/>
-            <text>To D Trumpet</text>
+            <text>in D</text>
             </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
@@ -12476,7 +12692,7 @@
                 <program value="56"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>4</midiChannel>
+                <midiChannel>8</midiChannel>
                 </Channel>
               <Channel name="mute">
                 <controller ctrl="0" value="0"/>
@@ -12484,14 +12700,14 @@
                 <program value="59"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiChannel>10</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
             <linked>
               <indexDiff>-3</indexDiff>
               </linked>
-            <text>To D Trumpet</text>
+            <text>in D</text>
             </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
@@ -13429,6 +13645,79 @@
             <linkedMain/>
             <text>Allegretto ma non troppo.</text>
             </Tempo>
+          <InstrumentChange>
+            <Instrument id="d-trumpet">
+              <longName>D Trumpet 1</longName>
+              <shortName>D Tpt.1</shortName>
+              <trackName>D Trumpet</trackName>
+              <minPitchP>56</minPitchP>
+              <maxPitchP>86</maxPitchP>
+              <minPitchA>56</minPitchA>
+              <maxPitchA>83</maxPitchA>
+              <transposeDiatonic>1</transposeDiatonic>
+              <transposeChromatic>2</transposeChromatic>
+              <instrumentId>brass.trumpet.d</instrumentId>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel name="open">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="56"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>11</midiChannel>
+                </Channel>
+              <Channel name="mute">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="59"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>12</midiChannel>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <linkedMain/>
+            <text>in D</text>
+            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -13440,7 +13729,7 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
@@ -13448,10 +13737,83 @@
           <Tempo>
             <tempo>1.8666700000000001</tempo>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Allegretto ma non troppo.</text>
             </Tempo>
+          <InstrumentChange>
+            <Instrument id="d-trumpet">
+              <trackName>D Trumpet</trackName>
+              <minPitchP>56</minPitchP>
+              <maxPitchP>86</maxPitchP>
+              <minPitchA>56</minPitchA>
+              <maxPitchA>83</maxPitchA>
+              <transposeDiatonic>1</transposeDiatonic>
+              <transposeChromatic>2</transposeChromatic>
+              <instrumentId>brass.trumpet.d</instrumentId>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel name="open">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="56"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>11</midiChannel>
+                </Channel>
+              <Channel name="mute">
+                <controller ctrl="0" value="0"/>
+                <controller ctrl="32" value="17"/>
+                <program value="59"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>12</midiChannel>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <text>in D</text>
+            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/4</duration>
@@ -15302,6 +15664,8 @@
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-trumpet">
+              <longName>C Trumpet 1</longName>
+              <shortName>C Tpt.1</shortName>
               <trackName>C Trumpet</trackName>
               <minPitchP>54</minPitchP>
               <maxPitchP>85</maxPitchP>
@@ -15366,7 +15730,7 @@
                 </Channel>
               </Instrument>
             <init>1</init>
-            <text>To C Trumpet</text>
+            <text>in C</text>
             </InstrumentChange>
           <Rest>
             <dots>1</dots>
