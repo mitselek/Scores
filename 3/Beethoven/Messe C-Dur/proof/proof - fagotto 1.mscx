@@ -9041,8 +9041,11 @@
                 </prev>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
-              <tpc>9</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Rest>

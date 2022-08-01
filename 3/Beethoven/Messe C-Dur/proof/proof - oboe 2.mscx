@@ -6518,8 +6518,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>73</pitch>
-              <tpc>9</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Rest>
