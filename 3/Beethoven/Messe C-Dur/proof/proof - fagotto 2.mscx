@@ -14813,8 +14813,11 @@
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           </voice>
