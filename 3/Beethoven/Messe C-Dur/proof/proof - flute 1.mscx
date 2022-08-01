@@ -60,6 +60,7 @@
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
       <measureNumberInterval>1</measureNumberInterval>
+      <createMultiMeasureRests>1</createMultiMeasureRests>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
       <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
       <slurMidWidth>0.21</slurMidWidth>
@@ -347,6 +348,34 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="80/4">
+        <multiMeasureRest>40</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="272"/>
+              <Node pos="12" action="512"/>
+              </Groups>
+            </TimeSig>
+          <Tempo>
+            <tempo>1.5</tempo>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>Andante con moto. assai vivace quasi Allegretto ma non troppo.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>80/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -714,6 +743,21 @@
             </Rest>
           </voice>
         </Measure>
+      <Measure len="58/4">
+        <multiMeasureRest>29</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>A</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>58/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
@@ -976,6 +1020,21 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="72/4">
+        <multiMeasureRest>36</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>72/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1307,6 +1366,28 @@
             </Rest>
           </voice>
         </Measure>
+      <Measure len="54/4">
+        <multiMeasureRest>27</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>C</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>54/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <stretch>0.9</stretch>
         <voice>
@@ -1544,7 +1625,9 @@
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linkedMain/>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -1625,7 +1708,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -1698,7 +1783,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -1708,6 +1795,18 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/2">
+        <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1870,7 +1969,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -1880,6 +1981,15 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="24/2">
+        <multiMeasureRest>12</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>24/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -2178,6 +2288,15 @@
             </Rest>
           </voice>
         </Measure>
+      <Measure len="8/2">
+        <multiMeasureRest>4</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>8/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -2368,6 +2487,15 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/2">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -2773,7 +2901,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -2799,7 +2929,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -2912,6 +3044,15 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="20/2">
+        <multiMeasureRest>10</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>20/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -3131,6 +3272,15 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="70/2">
+        <multiMeasureRest>35</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>70/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -3415,6 +3565,21 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>C</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -3705,7 +3870,9 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -3715,6 +3882,15 @@
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="18/2">
+        <multiMeasureRest>9</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>18/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -3802,6 +3978,30 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="111/4">
+        <multiMeasureRest>37</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>1.26667</tempo>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>Andante 
+mosso.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>111/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -4105,6 +4305,24 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="9/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>D</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>9/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -4171,6 +4389,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="15/4">
+        <multiMeasureRest>5</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>15/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -4302,7 +4529,10 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -4311,6 +4541,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="54/4">
+        <multiMeasureRest>18</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>54/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -4579,7 +4818,10 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -4641,7 +4883,10 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -5331,7 +5576,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -5341,6 +5588,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="60/4">
+        <multiMeasureRest>15</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5564,7 +5820,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -5574,6 +5832,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="20/4">
+        <multiMeasureRest>5</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>20/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5659,7 +5926,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6047,7 +6316,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6057,6 +6328,18 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="24/4">
+        <multiMeasureRest>6</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>24/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -6106,8 +6389,10 @@ mosso.</text>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -6568,7 +6853,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6578,6 +6865,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -6645,7 +6941,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -6654,7 +6950,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -6830,7 +7126,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -6838,8 +7136,10 @@ mosso.</text>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -7036,7 +7336,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -7046,6 +7348,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="24/4">
+        <multiMeasureRest>6</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>24/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -7140,7 +7451,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -7150,6 +7463,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="36/4">
+        <multiMeasureRest>9</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>36/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -7243,7 +7565,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -7253,6 +7577,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -7316,7 +7649,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -7326,6 +7661,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="32/4">
+        <multiMeasureRest>8</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>32/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -7397,142 +7741,18 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>I</text>
+            </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>91</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>88</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -7566,7 +7786,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -7579,6 +7801,23 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="56/4">
+        <multiMeasureRest>14</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>56/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -7598,8 +7837,152 @@ mosso.</text>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -7758,7 +8141,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -7789,11 +8174,26 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="24/4">
+        <multiMeasureRest>8</multiMeasureRest>
         <voice>
+          <TimeSig>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>2.3333300000000001</tempo>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>Allegro con brio.</text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>21/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -7839,9 +8239,14 @@ mosso.</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text><i>cresc.</i></text>
-            </StaffText>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -8118,6 +8523,15 @@ mosso.</text>
             <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
                 <prev>
                   <location>
                     <measures>-1</measures>
@@ -8136,6 +8550,13 @@ mosso.</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>86</pitch>
               <tpc>16</tpc>
               </Note>
@@ -8279,6 +8700,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="15/4">
+        <multiMeasureRest>5</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>15/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -8320,6 +8750,21 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>A</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8407,6 +8852,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>4</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -8484,7 +8938,10 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -8493,6 +8950,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8593,6 +9059,15 @@ mosso.</text>
         <voice>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -8600,6 +9075,13 @@ mosso.</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -8630,6 +9112,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="21/4">
+        <multiMeasureRest>7</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>21/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -8717,6 +9208,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8737,6 +9237,21 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="9/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>9/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8824,6 +9339,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>4</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -8901,7 +9425,10 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -8936,7 +9463,10 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -8971,7 +9501,10 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -9123,6 +9656,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>88</pitch>
@@ -9363,7 +9897,10 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -9377,7 +9914,27 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="27/4">
+        <multiMeasureRest>9</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>27/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -9448,15 +10005,10 @@ mosso.</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           <Dynamic>
             <subtype>ff</subtype>
@@ -9571,7 +10123,10 @@ mosso.</text>
             </Chord>
           <Rest>
             <offset x="2.17536e-13" y="-0.148514"/>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -9585,7 +10140,10 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -9599,7 +10157,27 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="24/4">
+        <multiMeasureRest>8</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>24/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -9662,15 +10240,10 @@ mosso.</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           <Dynamic>
             <subtype>ff</subtype>
@@ -9784,6 +10357,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="24/4">
+        <multiMeasureRest>8</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>24/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -9872,6 +10454,44 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="32/4">
+        <multiMeasureRest>16</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            <Groups>
+              <Node pos="2" action="16"/>
+              <Node pos="4" action="529"/>
+              <Node pos="6" action="16"/>
+              <Node pos="8" action="273"/>
+              <Node pos="10" action="16"/>
+              <Node pos="12" action="529"/>
+              <Node pos="14" action="16"/>
+              </Groups>
+            </TimeSig>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <text>D</text>
+            </RehearsalMark>
+          <Tempo>
+            <tempo>1.1499999999999999</tempo>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <text>Adagio.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>32/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -10356,6 +10976,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="24/4">
+        <multiMeasureRest>12</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>24/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -10449,6 +11078,10 @@ mosso.</text>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -10470,6 +11103,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>72</pitch>
@@ -10477,6 +11111,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>75</pitch>
@@ -10484,6 +11119,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -10494,6 +11130,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -10504,6 +11141,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>84</pitch>
@@ -10511,6 +11149,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>87</pitch>
@@ -10525,6 +11164,7 @@ mosso.</text>
           </LayoutBreak>
         <voice>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -10535,6 +11175,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>87</pitch>
@@ -10542,6 +11183,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>84</pitch>
@@ -10549,6 +11191,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -10559,6 +11202,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -10569,6 +11213,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>75</pitch>
@@ -10576,6 +11221,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>72</pitch>
@@ -10583,6 +11229,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -10633,6 +11280,19 @@ mosso.</text>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure len="28/4">
+        <multiMeasureRest>14</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>28/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -10739,7 +11399,9 @@ mosso.</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -10751,6 +11413,7 @@ mosso.</text>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
+            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -10767,6 +11430,37 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="44/4">
+        <multiMeasureRest>11</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <subtype>1</subtype>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <text>F</text>
+            </RehearsalMark>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <text>Allegro ma non troppo.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>44/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -11271,6 +11965,21 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>G</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -11753,6 +12462,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="64/4">
+        <multiMeasureRest>16</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>64/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -12211,6 +12929,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="36/4">
+        <multiMeasureRest>9</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>36/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -12454,6 +13181,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -12509,11 +13245,12 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="34/2">
+        <multiMeasureRest>17</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <duration>34/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -12640,8 +13377,18 @@ mosso.</text>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Dynamic>
             <subtype>ff</subtype>
@@ -12828,6 +13575,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -13029,6 +13785,21 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="8/2">
+        <multiMeasureRest>4</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>K</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>8/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -13396,6 +14167,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="6/2">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -13482,6 +14262,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/2">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -13668,6 +14457,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="18/2">
+        <multiMeasureRest>9</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>18/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -13801,9 +14599,6 @@ mosso.</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <Note>
               <pitch>83</pitch>
               <tpc>19</tpc>
@@ -13833,6 +14628,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -14061,6 +14865,34 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="68/4">
+        <multiMeasureRest>17</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <subtype>1</subtype>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>1.1499999999999999</tempo>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>Adagio.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>68/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -14189,7 +15021,9 @@ mosso.</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -14417,6 +15251,10 @@ mosso.</text>
               </Instrument>
             <text>Solo.</text>
             </InstrumentChange>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -14588,6 +15426,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>88</pitch>
@@ -14801,6 +15640,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="32/4">
+        <multiMeasureRest>8</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>32/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -14865,6 +15713,10 @@ mosso.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -14901,6 +15753,10 @@ mosso.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -15096,6 +15952,29 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="32/4">
+        <multiMeasureRest>16</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>1.8666700000000001</tempo>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>Allegretto ma non troppo.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>32/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15317,6 +16196,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="4/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -15334,6 +16222,24 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="28/4">
+        <multiMeasureRest>14</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>28/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15470,6 +16376,11 @@ mosso.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>other-dynamics</subtype>
+            <velocity>96</velocity>
+            <text><i>più </i><font face="ScoreText"></font></text>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -15477,10 +16388,6 @@ mosso.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -15628,6 +16535,10 @@ mosso.</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -16111,6 +17022,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="26/4">
+        <multiMeasureRest>13</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>26/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -16583,6 +17503,15 @@ mosso.</text>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -16604,6 +17533,13 @@ mosso.</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -16635,6 +17571,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>16th</durationType>
             <Note>
@@ -16706,6 +17643,18 @@ mosso.</text>
         <voice>
           <Rest>
             <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>6</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -16752,6 +17701,10 @@ mosso.</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -16899,6 +17852,15 @@ mosso.</text>
         <voice>
           <Rest>
             <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17413,6 +18375,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="22/4">
+        <multiMeasureRest>11</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>22/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -17859,6 +18830,16 @@ mosso.</text>
             <HairPin>
               <subtype>3</subtype>
               <endText></endText>
+              <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="-1" y="4"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17971,7 +18952,8 @@ mosso.</text>
             <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
             <family>MScore Text</family>
-            <text><i></i><font face="ScoreText"></font></text>
+            <align>right,baseline</align>
+            <text><i>sempre più </i><font face="ScoreText"/></text>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -18010,6 +18992,19 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="4/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -18018,7 +19013,9 @@ mosso.</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -18030,6 +19027,7 @@ mosso.</text>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
+            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -18042,6 +19040,31 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="36/4">
+        <multiMeasureRest>9</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <subtype>1</subtype>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>Allegro.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>36/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18355,6 +19378,29 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="276/8">
+        <multiMeasureRest>23</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>1.31667</tempo>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>Poco Andante.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>276/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -18543,11 +19589,18 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="60/8">
+        <multiMeasureRest>5</multiMeasureRest>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>A</text>
+            </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>60/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18578,8 +19631,18 @@ mosso.</text>
       <Measure>
         <voice>
           <Rest>
-            <dots>1</dots>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
             <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <dots>1</dots>
@@ -18697,12 +19760,16 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -18713,6 +19780,19 @@ mosso.</text>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure len="84/8">
+        <multiMeasureRest>7</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>84/8</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -18763,7 +19843,9 @@ mosso.</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -18775,6 +19857,7 @@ mosso.</text>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
+            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -18786,6 +19869,30 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="28/4">
+        <multiMeasureRest>7</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <subtype>1</subtype>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>1.5</tempo>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>Allegro ma non troppo.</text>
+            </Tempo>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>28/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18920,6 +20027,21 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="16/4">
+        <multiMeasureRest>4</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>16/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -19136,6 +20258,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -19167,6 +20298,9 @@ mosso.</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>89</pitch>
               <tpc>13</tpc>
@@ -19190,6 +20324,43 @@ mosso.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>4</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -19234,28 +20405,17 @@ mosso.</text>
         </Measure>
       <Measure>
         <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-4</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -19301,6 +20461,10 @@ mosso.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -19311,6 +20475,10 @@ mosso.</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -19318,6 +20486,10 @@ mosso.</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -19354,6 +20526,10 @@ mosso.</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -19458,11 +20634,12 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="76/4">
+        <multiMeasureRest>19</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>76/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -19604,6 +20781,18 @@ mosso.</text>
         </Measure>
       <Measure>
         <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -19685,11 +20874,18 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="16/4">
+        <multiMeasureRest>4</multiMeasureRest>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <text>D</text>
+            </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>16/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -19711,6 +20907,18 @@ mosso.</text>
         </Measure>
       <Measure>
         <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -20108,6 +21316,17 @@ mosso.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -20209,6 +21428,18 @@ mosso.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -20229,6 +21460,15 @@ mosso.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="60/4">
+        <multiMeasureRest>15</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -20363,6 +21603,10 @@ mosso.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -20817,6 +22061,15 @@ mosso.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="92/4">
+        <multiMeasureRest>23</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>92/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -21131,6 +22384,15 @@ tempo del Kyrie.</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>6</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -21247,6 +22509,15 @@ tempo del Kyrie.</text>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>

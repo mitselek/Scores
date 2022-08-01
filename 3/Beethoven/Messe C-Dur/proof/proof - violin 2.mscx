@@ -25274,7 +25274,7 @@
           <Tuplet>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
+            <baseNote>eighth</baseNote>
             <Number>
               <style>Tuplet</style>
               <text>6</text>
@@ -25294,17 +25294,10 @@
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25316,17 +25309,10 @@
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25338,17 +25324,10 @@
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25360,6 +25339,9 @@
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -25372,7 +25354,7 @@
           <Tuplet>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
+            <baseNote>eighth</baseNote>
             <Number>
               <style>Tuplet</style>
               <text>6</text>
@@ -25392,17 +25374,10 @@
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25414,17 +25389,10 @@
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25436,17 +25404,10 @@
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25458,6 +25419,9 @@
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -25467,7 +25431,7 @@
           <Tuplet>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
+            <baseNote>eighth</baseNote>
             <Number>
               <style>Tuplet</style>
               <text>6</text>
@@ -25490,17 +25454,10 @@
               <pitch>66</pitch>
               <tpc>8</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25512,17 +25469,10 @@
               <pitch>66</pitch>
               <tpc>8</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25534,17 +25484,10 @@
               <pitch>66</pitch>
               <tpc>8</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25556,6 +25499,9 @@
               <pitch>66</pitch>
               <tpc>8</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -25568,7 +25514,7 @@
           <Tuplet>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
+            <baseNote>eighth</baseNote>
             <Number>
               <style>Tuplet</style>
               <text>6</text>
@@ -25591,17 +25537,10 @@
               <pitch>66</pitch>
               <tpc>8</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25613,17 +25552,10 @@
               <pitch>66</pitch>
               <tpc>8</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25635,17 +25567,10 @@
               <pitch>66</pitch>
               <tpc>8</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25657,6 +25582,9 @@
               <pitch>66</pitch>
               <tpc>8</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           </voice>
@@ -25666,7 +25594,7 @@
           <Tuplet>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
+            <baseNote>16th</baseNote>
             <Number>
               <style>Tuplet</style>
               <text>6</text>
@@ -25683,17 +25611,10 @@
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -25705,6 +25626,9 @@
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <endTuplet/>
           <Chord>
