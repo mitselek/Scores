@@ -355,6 +355,11 @@
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="272"/>
+              <Node pos="12" action="512"/>
+              </Groups>
             </TimeSig>
           <Tempo>
             <tempo>1.5</tempo>
@@ -1079,6 +1084,7 @@
               </next>
             </Spanner>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>83</pitch>
@@ -1245,6 +1251,15 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>83</pitch>
               <tpc>19</tpc>
@@ -1252,6 +1267,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
@@ -1354,6 +1376,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>74</pitch>
@@ -3496,6 +3519,7 @@
       <Measure>
         <voice>
           <TimeSig>
+            <subtype>2</subtype>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -4763,6 +4787,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -4774,10 +4802,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -6326,6 +6350,15 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               </Articulation>
@@ -6339,6 +6372,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -6383,6 +6423,15 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               </Articulation>
@@ -6396,6 +6445,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
