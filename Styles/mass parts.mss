@@ -17,7 +17,7 @@
     <akkoladeDistance>6.5</akkoladeDistance>
     <minSystemDistance>8.5</minSystemDistance>
     <maxSystemDistance>31.5</maxSystemDistance>
-    <enableVerticalSpread>0</enableVerticalSpread>
+    <enableVerticalSpread>1</enableVerticalSpread>
     <spreadSystem>2.5</spreadSystem>
     <spreadSquareBracket>1.2</spreadSquareBracket>
     <spreadCurlyBracket>1.1</spreadCurlyBracket>
@@ -329,7 +329,7 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <createMultiMeasureRests>1</createMultiMeasureRests>
-    <minEmptyMeasures>2</minEmptyMeasures>
+    <minEmptyMeasures>1</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <mmRestNumberPos>-1.5</mmRestNumberPos>
     <hideEmptyStaves>0</hideEmptyStaves>
@@ -485,7 +485,7 @@
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
     <dynamicsPlacement>1</dynamicsPlacement>
     <dynamicsPosAbove x="0" y="-1.5"/>
-    <dynamicsPosBelow x="0" y="4"/>
+    <dynamicsPosBelow x="0" y="2.5"/>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
     <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
     <textLinePlacement>0</textLinePlacement>
@@ -746,18 +746,18 @@
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
     <measureNumberFontFace>Edwin</measureNumberFontFace>
-    <measureNumberFontSize>12</measureNumberFontSize>
+    <measureNumberFontSize>10</measureNumberFontSize>
     <measureNumberLineSpacing>1</measureNumberLineSpacing>
     <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
-    <measureNumberFontStyle>2</measureNumberFontStyle>
-    <measureNumberColor r="0" g="85" b="255" a="255"/>
-    <measureNumberOffset x="0" y="-2"/>
+    <measureNumberFontStyle>0</measureNumberFontStyle>
+    <measureNumberColor r="0" g="0" b="0" a="255"/>
+    <measureNumberOffset x="0" y="-0.5"/>
     <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
     <measureNumberHPlacement>0</measureNumberHPlacement>
-    <measureNumberAlign>center,baseline</measureNumberAlign>
-    <measureNumberFrameType>2</measureNumberFrameType>
+    <measureNumberAlign>right,baseline</measureNumberAlign>
+    <measureNumberFrameType>0</measureNumberFrameType>
     <measureNumberFramePadding>0.7</measureNumberFramePadding>
     <measureNumberFrameWidth>0.3</measureNumberFrameWidth>
     <measureNumberFrameRound>0</measureNumberFrameRound>
@@ -973,7 +973,7 @@
     <instrumentChangeFontStyle>1</instrumentChangeFontStyle>
     <instrumentChangeColor r="252" g="233" b="79" a="255"/>
     <instrumentChangeAlign>left,bottom</instrumentChangeAlign>
-    <instrumentChangeOffset x="0" y="0"/>
+    <instrumentChangeOffset x="-18.5" y="0"/>
     <instrumentChangePlacement>0</instrumentChangePlacement>
     <instrumentChangePosAbove x="0" y="-2"/>
     <instrumentChangePosBelow x="0" y="3.5"/>

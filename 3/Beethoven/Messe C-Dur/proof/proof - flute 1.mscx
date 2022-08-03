@@ -11902,7 +11902,9 @@ mosso.</text>
               </Note>
             </Chord>
           <Rest>
-            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -17809,6 +17811,7 @@ mosso.</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>77</pitch>
@@ -18953,7 +18956,7 @@ mosso.</text>
             <velocity>49</velocity>
             <family>MScore Text</family>
             <align>right,baseline</align>
-            <text><i>sempre più </i><font face="ScoreText"/></text>
+            <text><i>sempre più </i><font face="ScoreText"></font></text>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -19946,6 +19949,10 @@ mosso.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -20071,6 +20078,10 @@ mosso.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
