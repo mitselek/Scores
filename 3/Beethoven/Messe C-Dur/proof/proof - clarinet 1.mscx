@@ -409,7 +409,7 @@
               </Instrument>
             <linkedMain/>
             <visible>0</visible>
-            <text>in C.</text>
+            <text>in C</text>
             </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
@@ -502,7 +502,7 @@
               <indexDiff>-3</indexDiff>
               </linked>
             <visible>0</visible>
-            <text>in C.</text>
+            <text>in C</text>
             </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
@@ -5880,6 +5880,7 @@
             <linked>
               <indexDiff>-3</indexDiff>
               </linked>
+            <offset x="0" y="0"/>
             <text>in B</text>
             </InstrumentChange>
           <Rest>
