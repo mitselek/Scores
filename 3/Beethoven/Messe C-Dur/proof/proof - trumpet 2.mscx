@@ -20,6 +20,7 @@
       <staffUpperBorder>6.5</staffUpperBorder>
       <staffLowerBorder>12.5</staffLowerBorder>
       <maxSystemDistance>31.5</maxSystemDistance>
+      <enableVerticalSpread>1</enableVerticalSpread>
       <lyricsMinBottomDistance>1</lyricsMinBottomDistance>
       <lyricsMinDistance>0.25</lyricsMinDistance>
       <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
@@ -85,6 +86,7 @@
       <tupletFramePadding>0</tupletFramePadding>
       <tupletFrameWidth>0</tupletFrameWidth>
       <dynamicsPosAbove x="0" y="-1.5"/>
+      <dynamicsPosBelow x="0" y="2.5"/>
       <textLinePosAbove x="0" y="-3.5"/>
       <textLinePosBelow x="0" y="3.5"/>
       <textLineFramePadding>0</textLineFramePadding>
@@ -159,12 +161,11 @@
       <metronomeFramePadding>0</metronomeFramePadding>
       <metronomeFrameWidth>0</metronomeFrameWidth>
       <measureNumberFontFace>Edwin</measureNumberFontFace>
-      <measureNumberFontSize>12</measureNumberFontSize>
+      <measureNumberFontSize>10</measureNumberFontSize>
       <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
-      <measureNumberFontStyle>2</measureNumberFontStyle>
-      <measureNumberColor r="0" g="85" b="255" a="255"/>
+      <measureNumberOffset x="0" y="-0.5"/>
       <measureNumberPosBelow x="0" y="1"/>
-      <measureNumberFrameType>2</measureNumberFrameType>
+      <measureNumberAlign>right,baseline</measureNumberAlign>
       <measureNumberFramePadding>0.7</measureNumberFramePadding>
       <measureNumberFrameWidth>0.3</measureNumberFrameWidth>
       <measureNumberFrameFgColor r="0" g="85" b="255" a="255"/>
@@ -217,6 +218,7 @@
       <footerFrameWidth>0</footerFrameWidth>
       <instrumentChangeColor r="252" g="233" b="79" a="255"/>
       <instrumentChangeAlign>left,bottom</instrumentChangeAlign>
+      <instrumentChangeOffset x="-18.5" y="0"/>
       <instrumentChangeFrameType>1</instrumentChangeFrameType>
       <instrumentChangeFramePadding>0.6</instrumentChangeFramePadding>
       <instrumentChangeFrameWidth>0.2</instrumentChangeFrameWidth>
@@ -241,15 +243,14 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer">Ludwig van Beethoven</metaTag>
     <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate">2022-05-18</metaTag>
+    <metaTag name="creationDate">2022-07-26</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
-    <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
-    <metaTag name="translator">Klavier by Carl Reinecke</metaTag>
+    <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
     <Part>
@@ -260,6 +261,8 @@
         </Staff>
       <trackName>Trumpet 2</trackName>
       <Instrument id="c-trumpet">
+        <longName>Trumpet 2</longName>
+        <shortName>Tpt.2</shortName>
         <trackName>C Trumpet</trackName>
         <minPitchP>54</minPitchP>
         <maxPitchP>85</maxPitchP>
@@ -311,16 +314,16 @@
           <controller ctrl="32" value="17"/>
           <program value="56"/>
           <synti>Fluid</synti>
-          <midiPort>0</midiPort>
-          <midiChannel>2</midiChannel>
+          <midiPort>2</midiPort>
+          <midiChannel>8</midiChannel>
           </Channel>
         <Channel name="mute">
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="59"/>
           <synti>Fluid</synti>
-          <midiPort>0</midiPort>
-          <midiChannel>3</midiChannel>
+          <midiPort>2</midiPort>
+          <midiChannel>10</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -348,7 +351,7 @@
           <Tempo>
             <tempo>1.5</tempo>
             <linkedMain/>
-            <text>Andante con moto assai vivace quasi Allegretto ma non troppo.</text>
+            <text>Andante con moto. assai vivace quasi Allegretto ma non troppo.</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -373,7 +376,7 @@
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
-            <text>Andante con moto assai vivace quasi Allegretto ma non troppo.</text>
+            <text>Andante con moto. assai vivace quasi Allegretto ma non troppo.</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -1036,7 +1039,7 @@
             </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
-            <duration>16/4</duration>
+            <duration>72/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1368,11 +1371,8 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="54/4">
-        <multiMeasureRest>27</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>section</subtype>
-          </LayoutBreak>
+      <Measure len="52/4">
+        <multiMeasureRest>26</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -1384,10 +1384,6 @@
             <durationType>measure</durationType>
             <duration>54/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -1621,15 +1617,15 @@
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -1643,13 +1639,16 @@
         </VBox>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <subtype>2</subtype>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>2.3333300000000001</tempo>
+            <tempo>2.5</tempo>
             <text>Allegro con brio.</text>
             </Tempo>
           <Dynamic>
@@ -1658,8 +1657,8 @@
             </Dynamic>
           <InstrumentChange>
             <Instrument id="c-trumpet">
-              <longName>C Trumpet 1</longName>
-              <shortName>C Tpt.1</shortName>
+              <longName>C Trumpet 2</longName>
+              <shortName>C Tpt.2</shortName>
               <trackName>C Trumpet</trackName>
               <minPitchP>54</minPitchP>
               <maxPitchP>85</maxPitchP>
@@ -1707,7 +1706,6 @@
                 <gateTime>100</gateTime>
                 </Articulation>
               <Channel name="open">
-                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
@@ -1715,7 +1713,6 @@
                 <midiChannel>0</midiChannel>
                 </Channel>
               <Channel name="mute">
-                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
@@ -1724,6 +1721,7 @@
                 </Channel>
               </Instrument>
             <init>1</init>
+            <visible>0</visible>
             <text>in C</text>
             </InstrumentChange>
           <Chord>
@@ -3391,6 +3389,10 @@
             <durationType>measure</durationType>
             <duration>36/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -3527,10 +3529,20 @@
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <linkedMain/>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -3562,7 +3574,7 @@
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
-            <duration>42/4</duration>
+            <duration>111/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -3952,7 +3964,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>99/4</duration>
+            <duration>15/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -4651,7 +4663,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -6259,6 +6271,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -6659,6 +6675,10 @@
         </VBox>
       <Measure>
         <voice>
+          <KeySig>
+            <linkedMain/>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -6670,8 +6690,8 @@
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-trumpet">
-              <longName>C Trumpet 1</longName>
-              <shortName>C Tpt.1</shortName>
+              <longName>C Trumpet 2</longName>
+              <shortName>C Tpt.2</shortName>
               <trackName>C Trumpet</trackName>
               <minPitchP>54</minPitchP>
               <maxPitchP>85</maxPitchP>
@@ -6719,24 +6739,23 @@
                 <gateTime>100</gateTime>
                 </Articulation>
               <Channel name="open">
-                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>4</midiChannel>
+                <midiChannel>2</midiChannel>
                 </Channel>
               <Channel name="mute">
-                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiChannel>3</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
             <linkedMain/>
+            <visible>0</visible>
             <text>in C</text>
             </InstrumentChange>
           <Rest>
@@ -6761,8 +6780,8 @@
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-trumpet">
-              <longName>C Trumpet 1</longName>
-              <shortName>C Tpt.1</shortName>
+              <longName>C Trumpet</longName>
+              <shortName>C Tpt.</shortName>
               <trackName>C Trumpet</trackName>
               <minPitchP>54</minPitchP>
               <maxPitchP>85</maxPitchP>
@@ -6810,26 +6829,25 @@
                 <gateTime>100</gateTime>
                 </Articulation>
               <Channel name="open">
-                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>4</midiChannel>
+                <midiChannel>2</midiChannel>
                 </Channel>
               <Channel name="mute">
-                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
                 <midiPort>0</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiChannel>3</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
             <linked>
               <indexDiff>-2</indexDiff>
               </linked>
+            <visible>0</visible>
             <text>in C</text>
             </InstrumentChange>
           <Rest>
@@ -7313,8 +7331,8 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="9/4">
-        <multiMeasureRest>3</multiMeasureRest>
+      <Measure len="15/4">
+        <multiMeasureRest>5</multiMeasureRest>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -7340,28 +7358,9 @@
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <linkedMain/>
-            <text><i>cresc.</i></text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="6/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <StaffText>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
-            <text><i>cresc.</i></text>
-            </StaffText>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -7416,10 +7415,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -8628,7 +8623,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>24/4</duration>
+            <duration>27/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8796,6 +8791,10 @@
             <durationType>measure</durationType>
             <duration>24/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -8852,10 +8851,20 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <linkedMain/>
+            <accidental>-3</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>2</sigN>
             <sigD>4</sigD>
@@ -8887,6 +8896,13 @@
       <Measure len="32/4">
         <multiMeasureRest>16</multiMeasureRest>
         <voice>
+          <KeySig>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <visible>0</visible>
+            <accidental>-3</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>2</sigN>
             <sigD>4</sigD>
@@ -8902,14 +8918,14 @@
             </TimeSig>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>D</text>
             </RehearsalMark>
           <Tempo>
             <tempo>1.1499999999999999</tempo>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Adagio.</text>
             </Tempo>
@@ -9062,10 +9078,10 @@
             </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>16/4</duration>
             </Rest>
           <location>
-            <fractions>3/1</fractions>
+            <fractions>14/1</fractions>
             </location>
           <BarLine>
             <subtype>double</subtype>
@@ -9389,6 +9405,13 @@
       <Measure len="44/4">
         <multiMeasureRest>11</multiMeasureRest>
         <voice>
+          <KeySig>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <subtype>1</subtype>
             <sigN>4</sigN>
@@ -9396,7 +9419,7 @@
             </TimeSig>
           <RehearsalMark>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>F</text>
             </RehearsalMark>
@@ -9404,7 +9427,7 @@
             <tempo>2</tempo>
             <followText>1</followText>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Allegro ma non troppo.</text>
             </Tempo>
@@ -9714,11 +9737,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            <visible>0</visible>
-            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -10031,11 +10049,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            <visible>0</visible>
-            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -10330,7 +10343,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>64/4</duration>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -10721,7 +10734,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>44/4</duration>
+            <duration>20/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -11042,7 +11055,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>30/2</duration>
+            <duration>14/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -11380,7 +11393,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>26/2</duration>
+            <duration>24/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -11525,7 +11538,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/2</duration>
+            <duration>6/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -11635,6 +11648,10 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -11940,7 +11957,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>8/2</duration>
+            <duration>10/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -12201,19 +12218,10 @@
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text><i>cresc.</i></text>
-            </StaffText>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
+              <subtype>2</subtype>
+              <endText></endText>
               </HairPin>
             <next>
               <location>
@@ -12376,11 +12384,6 @@
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            <visible>0</visible>
-            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -12400,8 +12403,7 @@
           </voice>
         </Measure>
       <VBox>
-        <height>8</height>
-        <bottomGap>0</bottomGap>
+        <height>10</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
@@ -12410,6 +12412,10 @@
         </VBox>
       <Measure>
         <voice>
+          <KeySig>
+            <linkedMain/>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <subtype>1</subtype>
             <sigN>4</sigN>
@@ -12477,16 +12483,16 @@
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>11</midiChannel>
+                <midiPort>5</midiPort>
+                <midiChannel>10</midiChannel>
                 </Channel>
               <Channel name="mute">
                 <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>12</midiChannel>
+                <midiPort>5</midiPort>
+                <midiChannel>11</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -12502,6 +12508,13 @@
       <Measure len="68/4">
         <multiMeasureRest>17</multiMeasureRest>
         <voice>
+          <KeySig>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <subtype>1</subtype>
             <sigN>4</sigN>
@@ -12510,12 +12523,14 @@
           <Tempo>
             <tempo>1.1499999999999999</tempo>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Adagio.</text>
             </Tempo>
           <InstrumentChange>
             <Instrument id="d-trumpet">
+              <longName>D Trumpet 2</longName>
+              <shortName>D Tpt.2</shortName>
               <trackName>D Trumpet</trackName>
               <minPitchP>56</minPitchP>
               <maxPitchP>86</maxPitchP>
@@ -12569,28 +12584,31 @@
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>8</midiChannel>
+                <midiPort>5</midiPort>
+                <midiChannel>10</midiChannel>
                 </Channel>
               <Channel name="mute">
                 <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>10</midiChannel>
+                <midiPort>5</midiPort>
+                <midiChannel>11</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>in D</text>
             </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
-            <duration>68/4</duration>
+            <duration>64/4</duration>
             </Rest>
+          <location>
+            <fractions>1/1</fractions>
+            </location>
           <BarLine>
             <subtype>double</subtype>
             <linkedMain/>
@@ -13231,7 +13249,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>32/4</duration>
+            <duration>12/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -13423,6 +13441,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>ff</subtype>
@@ -13503,15 +13524,6 @@
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>8</height>
-        <bottomGap>0</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
-        <Text>
-          <style>Title</style>
-          <text>Benedictus</text>
-          </Text>
-        </VBox>
       <Measure>
         <voice>
           <TimeSig>
@@ -13523,79 +13535,6 @@
             <linkedMain/>
             <text>Allegretto ma non troppo.</text>
             </Tempo>
-          <InstrumentChange>
-            <Instrument id="d-trumpet">
-              <longName>D Trumpet 2</longName>
-              <shortName>D Tpt.2</shortName>
-              <trackName>D Trumpet</trackName>
-              <minPitchP>56</minPitchP>
-              <maxPitchP>86</maxPitchP>
-              <minPitchA>56</minPitchA>
-              <maxPitchA>83</maxPitchA>
-              <transposeDiatonic>1</transposeDiatonic>
-              <transposeChromatic>2</transposeChromatic>
-              <instrumentId>brass.trumpet.d</instrumentId>
-              <Articulation>
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
-                </Articulation>
-              <Articulation name="staccato">
-                <velocity>100</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="portato">
-                <velocity>100</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="tenuto">
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="marcato">
-                <velocity>120</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="sforzato">
-                <velocity>150</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="sforzatoStaccato">
-                <velocity>150</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoStaccato">
-                <velocity>120</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoTenuto">
-                <velocity>120</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Channel name="open">
-                <controller ctrl="0" value="0"/>
-                <controller ctrl="32" value="17"/>
-                <program value="56"/>
-                <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>11</midiChannel>
-                </Channel>
-              <Channel name="mute">
-                <controller ctrl="0" value="0"/>
-                <controller ctrl="32" value="17"/>
-                <program value="59"/>
-                <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>12</midiChannel>
-                </Channel>
-              </Instrument>
-            <init>1</init>
-            <linkedMain/>
-            <text>in D</text>
-            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -13612,86 +13551,13 @@
           <Tempo>
             <tempo>1.8666700000000001</tempo>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>Allegretto ma non troppo.</text>
             </Tempo>
-          <InstrumentChange>
-            <Instrument id="d-trumpet">
-              <trackName>D Trumpet</trackName>
-              <minPitchP>56</minPitchP>
-              <maxPitchP>86</maxPitchP>
-              <minPitchA>56</minPitchA>
-              <maxPitchA>83</maxPitchA>
-              <transposeDiatonic>1</transposeDiatonic>
-              <transposeChromatic>2</transposeChromatic>
-              <instrumentId>brass.trumpet.d</instrumentId>
-              <Articulation>
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
-                </Articulation>
-              <Articulation name="staccato">
-                <velocity>100</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="portato">
-                <velocity>100</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="tenuto">
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="marcato">
-                <velocity>120</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="sforzato">
-                <velocity>150</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="sforzatoStaccato">
-                <velocity>150</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoStaccato">
-                <velocity>120</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoTenuto">
-                <velocity>120</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Channel name="open">
-                <controller ctrl="0" value="0"/>
-                <controller ctrl="32" value="17"/>
-                <program value="56"/>
-                <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>11</midiChannel>
-                </Channel>
-              <Channel name="mute">
-                <controller ctrl="0" value="0"/>
-                <controller ctrl="32" value="17"/>
-                <program value="59"/>
-                <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>12</midiChannel>
-                </Channel>
-              </Instrument>
-            <init>1</init>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
-            <text>in D</text>
-            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
-            <duration>6/4</duration>
+            <duration>36/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -14107,7 +13973,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>54/4</duration>
+            <duration>52/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -14462,7 +14328,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>40/4</duration>
+            <duration>36/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -14743,7 +14609,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>50/4</duration>
+            <duration>16/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -14876,7 +14742,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>28/4</duration>
+            <duration>26/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -14994,7 +14860,8 @@
             <text>F</text>
             </RehearsalMark>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15016,28 +14883,32 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15161,7 +15032,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15181,7 +15053,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
@@ -15195,7 +15068,6 @@
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -15216,9 +15088,6 @@
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -15226,7 +15095,7 @@
             <tempo>2</tempo>
             <followText>1</followText>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>Allegro.</text>
             </Tempo>
@@ -15516,8 +15385,7 @@
           </voice>
         </Measure>
       <VBox>
-        <height>8</height>
-        <bottomGap>0</bottomGap>
+        <height>10</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
@@ -15526,6 +15394,9 @@
         </VBox>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>12</sigN>
             <sigD>8</sigD>
@@ -15536,8 +15407,8 @@
             </Tempo>
           <InstrumentChange>
             <Instrument id="c-trumpet">
-              <longName>C Trumpet 1</longName>
-              <shortName>C Tpt.1</shortName>
+              <longName>C Trumpet 2</longName>
+              <shortName>C Tpt.2</shortName>
               <trackName>C Trumpet</trackName>
               <minPitchP>54</minPitchP>
               <maxPitchP>85</maxPitchP>
@@ -15589,16 +15460,16 @@
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>6</midiChannel>
+                <midiPort>5</midiPort>
+                <midiChannel>10</midiChannel>
                 </Channel>
               <Channel name="mute">
                 <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>7</midiChannel>
+                <midiPort>5</midiPort>
+                <midiChannel>11</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -15712,6 +15583,17 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -15730,14 +15612,19 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -15873,7 +15760,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>144/8</duration>
+            <duration>84/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15979,30 +15866,50 @@
             <velocity>33</velocity>
             </Dynamic>
           <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
-            <Tremolo>
-              <subtype>r8</subtype>
-              </Tremolo>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
             </Chord>
           <Rest>
             <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
-            <Tremolo>
-              <subtype>r8</subtype>
-              </Tremolo>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
             </Chord>
           </voice>
         </Measure>
@@ -16013,15 +15920,25 @@
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
-            <Tremolo>
-              <subtype>r8</subtype>
-              </Tremolo>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
             </Chord>
           <Rest>
             <dots>1</dots>
@@ -16105,10 +16022,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -16121,10 +16036,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -16141,10 +16054,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -16215,10 +16126,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -16439,7 +16348,7 @@
             </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
-            <duration>68/4</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17304,7 +17213,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>64/4</duration>
+            <duration>24/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17843,7 +17752,7 @@ tempo del Kyrie.</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
-            <duration>14/4</duration>
+            <duration>34/4</duration>
             </Rest>
           </voice>
         </Measure>
