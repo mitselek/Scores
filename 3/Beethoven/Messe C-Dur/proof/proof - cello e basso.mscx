@@ -20,6 +20,7 @@
       <staffUpperBorder>6.5</staffUpperBorder>
       <staffLowerBorder>12.5</staffLowerBorder>
       <maxSystemDistance>31.5</maxSystemDistance>
+      <enableVerticalSpread>1</enableVerticalSpread>
       <lyricsMinBottomDistance>1</lyricsMinBottomDistance>
       <lyricsMinDistance>0.25</lyricsMinDistance>
       <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
@@ -85,6 +86,7 @@
       <tupletFramePadding>0</tupletFramePadding>
       <tupletFrameWidth>0</tupletFrameWidth>
       <dynamicsPosAbove x="0" y="-1.5"/>
+      <dynamicsPosBelow x="0" y="2.5"/>
       <textLinePosAbove x="0" y="-3.5"/>
       <textLinePosBelow x="0" y="3.5"/>
       <textLineFramePadding>0</textLineFramePadding>
@@ -159,12 +161,11 @@
       <metronomeFramePadding>0</metronomeFramePadding>
       <metronomeFrameWidth>0</metronomeFrameWidth>
       <measureNumberFontFace>Edwin</measureNumberFontFace>
-      <measureNumberFontSize>12</measureNumberFontSize>
+      <measureNumberFontSize>10</measureNumberFontSize>
       <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
-      <measureNumberFontStyle>2</measureNumberFontStyle>
-      <measureNumberColor r="0" g="85" b="255" a="255"/>
+      <measureNumberOffset x="0" y="-0.5"/>
       <measureNumberPosBelow x="0" y="1"/>
-      <measureNumberFrameType>2</measureNumberFrameType>
+      <measureNumberAlign>right,baseline</measureNumberAlign>
       <measureNumberFramePadding>0.7</measureNumberFramePadding>
       <measureNumberFrameWidth>0.3</measureNumberFrameWidth>
       <measureNumberFrameFgColor r="0" g="85" b="255" a="255"/>
@@ -217,6 +218,7 @@
       <footerFrameWidth>0</footerFrameWidth>
       <instrumentChangeColor r="252" g="233" b="79" a="255"/>
       <instrumentChangeAlign>left,bottom</instrumentChangeAlign>
+      <instrumentChangeOffset x="-18.5" y="0"/>
       <instrumentChangeFrameType>1</instrumentChangeFrameType>
       <instrumentChangeFramePadding>0.6</instrumentChangeFramePadding>
       <instrumentChangeFrameWidth>0.2</instrumentChangeFrameWidth>
@@ -2881,7 +2883,7 @@
       <Measure>
         <stretch>0.9</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -4609,6 +4611,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -7349,7 +7352,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -7457,6 +7460,10 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -9884,6 +9891,16 @@
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>stringsUpBow</subtype>
               </Articulation>
@@ -9905,6 +9922,14 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>49</pitch>
               <tpc>9</tpc>
@@ -10124,6 +10149,16 @@
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>stringsUpBow</subtype>
               </Articulation>
@@ -10145,6 +10180,14 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>49</pitch>
               <tpc>9</tpc>
@@ -10182,32 +10225,14 @@
             <velocity>96</velocity>
             </Dynamic>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>44</pitch>
               <tpc>10</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
             <durationType>half</durationType>
@@ -10228,32 +10253,14 @@
             <velocity>96</velocity>
             </Dynamic>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
             <durationType>half</durationType>
@@ -10669,6 +10676,15 @@
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -10683,6 +10699,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -10694,6 +10717,15 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -10713,6 +10745,13 @@
             </Spanner>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -10854,6 +10893,16 @@
             </Spanner>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>stringsDownBow</subtype>
               </Articulation>
@@ -10908,6 +10957,14 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -11227,7 +11284,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -11489,6 +11546,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -11569,6 +11630,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -15096,7 +15161,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -16011,6 +16076,15 @@
             </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -16048,6 +16122,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -16059,6 +16140,15 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -16096,6 +16186,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -16593,6 +16690,9 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              </Articulation>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -16663,6 +16763,15 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -16670,6 +16779,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -18867,10 +18983,6 @@
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -18896,10 +19008,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -19589,7 +19697,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -20163,6 +20271,15 @@
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -20178,6 +20295,13 @@
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -20358,6 +20482,16 @@
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -20369,6 +20503,14 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -22054,6 +22196,9 @@
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              </Articulation>
             <Note>
               <pitch>54</pitch>
               <tpc>20</tpc>
@@ -24123,6 +24268,15 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>7/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -24138,6 +24292,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-7/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
@@ -24145,6 +24306,15 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -24155,6 +24325,13 @@
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -24167,7 +24344,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -26461,6 +26638,18 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -26468,6 +26657,16 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -26984,6 +27183,15 @@
             </Clef>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -27008,6 +27216,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -27855,6 +28070,10 @@
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -28423,7 +28642,7 @@
             </Rest>
           <StaffText>
             <channelSwitch voice="0" name="pizzicato"/>
-            <text>pixx.</text>
+            <text>pizz.</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -29900,6 +30119,10 @@
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            </Clef>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -29941,6 +30164,10 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
@@ -30217,18 +30444,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -30236,9 +30451,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <Note>
               <pitch>61</pitch>
               <tpc>21</tpc>
@@ -30295,13 +30507,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-11/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -30866,7 +31071,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -31049,6 +31254,15 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>44</pitch>
               <tpc>22</tpc>
@@ -31060,6 +31274,13 @@
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>56</pitch>
               <tpc>22</tpc>
@@ -32302,7 +32523,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>5/16</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -32344,13 +32565,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-5/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -32358,6 +32572,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -32565,7 +32786,7 @@
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>-1/4</fractions>
+                  <fractions>-3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -32587,6 +32808,14 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -32597,14 +32826,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -32687,6 +32908,15 @@
             </StaffText>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -32729,6 +32959,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -34287,6 +34524,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -34622,7 +34863,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -37006,6 +37247,9 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -37583,10 +37827,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -37607,10 +37849,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -37729,10 +37969,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -37943,10 +38181,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -37972,10 +38208,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -38142,10 +38376,8 @@
               </prev>
             </Spanner>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -38438,10 +38670,8 @@
           </LayoutBreak>
         <voice>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -38515,10 +38745,8 @@
       <Measure>
         <voice>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -38663,10 +38891,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -38681,10 +38907,8 @@
             <durationType>half</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -38712,7 +38936,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -38726,10 +38950,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -38742,10 +38964,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -38806,10 +39026,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -38822,10 +39040,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -39034,10 +39250,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -39115,10 +39329,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -39765,10 +39977,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -42081,6 +42291,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -42088,12 +42301,10 @@
             <next>
               <location>
                 <measures>1</measures>
+                <fractions>-1/8</fractions>
                 </location>
               </next>
             </Spanner>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -42171,6 +42382,7 @@
             <prev>
               <location>
                 <measures>-1</measures>
+                <fractions>1/8</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -42236,7 +42448,7 @@
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>3/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -42247,6 +42459,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -42258,13 +42477,6 @@
         <voice>
           <Chord>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -43011,6 +43223,17 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -43084,6 +43307,14 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -47095,21 +47326,21 @@ tempo del Kyrie.</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
@@ -47130,47 +47361,10 @@ tempo del Kyrie.</text>
               </prev>
             </Spanner>
           <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
+            <durationType>half</durationType>
             <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
               </Note>
             </Chord>
           </voice>
@@ -48317,6 +48511,10 @@ tempo del Kyrie.</text>
             <style>Expression</style>
             <text>pizz.</text>
             </StaffText>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -49935,6 +50133,10 @@ tempo del Kyrie.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -52104,6 +52306,16 @@ tempo del Kyrie.</text>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>stringsUpBow</subtype>
               </Articulation>
@@ -52125,6 +52337,14 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>37</pitch>
               <tpc>9</tpc>
@@ -52341,6 +52561,16 @@ tempo del Kyrie.</text>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>stringsUpBow</subtype>
               </Articulation>
@@ -52362,6 +52592,14 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>37</pitch>
               <tpc>9</tpc>
@@ -52396,32 +52634,14 @@ tempo del Kyrie.</text>
             <velocity>96</velocity>
             </Dynamic>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>32</pitch>
               <tpc>10</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>32</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>32</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>32</pitch>
-              <tpc>10</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
             <durationType>half</durationType>
@@ -52442,32 +52662,14 @@ tempo del Kyrie.</text>
             <velocity>96</velocity>
             </Dynamic>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
             <durationType>half</durationType>
@@ -52877,6 +53079,15 @@ tempo del Kyrie.</text>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>39</pitch>
               <tpc>11</tpc>
@@ -52891,6 +53102,13 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -52902,6 +53120,15 @@ tempo del Kyrie.</text>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>44</pitch>
               <tpc>10</tpc>
@@ -52921,6 +53148,13 @@ tempo del Kyrie.</text>
             </Spanner>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -53062,6 +53296,16 @@ tempo del Kyrie.</text>
             </Spanner>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>stringsDownBow</subtype>
               </Articulation>
@@ -53113,6 +53357,14 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -55553,17 +55805,10 @@ tempo del Kyrie.</text>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>41</pitch>
               <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
@@ -57777,6 +58022,9 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              </Articulation>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -57847,6 +58095,15 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>41</pitch>
               <tpc>13</tpc>
@@ -57854,6 +58111,13 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -59253,7 +59517,7 @@ tempo del Kyrie.</text>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>39</pitch>
+              <pitch>27</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
@@ -59269,7 +59533,7 @@ tempo del Kyrie.</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <pitch>43</pitch>
+              <pitch>31</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -59288,7 +59552,7 @@ tempo del Kyrie.</text>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
@@ -59304,7 +59568,7 @@ tempo del Kyrie.</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
@@ -59320,7 +59584,7 @@ tempo del Kyrie.</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <pitch>41</pitch>
+              <pitch>29</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
@@ -59339,7 +59603,7 @@ tempo del Kyrie.</text>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>44</pitch>
+              <pitch>32</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
@@ -59355,7 +59619,7 @@ tempo del Kyrie.</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
@@ -59371,7 +59635,7 @@ tempo del Kyrie.</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -59978,10 +60242,6 @@ tempo del Kyrie.</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
@@ -60007,10 +60267,6 @@ tempo del Kyrie.</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -61262,6 +61518,15 @@ tempo del Kyrie.</text>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -61277,6 +61542,13 @@ tempo del Kyrie.</text>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -61450,6 +61722,16 @@ tempo del Kyrie.</text>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>34</pitch>
               <tpc>12</tpc>
@@ -61461,6 +61743,14 @@ tempo del Kyrie.</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>34</pitch>
               <tpc>12</tpc>
@@ -62836,6 +63126,10 @@ tempo del Kyrie.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -63116,6 +63410,9 @@ tempo del Kyrie.</text>
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              </Articulation>
             <Note>
               <pitch>42</pitch>
               <tpc>20</tpc>
@@ -64601,6 +64898,15 @@ tempo del Kyrie.</text>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>7/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>36</pitch>
               <tpc>14</tpc>
@@ -64616,6 +64922,13 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-7/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>33</pitch>
               <tpc>17</tpc>
@@ -64623,6 +64936,15 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -64633,6 +64955,13 @@ tempo del Kyrie.</text>
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -66372,6 +66701,18 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -66379,6 +66720,16 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -67453,15 +67804,6 @@ tempo del Kyrie.</text>
             <durationType>whole</durationType>
             <Note>
               <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
                 <prev>
                   <location>
                     <measures>-1</measures>
@@ -67487,13 +67829,6 @@ tempo del Kyrie.</text>
                     <measures>1</measures>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
                 </Spanner>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -67889,7 +68224,7 @@ tempo del Kyrie.</text>
             </Rest>
           <StaffText>
             <channelSwitch voice="0" name="pizzicato"/>
-            <text>pixx.</text>
+            <text>pizz.</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -68858,7 +69193,6 @@ tempo del Kyrie.</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -68886,9 +69220,6 @@ tempo del Kyrie.</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -69360,18 +69691,6 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <Note>
               <pitch>40</pitch>
               <tpc>18</tpc>
@@ -69379,9 +69698,6 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <Note>
               <pitch>49</pitch>
               <tpc>21</tpc>
@@ -69438,13 +69754,6 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-11/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -70028,6 +70337,15 @@ tempo del Kyrie.</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>32</pitch>
               <tpc>22</tpc>
@@ -70039,6 +70357,13 @@ tempo del Kyrie.</text>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>44</pitch>
               <tpc>22</tpc>
@@ -70945,7 +71270,7 @@ tempo del Kyrie.</text>
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>-1/4</fractions>
+                  <fractions>-3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -70967,6 +71292,14 @@ tempo del Kyrie.</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -70977,14 +71310,6 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>35</pitch>
               <tpc>19</tpc>
@@ -71895,7 +72220,7 @@ tempo del Kyrie.</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
@@ -74771,6 +75096,9 @@ tempo del Kyrie.</text>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -75330,10 +75658,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -75354,10 +75680,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -75473,186 +75797,41 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             </Rest>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -75687,10 +75866,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -75716,10 +75893,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -75883,10 +76058,8 @@ tempo del Kyrie.</text>
               </prev>
             </Spanner>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -75974,10 +76147,8 @@ tempo del Kyrie.</text>
             <durationType>half</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
@@ -76106,10 +76277,8 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -76183,10 +76352,8 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -76331,10 +76498,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -76349,10 +76514,8 @@ tempo del Kyrie.</text>
             <durationType>half</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -76391,10 +76554,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -76407,10 +76568,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -76471,10 +76630,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -76487,10 +76644,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -76788,10 +76943,8 @@ tempo del Kyrie.</text>
       <Measure>
         <voice>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -77364,10 +77517,8 @@ tempo del Kyrie.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -79427,7 +79578,7 @@ tempo del Kyrie.</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>3/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -79438,6 +79589,13 @@ tempo del Kyrie.</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>36</pitch>
               <tpc>14</tpc>
@@ -79449,13 +79607,6 @@ tempo del Kyrie.</text>
         <voice>
           <Chord>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>31</pitch>
               <tpc>15</tpc>
@@ -79678,6 +79829,10 @@ tempo del Kyrie.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -79993,6 +80148,10 @@ tempo del Kyrie.</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>whole</durationType>
             <Spanner type="Slur">

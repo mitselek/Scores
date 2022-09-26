@@ -20,6 +20,7 @@
       <staffUpperBorder>6.5</staffUpperBorder>
       <staffLowerBorder>12.5</staffLowerBorder>
       <maxSystemDistance>31.5</maxSystemDistance>
+      <enableVerticalSpread>1</enableVerticalSpread>
       <lyricsMinBottomDistance>1</lyricsMinBottomDistance>
       <lyricsMinDistance>0.25</lyricsMinDistance>
       <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
@@ -85,6 +86,7 @@
       <tupletFramePadding>0</tupletFramePadding>
       <tupletFrameWidth>0</tupletFrameWidth>
       <dynamicsPosAbove x="0" y="-1.5"/>
+      <dynamicsPosBelow x="0" y="2.5"/>
       <textLinePosAbove x="0" y="-3.5"/>
       <textLinePosBelow x="0" y="3.5"/>
       <textLineFramePadding>0</textLineFramePadding>
@@ -159,12 +161,11 @@
       <metronomeFramePadding>0</metronomeFramePadding>
       <metronomeFrameWidth>0</metronomeFrameWidth>
       <measureNumberFontFace>Edwin</measureNumberFontFace>
-      <measureNumberFontSize>12</measureNumberFontSize>
+      <measureNumberFontSize>10</measureNumberFontSize>
       <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
-      <measureNumberFontStyle>2</measureNumberFontStyle>
-      <measureNumberColor r="0" g="85" b="255" a="255"/>
+      <measureNumberOffset x="0" y="-0.5"/>
       <measureNumberPosBelow x="0" y="1"/>
-      <measureNumberFrameType>2</measureNumberFrameType>
+      <measureNumberAlign>right,baseline</measureNumberAlign>
       <measureNumberFramePadding>0.7</measureNumberFramePadding>
       <measureNumberFrameWidth>0.3</measureNumberFrameWidth>
       <measureNumberFrameFgColor r="0" g="85" b="255" a="255"/>
@@ -217,6 +218,7 @@
       <footerFrameWidth>0</footerFrameWidth>
       <instrumentChangeColor r="252" g="233" b="79" a="255"/>
       <instrumentChangeAlign>left,bottom</instrumentChangeAlign>
+      <instrumentChangeOffset x="-18.5" y="0"/>
       <instrumentChangeFrameType>1</instrumentChangeFrameType>
       <instrumentChangeFramePadding>0.6</instrumentChangeFramePadding>
       <instrumentChangeFrameWidth>0.2</instrumentChangeFrameWidth>
@@ -311,6 +313,8 @@
         <Channel>
           <program value="47"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>0</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -1654,6 +1658,65 @@
             <subtype>ff</subtype>
             <velocity>112</velocity>
             </Dynamic>
+          <InstrumentChange>
+            <Instrument id="timpani">
+              <trackName>Timpani</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>62</maxPitchP>
+              <minPitchA>38</minPitchA>
+              <maxPitchA>60</maxPitchA>
+              <instrumentId>drum.timpani</instrumentId>
+              <clef>F</clef>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel>
+                <program value="47"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>3</midiChannel>
+                </Channel>
+              </Instrument>
+            <offset x="-6.5" y="0"/>
+            <text>C.G.</text>
+            </InstrumentChange>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -2192,6 +2255,21 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
+          <Spanner type="Trill">
+            <Trill>
+              <subtype>trill</subtype>
+              <lineWidth>0.146429</lineWidth>
+              </Trill>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -2199,6 +2277,13 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="Trill">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3400,6 +3485,10 @@
             <durationType>measure</durationType>
             <duration>36/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -3536,13 +3625,20 @@
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
             <linkedMain/>
-            <accidental>-4</accidental>
+            <visible>0</visible>
+            <accidental>0</accidental>
             </KeySig>
           <TimeSig>
             <linkedMain/>
@@ -3563,9 +3659,16 @@
       <Measure len="111/4">
         <multiMeasureRest>37</multiMeasureRest>
         <voice>
+          <KeySig>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -3573,7 +3676,7 @@
           <Tempo>
             <tempo>1.26667</tempo>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Andante mosso.</text>
             </Tempo>
@@ -4266,6 +4369,10 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
           </voice>
         </Measure>
       <Measure>
@@ -6871,6 +6978,66 @@
             <linkedMain/>
             <text>Allegro con brio.</text>
             </Tempo>
+          <InstrumentChange>
+            <Instrument id="timpani">
+              <trackName>Timpani</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>62</maxPitchP>
+              <minPitchA>38</minPitchA>
+              <maxPitchA>60</maxPitchA>
+              <instrumentId>drum.timpani</instrumentId>
+              <clef>F</clef>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel>
+                <program value="47"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>4</midiChannel>
+                </Channel>
+              </Instrument>
+            <linkedMain/>
+            <offset x="-6.5" y="0"/>
+            <text>C.G.</text>
+            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -6882,7 +7049,7 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -6890,10 +7057,72 @@
           <Tempo>
             <tempo>2.3333300000000001</tempo>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Allegro con brio.</text>
             </Tempo>
+          <InstrumentChange>
+            <Instrument id="timpani">
+              <trackName>Timpani</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>62</maxPitchP>
+              <minPitchA>38</minPitchA>
+              <maxPitchA>60</maxPitchA>
+              <instrumentId>drum.timpani</instrumentId>
+              <clef>F</clef>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel>
+                <program value="47"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>4</midiChannel>
+                </Channel>
+              </Instrument>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <offset x="-10" y="0"/>
+            <text>C.G.</text>
+            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
             <duration>12/4</duration>
@@ -8909,6 +9138,10 @@
             <durationType>measure</durationType>
             <duration>24/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -8965,13 +9198,20 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <KeySig>
             <linkedMain/>
-            <accidental>-3</accidental>
+            <visible>0</visible>
+            <accidental>0</accidental>
             </KeySig>
           <TimeSig>
             <linkedMain/>
@@ -9005,9 +9245,16 @@
       <Measure len="32/4">
         <multiMeasureRest>16</multiMeasureRest>
         <voice>
+          <KeySig>
+            <linked>
+              <indexDiff>-4</indexDiff>
+              </linked>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-4</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
@@ -9023,14 +9270,15 @@
             </TimeSig>
           <RehearsalMark>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-4</indexDiff>
               </linked>
+            <offset x="-0.5" y="-3"/>
             <text>D</text>
             </RehearsalMark>
           <Tempo>
             <tempo>1.1499999999999999</tempo>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-4</indexDiff>
               </linked>
             <text>Adagio.</text>
             </Tempo>
@@ -9484,6 +9732,7 @@
         <voice>
           <KeySig>
             <linkedMain/>
+            <visible>0</visible>
             <accidental>0</accidental>
             </KeySig>
           <TimeSig>
@@ -9511,25 +9760,33 @@
       <Measure len="44/4">
         <multiMeasureRest>11</multiMeasureRest>
         <voice>
+          <KeySig>
+            <linked>
+              <indexDiff>-4</indexDiff>
+              </linked>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <subtype>1</subtype>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-4</indexDiff>
               </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <RehearsalMark>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-4</indexDiff>
               </linked>
+            <offset x="-0.5" y="-3"/>
             <text>F</text>
             </RehearsalMark>
           <Tempo>
             <tempo>2</tempo>
             <followText>1</followText>
             <linked>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-4</indexDiff>
               </linked>
             <text>Allegro ma non troppo.</text>
             </Tempo>
@@ -10785,6 +11042,7 @@
       <Measure>
         <voice>
           <RehearsalMark>
+            <offset x="-1" y="-3"/>
             <text>H</text>
             </RehearsalMark>
           <Spanner type="Trill">
@@ -11339,6 +11597,9 @@
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -12186,7 +12447,8 @@
       <Measure>
         <voice>
           <Fermata>
-            <subtype>fermataAbove</subtype>
+            <subtype>fermataBelow</subtype>
+            <placement>below</placement>
             </Fermata>
           <Spanner type="Trill">
             <Trill>
@@ -12267,7 +12529,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -12602,7 +12864,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>whole</durationType>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -12847,10 +13110,6 @@
         </VBox>
       <Measure>
         <voice>
-          <KeySig>
-            <linkedMain/>
-            <accidental>3</accidental>
-            </KeySig>
           <TimeSig>
             <subtype>1</subtype>
             <linkedMain/>
@@ -12862,6 +13121,65 @@
             <linkedMain/>
             <text>Adagio.</text>
             </Tempo>
+          <InstrumentChange>
+            <Instrument id="timpani">
+              <trackName>Timpani</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>62</maxPitchP>
+              <minPitchA>38</minPitchA>
+              <maxPitchA>60</maxPitchA>
+              <instrumentId>drum.timpani</instrumentId>
+              <clef>F</clef>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel>
+                <program value="47"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>2</midiChannel>
+                </Channel>
+              </Instrument>
+            <linkedMain/>
+            <text>D.A.</text>
+            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -12874,7 +13192,7 @@
           <TimeSig>
             <subtype>1</subtype>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
@@ -12882,10 +13200,72 @@
           <Tempo>
             <tempo>1.1499999999999999</tempo>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Adagio.</text>
             </Tempo>
+          <InstrumentChange>
+            <Instrument id="timpani">
+              <trackName>Timpani</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>62</maxPitchP>
+              <minPitchA>38</minPitchA>
+              <maxPitchA>60</maxPitchA>
+              <instrumentId>drum.timpani</instrumentId>
+              <clef>F</clef>
+              <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+                </Articulation>
+              <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="tenuto">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="marcato">
+                <velocity>120</velocity>
+                <gateTime>67</gateTime>
+                </Articulation>
+              <Articulation name="sforzato">
+                <velocity>150</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Articulation name="sforzatoStaccato">
+                <velocity>150</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoStaccato">
+                <velocity>120</velocity>
+                <gateTime>50</gateTime>
+                </Articulation>
+              <Articulation name="marcatoTenuto">
+                <velocity>120</velocity>
+                <gateTime>100</gateTime>
+                </Articulation>
+              <Channel>
+                <program value="47"/>
+                <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>1</midiChannel>
+                </Channel>
+              </Instrument>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <offset x="-11" y="0"/>
+            <text>D.A.</text>
+            </InstrumentChange>
           <Rest>
             <durationType>measure</durationType>
             <duration>36/4</duration>
@@ -12958,62 +13338,6 @@
         </Measure>
       <Measure>
         <voice>
-          <InstrumentChange>
-            <Instrument id="timpani">
-              <trackName>Timpani</trackName>
-              <minPitchP>36</minPitchP>
-              <maxPitchP>62</maxPitchP>
-              <minPitchA>38</minPitchA>
-              <maxPitchA>60</maxPitchA>
-              <instrumentId>drum.timpani</instrumentId>
-              <clef>F</clef>
-              <Articulation>
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
-                </Articulation>
-              <Articulation name="staccato">
-                <velocity>100</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="portato">
-                <velocity>100</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="tenuto">
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="marcato">
-                <velocity>120</velocity>
-                <gateTime>67</gateTime>
-                </Articulation>
-              <Articulation name="sforzato">
-                <velocity>150</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Articulation name="sforzatoStaccato">
-                <velocity>150</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoStaccato">
-                <velocity>120</velocity>
-                <gateTime>50</gateTime>
-                </Articulation>
-              <Articulation name="marcatoTenuto">
-                <velocity>120</velocity>
-                <gateTime>100</gateTime>
-                </Articulation>
-              <Channel>
-                <program value="47"/>
-                <synti>Fluid</synti>
-                </Channel>
-              </Instrument>
-            <text>in D.A.</text>
-            </InstrumentChange>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -13575,6 +13899,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -13649,9 +13976,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>ff</subtype>
@@ -13883,6 +14207,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>quarter</durationType>
@@ -14080,19 +14407,11 @@
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>6</height>
-        <boxAutoSize>0</boxAutoSize>
-        <Text>
-          <style>Title</style>
-          <text>Benedictus</text>
-          </Text>
-        </VBox>
       <Measure>
         <voice>
           <KeySig>
             <linkedMain/>
-            <accidental>-1</accidental>
+            <accidental>0</accidental>
             </KeySig>
           <TimeSig>
             <linkedMain/>
@@ -14113,9 +14432,16 @@
       <Measure len="42/4">
         <multiMeasureRest>21</multiMeasureRest>
         <voice>
+          <KeySig>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
@@ -14123,7 +14449,7 @@
           <Tempo>
             <tempo>1.8666700000000001</tempo>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Allegretto ma non troppo.</text>
             </Tempo>
@@ -14425,6 +14751,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <text>C</text>
@@ -14468,6 +14797,10 @@
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -15102,6 +15435,10 @@
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -15540,9 +15877,15 @@
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>-1</accidental>
+            </KeySig>
           <Dynamic>
-            <subtype>p</subtype>
+            <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
+            <align>left,baseline</align>
+            <text><i>sempre più </i><font face="ScoreText"/></text>
             </Dynamic>
           <Spanner type="Trill">
             <Trill>
@@ -15670,7 +16013,7 @@
         <voice>
           <KeySig>
             <linkedMain/>
-            <accidental>3</accidental>
+            <accidental>0</accidental>
             </KeySig>
           <TimeSig>
             <subtype>1</subtype>
@@ -15692,6 +16035,13 @@
       <Measure len="36/4">
         <multiMeasureRest>9</multiMeasureRest>
         <voice>
+          <KeySig>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
           <TimeSig>
             <subtype>1</subtype>
             <sigN>4</sigN>
@@ -15701,7 +16051,7 @@
             <tempo>2</tempo>
             <followText>1</followText>
             <linked>
-              <indexDiff>-1</indexDiff>
+              <indexDiff>-2</indexDiff>
               </linked>
             <text>Allegro.</text>
             </Tempo>
@@ -15987,7 +16337,7 @@
       <Measure>
         <voice>
           <KeySig>
-            <accidental>-3</accidental>
+            <accidental>0</accidental>
             </KeySig>
           <TimeSig>
             <sigN>12</sigN>
@@ -16053,22 +16403,27 @@
               <Channel>
                 <program value="47"/>
                 <synti>Fluid</synti>
+                <midiPort>0</midiPort>
+                <midiChannel>2</midiChannel>
                 </Channel>
               </Instrument>
-            <text>in C.G.</text>
+            <init>1</init>
+            <offset x="-19.5" y="0"/>
+            <text>C.G.</text>
             </InstrumentChange>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
             </Dynamic>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
               <next>
                 <location>
-                  <fractions>5/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -16079,53 +16434,17 @@
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-3/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -16136,6 +16455,9 @@
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -16146,13 +16468,14 @@
             <durationType>half</durationType>
             </Rest>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
               <next>
                 <location>
-                  <fractions>5/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -16163,53 +16486,17 @@
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-3/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -16220,6 +16507,9 @@
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -16314,14 +16604,19 @@
             <dots>1</dots>
             <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
               <next>
                 <location>
-                  <fractions>5/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -16332,53 +16627,17 @@
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-3/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -16389,6 +16648,9 @@
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -16525,93 +16787,57 @@
       <Measure>
         <voice>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
             </Dynamic>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Rest>
             <dots>1</dots>
@@ -16695,10 +16921,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -16711,10 +16935,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -16731,10 +16953,8 @@
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <dots>1</dots>
@@ -16799,10 +17019,15 @@
               </Note>
             </Chord>
           <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <durationType>whole</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -17018,9 +17243,11 @@
         <multiMeasureRest>15</multiMeasureRest>
         <voice>
           <RehearsalMark>
+            <autoplace>0</autoplace>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
+            <offset x="0" y="-0.8"/>
             <text>B</text>
             </RehearsalMark>
           <Rest>
@@ -17806,8 +18033,9 @@
       <Measure>
         <voice>
           <Dynamic>
-            <subtype>p</subtype>
+            <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
+            <text><i>sempre </i><font face="ScoreText"/></text>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -18055,7 +18283,8 @@
             <text>E</text>
             </RehearsalMark>
           <Rest>
-            <durationType>whole</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
