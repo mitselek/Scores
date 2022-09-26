@@ -381,6 +381,7 @@
             <linked>
               <indexDiff>-2</indexDiff>
               </linked>
+            <visible>0</visible>
             <text>Andante con moto. assai vivace quasi Allegretto ma non troppo.</text>
             </Tempo>
           <Rest>
@@ -1725,7 +1726,6 @@
                 </Channel>
               </Instrument>
             <init>1</init>
-            <visible>0</visible>
             <text>in C</text>
             </InstrumentChange>
           <Chord>
@@ -3400,6 +3400,10 @@
             <durationType>measure</durationType>
             <duration>36/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -3536,6 +3540,12 @@
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -11212,10 +11222,6 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -12529,16 +12535,16 @@
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>2</midiChannel>
+                <midiPort>5</midiPort>
+                <midiChannel>7</midiChannel>
                 </Channel>
               <Channel name="mute">
                 <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
-                <midiPort>0</midiPort>
-                <midiChannel>3</midiChannel>
+                <midiPort>5</midiPort>
+                <midiChannel>8</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -15057,7 +15063,7 @@
       <Measure>
         <voice>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -15071,6 +15077,9 @@
               <tpc2>15</tpc2>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>

@@ -376,6 +376,7 @@
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
+            <visible>0</visible>
             <text>Andante con moto. assai vivace quasi Allegretto ma non troppo.</text>
             </Tempo>
           <Rest>
@@ -1706,6 +1707,7 @@
                 <gateTime>100</gateTime>
                 </Articulation>
               <Channel name="open">
+                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
@@ -1713,6 +1715,7 @@
                 <midiChannel>0</midiChannel>
                 </Channel>
               <Channel name="mute">
+                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
@@ -1721,7 +1724,6 @@
                 </Channel>
               </Instrument>
             <init>1</init>
-            <visible>0</visible>
             <text>in C</text>
             </InstrumentChange>
           <Chord>
@@ -6739,6 +6741,7 @@
                 <gateTime>100</gateTime>
                 </Articulation>
               <Channel name="open">
+                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
@@ -6746,6 +6749,7 @@
                 <midiChannel>2</midiChannel>
                 </Channel>
               <Channel name="mute">
+                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
@@ -6829,6 +6833,7 @@
                 <gateTime>100</gateTime>
                 </Articulation>
               <Channel name="open">
+                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="56"/>
                 <synti>Fluid</synti>
@@ -6836,6 +6841,7 @@
                 <midiChannel>2</midiChannel>
                 </Channel>
               <Channel name="mute">
+                <controller ctrl="0" value="0"/>
                 <controller ctrl="32" value="17"/>
                 <program value="59"/>
                 <synti>Fluid</synti>
@@ -15866,50 +15872,30 @@
             <velocity>33</velocity>
             </Dynamic>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Rest>
             <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -15920,25 +15906,15 @@
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <durationType>eighth</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
             </Chord>
           <Rest>
             <dots>1</dots>
