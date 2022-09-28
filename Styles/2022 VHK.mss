@@ -46,7 +46,7 @@
     <lyricsDashLineThickness>0.15</lyricsDashLineThickness>
     <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
     <lyricsOddFontFace>Edwin</lyricsOddFontFace>
-    <lyricsOddFontSize>10</lyricsOddFontSize>
+    <lyricsOddFontSize>12</lyricsOddFontSize>
     <lyricsOddLineSpacing>1</lyricsOddLineSpacing>
     <lyricsOddFontSpatiumDependent>1</lyricsOddFontSpatiumDependent>
     <lyricsOddFontStyle>0</lyricsOddFontStyle>
@@ -59,7 +59,7 @@
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
     <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
-    <lyricsEvenFontSize>10</lyricsEvenFontSize>
+    <lyricsEvenFontSize>12</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
     <lyricsEvenFontStyle>0</lyricsEvenFontStyle>
