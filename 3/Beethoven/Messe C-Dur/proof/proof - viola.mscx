@@ -34896,6 +34896,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>ff</subtype>
@@ -35199,6 +35202,9 @@
         </Measure>
       <Measure len="12/4">
         <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -35215,6 +35221,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -35550,6 +35559,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>61</pitch>
               <tpc>21</tpc>
@@ -35593,9 +35612,20 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>66</pitch>
               <tpc>20</tpc>
@@ -35897,6 +35927,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -35994,8 +36027,8 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
