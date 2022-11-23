@@ -11,13 +11,13 @@
     <pageOddTopMargin>0.354331</pageOddTopMargin>
     <pageOddBottomMargin>0.19685</pageOddBottomMargin>
     <pageTwosided>0</pageTwosided>
-    <staffUpperBorder>6.5</staffUpperBorder>
+    <staffUpperBorder>19</staffUpperBorder>
     <staffLowerBorder>12.5</staffLowerBorder>
-    <staffDistance>6.5</staffDistance>
+    <staffDistance>11</staffDistance>
     <akkoladeDistance>6.5</akkoladeDistance>
     <minSystemDistance>8.5</minSystemDistance>
-    <maxSystemDistance>31.5</maxSystemDistance>
-    <enableVerticalSpread>1</enableVerticalSpread>
+    <maxSystemDistance>20</maxSystemDistance>
+    <enableVerticalSpread>0</enableVerticalSpread>
     <spreadSystem>2.5</spreadSystem>
     <spreadSquareBracket>1.2</spreadSquareBracket>
     <spreadCurlyBracket>1.1</spreadCurlyBracket>
@@ -46,7 +46,7 @@
     <lyricsDashLineThickness>0.15</lyricsDashLineThickness>
     <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
     <lyricsOddFontFace>Edwin</lyricsOddFontFace>
-    <lyricsOddFontSize>16</lyricsOddFontSize>
+    <lyricsOddFontSize>13</lyricsOddFontSize>
     <lyricsOddLineSpacing>1</lyricsOddLineSpacing>
     <lyricsOddFontSpatiumDependent>1</lyricsOddFontSpatiumDependent>
     <lyricsOddFontStyle>0</lyricsOddFontStyle>
@@ -59,7 +59,7 @@
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
     <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
-    <lyricsEvenFontSize>16</lyricsEvenFontSize>
+    <lyricsEvenFontSize>13</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
     <lyricsEvenFontStyle>0</lyricsEvenFontStyle>
@@ -77,7 +77,7 @@
     <figuredBassAlignment>0</figuredBassAlignment>
     <figuredBassStyle>0</figuredBassStyle>
     <systemFrameDistance>7</systemFrameDistance>
-    <frameSystemDistance>7</frameSystemDistance>
+    <frameSystemDistance>9</frameSystemDistance>
     <minMeasureWidth>5</minMeasureWidth>
     <barWidth>0.18</barWidth>
     <doubleBarWidth>0.18</doubleBarWidth>
@@ -149,7 +149,7 @@
     <articulationAnchorDefault>2</articulationAnchorDefault>
     <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
     <articulationAnchorOther>0</articulationAnchorOther>
-    <lastSystemFillLimit>0.1</lastSystemFillLimit>
+    <lastSystemFillLimit>0.2</lastSystemFillLimit>
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-1.5"/>
     <hairpinPosBelow x="0" y="3.5"/>
@@ -328,7 +328,7 @@
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <mmRestNumberPos>-1.5</mmRestNumberPos>
@@ -365,13 +365,13 @@
     <oddHeaderR></oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
-    <footerOddEven>0</footerOddEven>
-    <evenFooterL>$p</evenFooterL>
-    <evenFooterC>$:copyright:</evenFooterC>
-    <evenFooterR></evenFooterR>
-    <oddFooterL>$:workTitle:</oddFooterL>
-    <oddFooterC>-– $P –-</oddFooterC>
-    <oddFooterR>Ilusa Noodi Instituut $:creationDate:</oddFooterR>
+    <footerOddEven>1</footerOddEven>
+    <evenFooterL>Eesti Segakooride Liidu advendilaulik '22</evenFooterL>
+    <evenFooterC></evenFooterC>
+    <evenFooterR>$:workTitle: - $P/$n</evenFooterR>
+    <oddFooterL>$P/$n - $:workTitle:</oddFooterL>
+    <oddFooterC></oddFooterC>
+    <oddFooterR>Eesti Segakooride Liidu advendilaulik '22</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>1.9</voltaHook>
     <voltaLineWidth>0.11</voltaLineWidth>
@@ -383,7 +383,7 @@
     <voltaFontStyle>1</voltaFontStyle>
     <voltaColor r="0" g="0" b="0" a="255"/>
     <voltaAlign>left,baseline</voltaAlign>
-    <voltaOffset x="0.5" y="1.9"/>
+    <voltaOffset x="0.5" y="2.4"/>
     <voltaFrameType>0</voltaFrameType>
     <voltaFramePadding>0</voltaFramePadding>
     <voltaFrameWidth>0</voltaFrameWidth>
