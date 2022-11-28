@@ -7744,6 +7744,12 @@
             <velocity>16</velocity>
             <linkedMain/>
             </Dynamic>
+          <Dynamic>
+            <subtype>ppp</subtype>
+            <velocity>16</velocity>
+            <linkedMain/>
+            <visible>0</visible>
+            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -7894,6 +7900,11 @@
             <velocity>49</velocity>
             <linkedMain/>
             </Dynamic>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -8016,6 +8027,11 @@
             </Chord>
           </voice>
         <voice>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
@@ -8185,6 +8201,13 @@
             <subtype>ppp</subtype>
             <velocity>16</velocity>
             <linkedMain/>
+            </Dynamic>
+          <Dynamic>
+            <subtype>ppp</subtype>
+            <velocity>16</velocity>
+            <linkedMain/>
+            <visible>0</visible>
+            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -11229,12 +11252,12 @@
         <voice>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>3</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -11376,12 +11399,12 @@
         <voice>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>3</indexDiff>
                 </linked>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -11499,17 +11522,17 @@
         <voice>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>3</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>2</indexDiff>
+                    <indexDiff>3</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -11662,15 +11685,8 @@
             <HairPin>
               <subtype>1</subtype>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -11680,17 +11696,17 @@
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>1</indexDiff>
+                    <indexDiff>2</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -14724,7 +14740,7 @@
             </Dynamic>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Lyrics>
@@ -14735,7 +14751,7 @@
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>4</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -14863,7 +14879,7 @@
             </Dynamic>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Lyrics>
@@ -14874,7 +14890,7 @@
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>4</indexDiff>
                 </linked>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -14987,7 +15003,7 @@
             </Dynamic>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Lyrics>
@@ -15000,12 +15016,12 @@
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>4</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>3</indexDiff>
+                    <indexDiff>4</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -15150,7 +15166,7 @@
             <HairPin>
               <subtype>1</subtype>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               </HairPin>
             <next>
@@ -15161,17 +15177,17 @@
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>1</indexDiff>
+                    <indexDiff>2</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -26626,6 +26642,13 @@
               <linked>
                 </linked>
               </Dynamic>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -26787,6 +26810,12 @@
               <linked>
                 </linked>
               </Dynamic>
+            <Dynamic>
+              <subtype>p</subtype>
+              <velocity>49</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -26919,6 +26948,12 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>pp</subtype>
+              <velocity>33</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Dynamic>
               <subtype>pp</subtype>
               <velocity>33</velocity>
@@ -27103,6 +27138,14 @@
               <velocity>16</velocity>
               <linked>
                 </linked>
+              </Dynamic>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
@@ -38869,6 +38912,13 @@
               <linked>
                 </linked>
               </Dynamic>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -39030,6 +39080,12 @@
               <linked>
                 </linked>
               </Dynamic>
+            <Dynamic>
+              <subtype>p</subtype>
+              <velocity>49</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -39162,6 +39218,12 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>pp</subtype>
+              <velocity>33</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Dynamic>
               <subtype>pp</subtype>
               <velocity>33</velocity>
@@ -39346,6 +39408,14 @@
               <velocity>16</velocity>
               <linked>
                 </linked>
+              </Dynamic>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
@@ -51487,6 +51557,13 @@
               <linked>
                 </linked>
               </Dynamic>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -51654,6 +51731,12 @@
               <linked>
                 </linked>
               </Dynamic>
+            <Dynamic>
+              <subtype>p</subtype>
+              <velocity>49</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -51789,6 +51872,12 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>pp</subtype>
+              <velocity>33</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Dynamic>
               <subtype>pp</subtype>
               <velocity>33</velocity>
@@ -51978,6 +52067,14 @@
               <velocity>16</velocity>
               <linked>
                 </linked>
+              </Dynamic>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
@@ -64293,6 +64390,13 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -64469,6 +64573,12 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
+            <Dynamic>
+              <subtype>p</subtype>
+              <velocity>49</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -64616,6 +64726,12 @@
               <linked>
                 </linked>
               <visible>0</visible>
+              </Dynamic>
+            <Dynamic>
+              <subtype>pp</subtype>
+              <velocity>33</velocity>
+              <linked>
+                </linked>
               </Dynamic>
             <Chord>
               <linked>
@@ -64806,18 +64922,19 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              <placement>above</placement>
+              </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
                   </linked>
-                <visible>0</visible>
-                <Segment>
-                  <subtype>0</subtype>
-                  <offset x="0" y="2.12333"/>
-                  <off2 x="0" y="0"/>
-                  <visible>0</visible>
-                  </Segment>
                 </HairPin>
               <next>
                 <location>
@@ -77504,6 +77621,14 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <visible>0</visible>
+              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -77665,6 +77790,14 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>p</subtype>
+              <velocity>49</velocity>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <visible>0</visible>
+              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -77794,6 +77927,14 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>pp</subtype>
+              <velocity>33</velocity>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <visible>0</visible>
+              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -77915,24 +78056,7 @@
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
-                <placement>above</placement>
                 <linked>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>2</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <linked>
-                  <location>
-                    <voices>1</voices>
-                    </location>
                   <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
@@ -77944,7 +78068,7 @@
               </Spanner>
             <Chord>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
@@ -77956,12 +78080,12 @@
                 </Lyrics>
               <Note>
                 <linked>
-                  <indexDiff>4</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
-                      <indexDiff>4</indexDiff>
+                      <indexDiff>2</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -77976,19 +78100,48 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <visible>0</visible>
+              <placement>above</placement>
+              </Dynamic>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>1</subtype>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                <visible>0</visible>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="0" y="3.5"/>
+                  <off2 x="0" y="0"/>
+                  <visible>0</visible>
+                  </Segment>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>2</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>2</indexDiff>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
-                      <indexDiff>2</indexDiff>
+                      <indexDiff>1</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -78087,13 +78240,6 @@
                   </location>
                 </prev>
               </Spanner>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -78114,6 +78260,13 @@
               </Chord>
             </voice>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -81249,33 +81402,8 @@
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
-                <linked>
-                  <location>
-                    <staves>-3</staves>
-                    <voices>1</voices>
-                    </location>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                <visible>0</visible>
-                <Segment>
-                  <subtype>0</subtype>
-                  <offset x="0" y="2.45"/>
-                  <off2 x="0" y="0"/>
-                  <visible>0</visible>
-                  </Segment>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>2</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
                 <placement>above</placement>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -81287,17 +81415,14 @@
               </Spanner>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
-                      <indexDiff>1</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -81416,13 +81541,6 @@
           </Measure>
         <Measure len="1/4">
           <voice>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -90793,6 +90911,13 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -90810,7 +90935,7 @@
                 </Lyrics>
               <Note>
                 <linked>
-                  <indexDiff>3</indexDiff>
+                  <indexDiff>4</indexDiff>
                   </linked>
                 <pitch>53</pitch>
                 <tpc>13</tpc>
@@ -90954,6 +91079,13 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>p</subtype>
+              <velocity>49</velocity>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -90971,7 +91103,7 @@
                 </Lyrics>
               <Note>
                 <linked>
-                  <indexDiff>3</indexDiff>
+                  <indexDiff>4</indexDiff>
                   </linked>
                 <pitch>56</pitch>
                 <tpc>10</tpc>
@@ -91093,6 +91225,13 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>pp</subtype>
+              <velocity>33</velocity>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -91112,12 +91251,12 @@
                 </Lyrics>
               <Note>
                 <linked>
-                  <indexDiff>3</indexDiff>
+                  <indexDiff>4</indexDiff>
                   </linked>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
-                      <indexDiff>3</indexDiff>
+                      <indexDiff>4</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -91236,7 +91375,7 @@
                 <visible>0</visible>
                 <Segment>
                   <subtype>0</subtype>
-                  <offset x="0" y="-1.5"/>
+                  <offset x="1.19864" y="-0.39356"/>
                   <off2 x="0" y="0"/>
                   <visible>0</visible>
                   </Segment>
@@ -91247,35 +91386,19 @@
                   </location>
                 </next>
               </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <linked>
-                  <location>
-                    <voices>1</voices>
-                    </location>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>2</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Chord>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>4</indexDiff>
+                  <indexDiff>3</indexDiff>
                   </linked>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
-                      <indexDiff>4</indexDiff>
+                      <indexDiff>3</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -91292,19 +91415,39 @@
               </Chord>
             </voice>
           <voice>
+            <Dynamic>
+              <subtype>ppp</subtype>
+              <velocity>16</velocity>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              </Dynamic>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>1</subtype>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>2</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>2</indexDiff>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
-                      <indexDiff>2</indexDiff>
+                      <indexDiff>1</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -91401,13 +91544,6 @@
                   </location>
                 </prev>
               </Spanner>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -91430,6 +91566,13 @@
               </Chord>
             </voice>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -94219,6 +94362,7 @@
               <velocity>16</velocity>
               <linked>
                 </linked>
+              <visible>0</visible>
               <placement>above</placement>
               </Dynamic>
             <Chord>
@@ -94314,6 +94458,7 @@
               <velocity>49</velocity>
               <linked>
                 </linked>
+              <visible>0</visible>
               <placement>above</placement>
               </Dynamic>
             <Chord>
@@ -94409,6 +94554,7 @@
               <velocity>33</velocity>
               <linked>
                 </linked>
+              <visible>0</visible>
               <placement>above</placement>
               </Dynamic>
             <Chord>
@@ -94550,39 +94696,22 @@
               <velocity>16</velocity>
               <linked>
                 </linked>
+              <visible>0</visible>
               <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
+                <placement>above</placement>
                 <linked>
-                  <location>
-                    <staves>-3</staves>
-                    <voices>1</voices>
-                    </location>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <visible>0</visible>
                 <Segment>
                   <subtype>0</subtype>
-                  <offset x="0" y="2.45"/>
+                  <offset x="0" y="-1.05"/>
                   <off2 x="0" y="0"/>
                   <visible>0</visible>
                   </Segment>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>2</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <placement>above</placement>
-                <linked>
-                  <indexDiff>1</indexDiff>
-                  </linked>
                 </HairPin>
               <next>
                 <location>
@@ -94593,17 +94722,14 @@
               </Spanner>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
-                      <indexDiff>1</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -94722,13 +94848,6 @@
           </Measure>
         <Measure len="1/4">
           <voice>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Chord>
               <linked>
                 </linked>
