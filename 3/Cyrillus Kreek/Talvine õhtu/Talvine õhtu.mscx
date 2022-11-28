@@ -467,6 +467,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="0"/>
           <program value="68"/>
+          <controller ctrl="7" value="55"/>
           <controller ctrl="10" value="49"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
@@ -2269,8 +2270,11 @@
               </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>73</pitch>
-              <tpc>9</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -20563,8 +20567,11 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>73</pitch>
-                <tpc>9</tpc>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>74</pitch>
+                <tpc>16</tpc>
                 </Note>
               </Chord>
             </voice>
@@ -33579,8 +33586,11 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>73</pitch>
-                <tpc>9</tpc>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>74</pitch>
+                <tpc>16</tpc>
                 </Note>
               </Chord>
             </voice>
@@ -46441,8 +46451,11 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>73</pitch>
-                <tpc>9</tpc>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>74</pitch>
+                <tpc>16</tpc>
                 </Note>
               </Chord>
             </voice>
@@ -59223,8 +59236,11 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>73</pitch>
-                <tpc>9</tpc>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>74</pitch>
+                <tpc>16</tpc>
                 </Note>
               </Chord>
             </voice>
@@ -72158,8 +72174,11 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>73</pitch>
-                <tpc>9</tpc>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>74</pitch>
+                <tpc>16</tpc>
                 </Note>
               </Chord>
             </voice>
@@ -85459,8 +85478,11 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>73</pitch>
-                <tpc>9</tpc>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>74</pitch>
+                <tpc>16</tpc>
                 </Note>
               </Chord>
             </voice>
