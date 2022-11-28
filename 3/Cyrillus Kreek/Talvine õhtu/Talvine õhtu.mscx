@@ -231,7 +231,7 @@
       <letRingPosBelow x="0" y="4"/>
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
-      <Spatium>1.3</Spatium>
+      <Spatium>1.5</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -561,7 +561,7 @@
         <Text>
           <linkedMain/>
           <style>Lyricist</style>
-          <text>Ridala</text>
+          <text>Villem Grünthal-Ridala</text>
           </Text>
         </VBox>
       <Measure len="1/4">
@@ -880,9 +880,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
@@ -1300,9 +1297,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1679,9 +1673,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1842,7 +1833,7 @@
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
-            <offset x="-5" y="4"/>
+            <offset x="-4.33333" y="3.46667"/>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -2131,9 +2122,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2560,7 +2548,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>Ü</text>
               </Lyrics>
@@ -2577,7 +2564,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>le</text>
               </Lyrics>
@@ -2597,7 +2583,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>hä</text>
               </Lyrics>
@@ -2613,7 +2598,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ma</text>
               </Lyrics>
@@ -2630,7 +2614,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ra,</text>
               </Lyrics>
@@ -2650,7 +2633,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>var</text>
               </Lyrics>
@@ -2666,7 +2648,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ju</text>
               </Lyrics>
@@ -2683,7 +2664,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>dest</text>
               </Lyrics>
@@ -2703,7 +2683,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>tu</text>
               </Lyrics>
@@ -2720,7 +2699,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>me,</text>
               </Lyrics>
@@ -2751,7 +2729,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>õr</text>
               </Lyrics>
@@ -2768,7 +2745,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>na</text>
               </Lyrics>
@@ -2783,7 +2759,6 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ja</text>
               </Lyrics>
@@ -2842,7 +2817,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>si</text>
               </Lyrics>
@@ -2858,7 +2832,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>na</text>
               </Lyrics>
@@ -2875,7 +2848,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>va</text>
               </Lyrics>
@@ -2939,7 +2911,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>lu</text>
               </Lyrics>
@@ -2957,7 +2928,6 @@
               <ticks>480</ticks>
               <ticks_f>1/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>me</text>
               </Lyrics>
@@ -3052,7 +3022,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>hei</text>
               </Lyrics>
@@ -3069,7 +3038,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>dab</text>
               </Lyrics>
@@ -3143,7 +3111,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>vee</text>
               </Lyrics>
@@ -3160,7 +3127,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>rev,</text>
               </Lyrics>
@@ -3201,7 +3167,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>kus</text>
               </Lyrics>
@@ -3218,7 +3183,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>tuv</text>
               </Lyrics>
@@ -3276,7 +3240,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>päi</text>
               </Lyrics>
@@ -3297,7 +3260,6 @@
               <ticks>480</ticks>
               <ticks_f>1/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ke</text>
               </Lyrics>
@@ -3388,7 +3350,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>pu</text>
               </Lyrics>
@@ -3404,7 +3365,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>na</text>
               </Lyrics>
@@ -3421,7 +3381,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>va</text>
               </Lyrics>
@@ -3503,7 +3462,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>läi</text>
               </Lyrics>
@@ -3551,7 +3509,6 @@
               <ticks>960</ticks>
               <ticks_f>2/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ke.</text>
               </Lyrics>
@@ -4499,7 +4456,7 @@
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
-            <offset x="-5" y="4"/>
+            <offset x="-4.33333" y="3.46667"/>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -6567,7 +6524,6 @@
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
-            <visible>0</visible>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -6983,7 +6939,6 @@
             <subtype>ppp</subtype>
             <velocity>16</velocity>
             <linkedMain/>
-            <visible>0</visible>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -7038,13 +6993,12 @@
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
-            <offset x="-5" y="4"/>
+            <offset x="-4.33333" y="3.46667"/>
             </Dynamic>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
-            <visible>0</visible>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -7052,7 +7006,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>Möö</text>
@@ -7070,7 +7023,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>da</text>
@@ -7087,7 +7039,6 @@
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
-            <visible>0</visible>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -7132,7 +7083,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>lõp</text>
@@ -7149,7 +7099,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>ma</text>
@@ -7167,7 +7116,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>ta</text>
@@ -7216,7 +7164,6 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>teed</text>
@@ -7246,7 +7193,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>lä</text>
@@ -7263,7 +7209,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>he</text>
@@ -7281,7 +7226,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/12</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>vad</text>
@@ -7382,7 +7326,6 @@
               <ticks>960</ticks>
               <ticks_f>2/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>reed,</text>
@@ -7458,7 +7401,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>möö</text>
@@ -7476,7 +7418,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>da</text>
@@ -7547,7 +7488,6 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>teed</text>
@@ -7563,7 +7503,6 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>kuu</text>
@@ -7613,7 +7552,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>kah</text>
@@ -7662,7 +7600,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>va</text>
@@ -7680,7 +7617,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <size>15</size>
               <text>tul</text>
@@ -7734,12 +7670,6 @@
             <linkedMain/>
             <placement>above</placement>
             </Dynamic>
-          <Dynamic>
-            <subtype>ppp</subtype>
-            <velocity>16</velocity>
-            <linkedMain/>
-            <visible>0</visible>
-            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -7762,12 +7692,6 @@
             <subtype>ppp</subtype>
             <velocity>16</velocity>
             <linkedMain/>
-            </Dynamic>
-          <Dynamic>
-            <subtype>ppp</subtype>
-            <velocity>16</velocity>
-            <linkedMain/>
-            <visible>0</visible>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -7793,13 +7717,6 @@
             <subtype>mf</subtype>
             <velocity>80</velocity>
             <linkedMain/>
-            <placement>above</placement>
-            </Dynamic>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>80</velocity>
-            <linkedMain/>
-            <visible>0</visible>
             <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
@@ -8017,11 +7934,6 @@
             <linkedMain/>
             <placement>above</placement>
             </Dynamic>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            <linkedMain/>
-            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -8114,11 +8026,6 @@
             <linkedMain/>
             <placement>above</placement>
             </Dynamic>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>33</velocity>
-            <linkedMain/>
-            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -8173,12 +8080,6 @@
             <linkedMain/>
             <placement>above</placement>
             </Dynamic>
-          <Dynamic>
-            <subtype>ppp</subtype>
-            <velocity>16</velocity>
-            <linkedMain/>
-            <visible>0</visible>
-            </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -8225,13 +8126,6 @@
             <subtype>ppp</subtype>
             <velocity>16</velocity>
             <linkedMain/>
-            </Dynamic>
-          <Dynamic>
-            <subtype>ppp</subtype>
-            <velocity>16</velocity>
-            <linkedMain/>
-            <visible>0</visible>
-            <placement>above</placement>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -10556,7 +10450,7 @@
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
-            <offset x="-5" y="4"/>
+            <offset x="-4.33333" y="3.46667"/>
             </Dynamic>
           <Chord>
             <linked>
@@ -11261,7 +11155,7 @@
             </Dynamic>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Lyrics>
@@ -11271,7 +11165,7 @@
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -11281,12 +11175,12 @@
         <voice>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -11307,7 +11201,7 @@
             <HairPin>
               <subtype>0</subtype>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               </HairPin>
             <next>
@@ -11318,7 +11212,7 @@
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -11328,7 +11222,7 @@
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -11519,7 +11413,7 @@
             </Dynamic>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Lyrics>
@@ -11529,12 +11423,12 @@
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>3</indexDiff>
+                    <indexDiff>2</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -11605,7 +11499,7 @@
             </Dynamic>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -11615,7 +11509,7 @@
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -11667,7 +11561,7 @@
             <HairPin>
               <subtype>1</subtype>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               </HairPin>
             <next>
@@ -11678,7 +11572,7 @@
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Lyrics>
@@ -11690,12 +11584,12 @@
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>3</indexDiff>
+                    <indexDiff>2</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -11714,8 +11608,15 @@
             <HairPin>
               <subtype>1</subtype>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
+              <visible>0</visible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -11725,17 +11626,17 @@
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>2</indexDiff>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -14111,7 +14012,7 @@
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
-            <offset x="-5" y="4"/>
+            <offset x="-4.33333" y="3.46667"/>
             </Dynamic>
           <Chord>
             <linked>
@@ -14753,12 +14654,12 @@
         <voice>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -14774,7 +14675,7 @@
             </Dynamic>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Lyrics>
@@ -14785,7 +14686,7 @@
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>4</indexDiff>
+                <indexDiff>3</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -14800,8 +14701,15 @@
               <subtype>0</subtype>
               <placement>above</placement>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
+              <visible>0</visible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-1.5"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -14811,12 +14719,12 @@
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -15004,17 +14912,17 @@
         <voice>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>3</indexDiff>
+                    <indexDiff>2</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -15094,12 +15002,12 @@
             </Chord>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -15147,12 +15055,12 @@
               <subtype>1</subtype>
               <placement>above</placement>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <visible>0</visible>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="-1.5"/>
+                <offset x="0" y="-1.3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
@@ -15165,17 +15073,17 @@
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>3</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>3</indexDiff>
+                    <indexDiff>2</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -15200,7 +15108,7 @@
             <HairPin>
               <subtype>1</subtype>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               </HairPin>
             <next>
@@ -15211,17 +15119,17 @@
             </Spanner>
           <Chord>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
-                    <indexDiff>2</indexDiff>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -15433,7 +15341,6 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             <linkedMain/>
-            <visible>0</visible>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -15441,7 +15348,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>lu</text>
               </Lyrics>
@@ -15459,18 +15365,10 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <visible>0</visible>
               <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="3.5"/>
+                <subtype>0</subtype>
+                <offset x="0" y="3.03333"/>
                 <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
                 </Segment>
               </HairPin>
             <next>
@@ -15488,7 +15386,6 @@
               <ticks>960</ticks>
               <ticks_f>2/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>me</text>
               </Lyrics>
@@ -15532,7 +15429,6 @@
             <subtype>mf</subtype>
             <velocity>80</velocity>
             <linkedMain/>
-            <visible>0</visible>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -15548,7 +15444,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>hei</text>
               </Lyrics>
@@ -15565,7 +15460,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>dab</text>
               </Lyrics>
@@ -15583,13 +15477,6 @@
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -15604,7 +15491,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>vee</text>
               </Lyrics>
@@ -15621,7 +15507,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>rev,</text>
               </Lyrics>
@@ -15662,7 +15547,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>kus</text>
               </Lyrics>
@@ -15679,7 +15563,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>tuv</text>
               </Lyrics>
@@ -15724,13 +15607,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <visible>0</visible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -15744,7 +15620,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>päi</text>
               </Lyrics>
@@ -15762,7 +15637,6 @@
               <ticks>480</ticks>
               <ticks_f>1/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ke</text>
               </Lyrics>
@@ -15815,7 +15689,6 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             <linkedMain/>
-            <visible>0</visible>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -15823,7 +15696,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>pu</text>
               </Lyrics>
@@ -15839,7 +15711,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>na</text>
               </Lyrics>
@@ -15856,7 +15727,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>va</text>
               </Lyrics>
@@ -15874,12 +15744,10 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <visible>0</visible>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
+                <offset x="0" y="3.03333"/>
                 <off2 x="0" y="0"/>
-                <visible>0</visible>
                 </Segment>
               </HairPin>
             <next>
@@ -15894,7 +15762,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>läi</text>
               </Lyrics>
@@ -15942,7 +15809,6 @@
               <ticks>960</ticks>
               <ticks_f>2/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ke.</text>
               </Lyrics>
@@ -16285,7 +16151,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <placement>above</placement>
               <text>pal</text>
               </Lyrics>
             <Note>
@@ -16300,7 +16165,6 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <linkedMain/>
-              <placement>above</placement>
               <text>ja,</text>
               </Lyrics>
             <Note>
@@ -16354,6 +16218,7 @@
             </Chord>
           <Rest>
             <linkedMain/>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -16375,7 +16240,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ük</text>
               </Lyrics>
@@ -16407,7 +16271,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>sik</text>
               </Lyrics>
@@ -16439,7 +16302,6 @@
               <ticks>960</ticks>
               <ticks_f>2/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>tee</text>
               </Lyrics>
@@ -16510,7 +16372,6 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>kus</text>
               </Lyrics>
@@ -16567,7 +16428,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>pa</text>
               </Lyrics>
@@ -16584,7 +16444,6 @@
               <syllabic>end</syllabic>
               <ticks_f>0/12</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>jud</text>
               </Lyrics>
@@ -16611,9 +16470,10 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <color r="99" g="99" b="99" a="255"/>
+              <visible>0</visible>
               <text>pa</text>
               </Lyrics>
             <Note>
@@ -16626,9 +16486,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>end</syllabic>
               <ticks_f>0/12</ticks_f>
               <linkedMain/>
+              <visible>0</visible>
               <color r="99" g="99" b="99" a="255"/>
               <text>jud</text>
               </Lyrics>
@@ -16659,7 +16521,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>u</text>
               </Lyrics>
@@ -16712,8 +16573,10 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>begin</syllabic>
               <linkedMain/>
+              <visible>0</visible>
               <color r="99" g="99" b="99" a="255"/>
               <text>u</text>
               </Lyrics>
@@ -16770,7 +16633,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>nes</text>
               </Lyrics>
@@ -16786,7 +16648,6 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>se</text>
               </Lyrics>
@@ -16813,8 +16674,10 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>middle</syllabic>
               <linkedMain/>
+              <visible>0</visible>
               <color r="99" g="99" b="99" a="255"/>
               <text>nes</text>
               </Lyrics>
@@ -16828,8 +16691,10 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>end</syllabic>
               <linkedMain/>
+              <visible>0</visible>
               <text>se</text>
               </Lyrics>
             <Note>
@@ -16849,7 +16714,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>va</text>
               </Lyrics>
@@ -16951,7 +16815,6 @@
               <ticks>1920</ticks>
               <ticks_f>4/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>jund.</text>
               </Lyrics>
@@ -17113,7 +16976,7 @@
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
-            <offset x="-5" y="4"/>
+            <offset x="-4.33333" y="3.46667"/>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -17154,6 +17017,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>begin</syllabic>
               <linkedMain/>
               <size>15</size>
@@ -17169,6 +17033,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
@@ -17243,6 +17108,7 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <ticks>960</ticks>
               <ticks_f>2/4</ticks_f>
               <linkedMain/>
@@ -17376,6 +17242,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>begin</syllabic>
               <linkedMain/>
               <size>15</size>
@@ -17391,6 +17258,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>middle</syllabic>
               <linkedMain/>
               <size>15</size>
@@ -17406,6 +17274,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>end</syllabic>
               <ticks_f>0/12</ticks_f>
               <linkedMain/>
@@ -17456,6 +17325,7 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <ticks>960</ticks>
               <ticks_f>2/4</ticks_f>
               <linkedMain/>
@@ -17553,6 +17423,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>begin</syllabic>
               <linkedMain/>
               <size>15</size>
@@ -17568,6 +17439,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
               <linkedMain/>
@@ -17620,6 +17492,7 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <ticks>1920</ticks>
               <ticks_f>4/4</ticks_f>
               <linkedMain/>
@@ -17749,6 +17622,7 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             <Lyrics>
+              <no>1</no>
               <linkedMain/>
               <size>15</size>
               <text>kuu</text>
@@ -17775,7 +17649,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <text>ku</text>
               </Lyrics>
@@ -17791,9 +17664,9 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ku</text>
               </Lyrics>
@@ -17813,7 +17686,6 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <text>mal</text>
               </Lyrics>
@@ -17829,9 +17701,9 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>end</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>mal</text>
               </Lyrics>
@@ -17857,7 +17729,6 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <text>kau</text>
               </Lyrics>
@@ -17873,9 +17744,9 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>begin</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>kau</text>
               </Lyrics>
@@ -17895,7 +17766,6 @@
             <Lyrics>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <text>ge</text>
               </Lyrics>
@@ -17911,9 +17781,9 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>middle</syllabic>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>ge</text>
               </Lyrics>
@@ -17941,7 +17811,6 @@
               <ticks>3840</ticks>
               <ticks_f>8/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <placement>above</placement>
               <text>le.</text>
               </Lyrics>
@@ -17967,11 +17836,11 @@
             <linkedMain/>
             <durationType>half</durationType>
             <Lyrics>
+              <no>1</no>
               <syllabic>end</syllabic>
               <ticks>3840</ticks>
               <ticks_f>8/4</ticks_f>
               <linkedMain/>
-              <visible>0</visible>
               <size>15</size>
               <text>le.</text>
               </Lyrics>
@@ -18775,7 +18644,7 @@
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>Ridala</text>
+            <text>Villem Grünthal-Ridala</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -27012,13 +26881,6 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -27039,13 +26901,6 @@
               </Chord>
             </voice>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Dynamic>
               <subtype>ppp</subtype>
               <velocity>16</velocity>
@@ -27082,14 +26937,6 @@
               <linked>
                 </linked>
               <visible>0</visible>
-              </Dynamic>
-            <Dynamic>
-              <subtype>mf</subtype>
-              <velocity>80</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
@@ -27340,13 +27187,6 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Dynamic>
-              <subtype>p</subtype>
-              <velocity>49</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -27453,13 +27293,6 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Dynamic>
-              <subtype>pp</subtype>
-              <velocity>33</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -27513,13 +27346,6 @@
           </Measure>
         <Measure>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Dynamic>
               <subtype>ppp</subtype>
               <velocity>16</velocity>
@@ -27585,14 +27411,6 @@
               <linked>
                 </linked>
               <visible>0</visible>
-              </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
@@ -29200,6 +29018,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -29219,6 +29038,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -29319,6 +29139,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -29438,6 +29259,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -29457,6 +29279,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -29837,6 +29660,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -29857,6 +29681,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -29951,6 +29776,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -30114,6 +29940,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -30134,6 +29961,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -30154,6 +29982,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -30215,6 +30044,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -30332,6 +30162,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -30352,6 +30183,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -30419,6 +30251,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>1920</ticks>
                 <ticks_f>4/4</ticks_f>
                 <linked>
@@ -30571,6 +30404,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <linked>
                   </linked>
                 <visible>0</visible>
@@ -30623,6 +30457,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -30669,6 +30504,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -30722,6 +30558,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -30768,6 +30605,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -30834,6 +30672,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks>3840</ticks>
                 <ticks_f>8/4</ticks_f>
@@ -31678,7 +31517,7 @@
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>Ridala</text>
+            <text>Villem Grünthal-Ridala</text>
             </Text>
           <Text>
             <visible>0</visible>
@@ -39913,13 +39752,6 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -39940,13 +39772,6 @@
               </Chord>
             </voice>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Dynamic>
               <subtype>ppp</subtype>
               <velocity>16</velocity>
@@ -39983,14 +39808,6 @@
               <linked>
                 </linked>
               <visible>0</visible>
-              </Dynamic>
-            <Dynamic>
-              <subtype>mf</subtype>
-              <velocity>80</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
@@ -40241,13 +40058,6 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Dynamic>
-              <subtype>p</subtype>
-              <velocity>49</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -40354,13 +40164,6 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Dynamic>
-              <subtype>pp</subtype>
-              <velocity>33</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -40414,13 +40217,6 @@
           </Measure>
         <Measure>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Dynamic>
               <subtype>ppp</subtype>
               <velocity>16</velocity>
@@ -40486,14 +40282,6 @@
               <linked>
                 </linked>
               <visible>0</visible>
-              </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
@@ -42101,6 +41889,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -42120,6 +41909,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -42219,6 +42009,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -42337,6 +42128,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -42356,6 +42148,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -42742,6 +42535,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -42762,6 +42556,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -42856,6 +42651,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -43019,6 +42815,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -43039,6 +42836,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -43059,6 +42857,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -43120,6 +42919,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -43237,6 +43037,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -43257,6 +43058,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -43324,6 +43126,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>1920</ticks>
                 <ticks_f>4/4</ticks_f>
                 <linked>
@@ -43476,6 +43279,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <linked>
                   </linked>
                 <visible>0</visible>
@@ -43528,6 +43332,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -43574,6 +43379,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -43627,6 +43433,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -43673,6 +43480,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -43739,6 +43547,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks>3840</ticks>
                 <ticks_f>8/4</ticks_f>
@@ -44583,7 +44392,7 @@
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>Ridala</text>
+            <text>Villem Grünthal-Ridala</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -52869,13 +52678,6 @@
                 </linked>
               <placement>above</placement>
               </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -52901,13 +52703,6 @@
               <velocity>16</velocity>
               <linked>
                 </linked>
-              </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
               </Dynamic>
             <Chord>
               <linked>
@@ -52936,14 +52731,6 @@
               <velocity>80</velocity>
               <linked>
                 </linked>
-              <placement>above</placement>
-              </Dynamic>
-            <Dynamic>
-              <subtype>mf</subtype>
-              <velocity>80</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
               <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
@@ -53184,12 +52971,6 @@
                 </linked>
               <placement>above</placement>
               </Dynamic>
-            <Dynamic>
-              <subtype>p</subtype>
-              <velocity>49</velocity>
-              <linked>
-                </linked>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -53293,12 +53074,6 @@
                 </linked>
               <placement>above</placement>
               </Dynamic>
-            <Dynamic>
-              <subtype>pp</subtype>
-              <velocity>33</velocity>
-              <linked>
-                </linked>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -53359,13 +53134,6 @@
                 </linked>
               <placement>above</placement>
               </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
@@ -53417,14 +53185,6 @@
               <velocity>16</velocity>
               <linked>
                 </linked>
-              </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
@@ -55008,6 +54768,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -55026,6 +54787,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -55123,6 +54885,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -55238,6 +55001,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -55256,6 +55020,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -55630,6 +55395,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -55649,6 +55415,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -55739,6 +55506,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -55897,6 +55665,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -55916,6 +55685,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -55935,6 +55705,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -55994,6 +55765,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -56108,6 +55880,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -56127,6 +55900,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -56191,6 +55965,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>1920</ticks>
                 <ticks_f>4/4</ticks_f>
                 <linked>
@@ -56339,6 +56114,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <linked>
                   </linked>
                 <size>15</size>
@@ -56389,6 +56165,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -56434,6 +56211,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -56486,6 +56264,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -56531,6 +56310,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -56596,6 +56376,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks>3840</ticks>
                 <ticks_f>8/4</ticks_f>
@@ -57440,7 +57221,7 @@
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>Ridala</text>
+            <text>Villem Grünthal-Ridala</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -65761,13 +65542,6 @@
                 </linked>
               <placement>above</placement>
               </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -65789,13 +65563,6 @@
               </Chord>
             </voice>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Dynamic>
               <subtype>ppp</subtype>
               <velocity>16</velocity>
@@ -65832,14 +65599,6 @@
               <velocity>80</velocity>
               <linked>
                 </linked>
-              <placement>above</placement>
-              </Dynamic>
-            <Dynamic>
-              <subtype>mf</subtype>
-              <velocity>80</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
               <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
@@ -66092,12 +65851,6 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Dynamic>
-              <subtype>p</subtype>
-              <velocity>49</velocity>
-              <linked>
-                </linked>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -66205,12 +65958,6 @@
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Dynamic>
-              <subtype>pp</subtype>
-              <velocity>33</velocity>
-              <linked>
-                </linked>
-              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -66272,13 +66019,6 @@
                 </linked>
               <placement>above</placement>
               </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
@@ -66332,14 +66072,6 @@
               <linked>
                 </linked>
               <visible>0</visible>
-              </Dynamic>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <placement>above</placement>
               </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
@@ -67908,6 +67640,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -67926,6 +67659,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -68023,6 +67757,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -68138,6 +67873,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -68156,6 +67892,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -68520,6 +68257,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -68538,6 +68276,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -68624,6 +68363,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -68777,6 +68517,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -68795,6 +68536,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -68813,6 +68555,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -68870,6 +68613,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -68981,6 +68725,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -68999,6 +68744,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -69060,6 +68806,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>1920</ticks>
                 <ticks_f>4/4</ticks_f>
                 <linked>
@@ -69204,6 +68951,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <linked>
                   </linked>
                 <size>15</size>
@@ -69252,6 +69000,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -69295,6 +69044,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -69345,6 +69095,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -69388,6 +69139,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -69451,6 +69203,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks>3840</ticks>
                 <ticks_f>8/4</ticks_f>
@@ -70295,7 +70048,7 @@
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>Ridala</text>
+            <text>Villem Grünthal-Ridala</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -79050,13 +78803,6 @@
           </Measure>
         <Measure>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -79077,14 +78823,6 @@
               </Chord>
             </voice>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -79104,13 +78842,6 @@
           </Measure>
         <Measure>
           <voice>
-            <Dynamic>
-              <subtype>mf</subtype>
-              <velocity>80</velocity>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>0</subtype>
@@ -79344,13 +79075,6 @@
           </Measure>
         <Measure>
           <voice>
-            <Dynamic>
-              <subtype>p</subtype>
-              <velocity>49</velocity>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -79440,13 +79164,6 @@
                 <tpc>13</tpc>
                 </Note>
               </Chord>
-            <Dynamic>
-              <subtype>pp</subtype>
-              <velocity>33</velocity>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -79502,13 +79219,6 @@
           </Measure>
         <Measure>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
@@ -79556,15 +79266,6 @@
               </Chord>
             </voice>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <visible>0</visible>
-              <placement>above</placement>
-              </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
@@ -81198,6 +80899,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -81216,6 +80918,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -81313,6 +81016,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -81428,6 +81132,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -81446,6 +81151,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -81823,6 +81529,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -81842,6 +81549,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -81932,6 +81640,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -82090,6 +81799,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -82109,6 +81819,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -82128,6 +81839,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -82187,6 +81899,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -82301,6 +82014,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -82320,6 +82034,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -82384,6 +82099,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>1920</ticks>
                 <ticks_f>4/4</ticks_f>
                 <linked>
@@ -82535,6 +82251,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <linked>
                   </linked>
                 <placement>above</placement>
@@ -82585,6 +82302,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -82629,6 +82347,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -82680,6 +82399,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -82724,6 +82444,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -82788,6 +82509,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks>3840</ticks>
                 <ticks_f>8/4</ticks_f>
@@ -83632,7 +83354,7 @@
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>Ridala</text>
+            <text>Villem Grünthal-Ridala</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -92397,12 +92119,12 @@
               </Dynamic>
             <Chord>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>3</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <pitch>56</pitch>
                 <tpc>10</tpc>
@@ -92412,13 +92134,6 @@
               </Chord>
             </voice>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              </Dynamic>
             <Chord>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -92436,7 +92151,7 @@
                 </Lyrics>
               <Note>
                 <linked>
-                  <indexDiff>4</indexDiff>
+                  <indexDiff>3</indexDiff>
                   </linked>
                 <pitch>53</pitch>
                 <tpc>13</tpc>
@@ -92462,7 +92177,7 @@
                 <subtype>0</subtype>
                 <placement>above</placement>
                 <linked>
-                  <indexDiff>2</indexDiff>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <visible>0</visible>
                 <Segment>
@@ -92480,12 +92195,12 @@
               </Spanner>
             <Chord>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>quarter</durationType>
               <Note>
                 <linked>
-                  <indexDiff>3</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <pitch>56</pitch>
                 <tpc>10</tpc>
@@ -92699,17 +92414,17 @@
               </Dynamic>
             <Chord>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>3</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
-                      <indexDiff>3</indexDiff>
+                      <indexDiff>2</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -92807,12 +92522,12 @@
               </Dynamic>
             <Chord>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>quarter</durationType>
               <Note>
                 <linked>
-                  <indexDiff>3</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
@@ -92871,7 +92586,7 @@
                 <subtype>1</subtype>
                 <placement>above</placement>
                 <linked>
-                  <indexDiff>2</indexDiff>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <visible>0</visible>
                 <Segment>
@@ -92889,17 +92604,17 @@
               </Spanner>
             <Chord>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>3</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
-                      <indexDiff>3</indexDiff>
+                      <indexDiff>2</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -92916,13 +92631,6 @@
               </Chord>
             </voice>
           <voice>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              </Dynamic>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
@@ -94539,6 +94247,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -94557,6 +94266,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -94654,6 +94364,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -94769,6 +94480,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -94787,6 +94499,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -95164,6 +94877,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -95183,6 +94897,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -95273,6 +94988,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -95431,6 +95147,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -95450,6 +95167,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -95469,6 +95187,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/12</ticks_f>
                 <linked>
@@ -95528,6 +95247,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>960</ticks>
                 <ticks_f>2/4</ticks_f>
                 <linked>
@@ -95642,6 +95362,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -95661,6 +95382,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks_f>0/8</ticks_f>
                 <linked>
@@ -95725,6 +95447,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <ticks>1920</ticks>
                 <ticks_f>4/4</ticks_f>
                 <linked>
@@ -95876,6 +95599,7 @@
                 </linked>
               <durationType>quarter</durationType>
               <Lyrics>
+                <no>1</no>
                 <linked>
                   </linked>
                 <visible>0</visible>
@@ -95927,6 +95651,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -95971,6 +95696,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <linked>
                   </linked>
@@ -96023,6 +95749,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>begin</syllabic>
                 <linked>
                   </linked>
@@ -96067,6 +95794,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>middle</syllabic>
                 <linked>
                   </linked>
@@ -96132,6 +95860,7 @@
                 </linked>
               <durationType>half</durationType>
               <Lyrics>
+                <no>1</no>
                 <syllabic>end</syllabic>
                 <ticks>3840</ticks>
                 <ticks_f>8/4</ticks_f>
