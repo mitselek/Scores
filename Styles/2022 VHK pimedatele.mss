@@ -1266,6 +1266,6 @@
     <autoplaceEnabled>1</autoplaceEnabled>
     <usePre_3_6_defaults>1</usePre_3_6_defaults>
     <defaultsVersion>301</defaultsVersion>
-    <Spatium>1.3</Spatium>
+    <Spatium>1.5</Spatium>
     </Style>
   </museScore>
