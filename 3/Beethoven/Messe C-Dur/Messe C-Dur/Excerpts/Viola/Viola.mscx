@@ -8,29 +8,46 @@
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <pageWidth>8.27008</pageWidth>
-      <pageHeight>11.6902</pageHeight>
-      <pagePrintableWidth>7.48268</pagePrintableWidth>
-      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+      <pageWidth>8.27</pageWidth>
+      <pageHeight>11.69</pageHeight>
+      <pagePrintableWidth>7.4826</pagePrintableWidth>
       <pageOddLeftMargin>0.393701</pageOddLeftMargin>
-      <pageEvenTopMargin>0.590551</pageEvenTopMargin>
-      <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.393701</pageOddTopMargin>
       <pageOddBottomMargin>0.393701</pageOddBottomMargin>
       <pageTwosided>0</pageTwosided>
       <minMeasureWidth>4</minMeasureWidth>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <createMultiMeasureRests>1</createMultiMeasureRests>
       <minEmptyMeasures>1</minEmptyMeasures>
+      <minMMRestWidth>2</minMMRestWidth>
       <oldStyleMultiMeasureRests>1</oldStyleMultiMeasureRests>
+      <mmRestOldStyleSpacing>0.7</mmRestOldStyleSpacing>
+      <evenHeaderL>$p/$n - $:workTitle:</evenHeaderL>
+      <evenHeaderR>!Ni</evenHeaderR>
+      <oddHeaderL>!Ni</oddHeaderL>
+      <oddHeaderR>$:workTitle: - $p/$n</oddHeaderR>
+      <evenFooterC></evenFooterC>
+      <subTitleColor r="200" g="200" b="200" a="255"/>
+      <subTitleAlign>left,top</subTitleAlign>
+      <subTitleOffset x="0" y="-10"/>
+      <subTitleFrameType>1</subTitleFrameType>
+      <subTitleFramePadding>1</subTitleFramePadding>
+      <subTitleFrameRound>15</subTitleFrameRound>
+      <subTitleFrameBgColor r="50" g="50" b="50" a="255"/>
       <measureNumberPosBelow x="0" y="1"/>
-      <mmRestRangeBracketType>2</mmRestRangeBracketType>
-      <Spatium>1.5</Spatium>
+      <instrumentChangeFontStyle>0</instrumentChangeFontStyle>
+      <instrumentChangeColor r="255" g="255" b="255" a="255"/>
+      <instrumentChangeFrameType>1</instrumentChangeFrameType>
+      <instrumentChangeFramePadding>0.5</instrumentChangeFramePadding>
+      <instrumentChangeFrameRound>15</instrumentChangeFrameRound>
+      <instrumentChangeFrameBgColor r="0" g="0" b="0" a="200"/>
+      <Spatium>1.56</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <open>1</open>
     <metaTag name="partName">Viola</metaTag>
     <Part id="16">
       <Staff id="1">
@@ -23236,7 +23253,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -29777,7 +29793,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -30390,7 +30405,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.4</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -32820,7 +32834,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -39157,7 +39170,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <LayoutBreak>
           <subtype>page</subtype>
           </LayoutBreak>
@@ -46539,7 +46551,7 @@
                 </linked>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
+                <offset x="0" y="3.36538"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -51370,7 +51382,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -58161,6 +58172,14 @@
         <LayoutBreak>
           <subtype>section</subtype>
           </LayoutBreak>
+        <LayoutBreak>
+          <linked>
+            <location>
+              <staves>-16</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -61975,7 +61994,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <LayoutBreak>
           <subtype>page</subtype>
           </LayoutBreak>
@@ -64274,7 +64292,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -64330,7 +64347,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -64964,8 +64980,8 @@
         <voice>
           <Beam>
             <Fragment>
-              <y1>2.00064</y1>
-              <y2>2.00064</y2>
+              <y1>1.92369</y1>
+              <y2>1.92369</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -66990,7 +67006,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -67045,7 +67060,6 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -67496,7 +67510,6 @@ tempo del Kyrie</text>
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -67551,6 +67564,7 @@ tempo del Kyrie</text>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -67599,6 +67613,7 @@ tempo del Kyrie</text>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -67683,6 +67698,7 @@ tempo del Kyrie</text>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>

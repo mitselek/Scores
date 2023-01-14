@@ -1019,20 +1019,20 @@
     <instrumentChangeFontSize>10</instrumentChangeFontSize>
     <instrumentChangeLineSpacing>1</instrumentChangeLineSpacing>
     <instrumentChangeFontSpatiumDependent>1</instrumentChangeFontSpatiumDependent>
-    <instrumentChangeFontStyle>1</instrumentChangeFontStyle>
-    <instrumentChangeColor r="0" g="0" b="0" a="255"/>
+    <instrumentChangeFontStyle>0</instrumentChangeFontStyle>
+    <instrumentChangeColor r="255" g="255" b="255" a="255"/>
     <instrumentChangeAlign>left,baseline</instrumentChangeAlign>
     <instrumentChangeOffset x="0" y="0"/>
     <instrumentChangePlacement>0</instrumentChangePlacement>
     <instrumentChangePosAbove x="0" y="-2"/>
     <instrumentChangePosBelow x="0" y="3.5"/>
     <instrumentChangeMinDistance>0.5</instrumentChangeMinDistance>
-    <instrumentChangeFrameType>0</instrumentChangeFrameType>
-    <instrumentChangeFramePadding>0.2</instrumentChangeFramePadding>
+    <instrumentChangeFrameType>1</instrumentChangeFrameType>
+    <instrumentChangeFramePadding>0.5</instrumentChangeFramePadding>
     <instrumentChangeFrameWidth>0.1</instrumentChangeFrameWidth>
-    <instrumentChangeFrameRound>0</instrumentChangeFrameRound>
+    <instrumentChangeFrameRound>15</instrumentChangeFrameRound>
     <instrumentChangeFrameFgColor r="0" g="0" b="0" a="255"/>
-    <instrumentChangeFrameBgColor r="255" g="255" b="255" a="0"/>
+    <instrumentChangeFrameBgColor r="0" g="0" b="0" a="200"/>
     <stickingFontFace>Edwin</stickingFontFace>
     <stickingFontSize>10</stickingFontSize>
     <stickingLineSpacing>1</stickingLineSpacing>
