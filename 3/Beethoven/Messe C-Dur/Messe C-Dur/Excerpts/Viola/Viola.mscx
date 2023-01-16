@@ -11,7 +11,10 @@
       <pageWidth>8.27</pageWidth>
       <pageHeight>11.69</pageHeight>
       <pagePrintableWidth>7.4826</pagePrintableWidth>
+      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
       <pageOddLeftMargin>0.393701</pageOddLeftMargin>
+      <pageEvenTopMargin>0.590551</pageEvenTopMargin>
+      <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.393701</pageOddTopMargin>
       <pageOddBottomMargin>0.393701</pageOddBottomMargin>
       <pageTwosided>0</pageTwosided>
@@ -23,11 +26,12 @@
       <minMMRestWidth>2</minMMRestWidth>
       <oldStyleMultiMeasureRests>1</oldStyleMultiMeasureRests>
       <mmRestOldStyleSpacing>0.7</mmRestOldStyleSpacing>
-      <evenHeaderL>$p/$n - $:workTitle:</evenHeaderL>
+      <evenHeaderL>$p/$n - $i</evenHeaderL>
       <evenHeaderR>!Ni</evenHeaderR>
       <oddHeaderL>!Ni</oddHeaderL>
-      <oddHeaderR>$:workTitle: - $p/$n</oddHeaderR>
+      <oddHeaderR>$i - $p/$n</oddHeaderR>
       <evenFooterC></evenFooterC>
+      <keySigNaturals>1</keySigNaturals>
       <subTitleColor r="200" g="200" b="200" a="255"/>
       <subTitleAlign>left,top</subTitleAlign>
       <subTitleOffset x="0" y="-10"/>
@@ -58172,14 +58176,6 @@
         <LayoutBreak>
           <subtype>section</subtype>
           </LayoutBreak>
-        <LayoutBreak>
-          <linked>
-            <location>
-              <staves>-16</staves>
-              </location>
-            </linked>
-          <subtype>section</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -67377,8 +67373,7 @@
                 <staves>-15</staves>
                 </location>
               </linked>
-            <text>Andante con moto 
-tempo del Kyrie</text>
+            <text>Andante con moto, tempo del Kyrie</text>
             </Tempo>
           <Chord>
             <linked>

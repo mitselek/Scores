@@ -395,12 +395,12 @@
     <showHeader>1</showHeader>
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
-    <evenHeaderL>$p/$n - $:workTitle:</evenHeaderL>
+    <evenHeaderL>$p/$n - $i</evenHeaderL>
     <evenHeaderC></evenHeaderC>
     <evenHeaderR>!Ni</evenHeaderR>
     <oddHeaderL>!Ni</oddHeaderL>
     <oddHeaderC></oddHeaderC>
-    <oddHeaderR>$:workTitle: - $p/$n</oddHeaderR>
+    <oddHeaderR>$i - $p/$n</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
@@ -494,7 +494,7 @@
     <tremoloOutSidePadding>0.5</tremoloOutSidePadding>
     <linearStretch>1.5</linearStretch>
     <crossMeasureValues>0</crossMeasureValues>
-    <keySigNaturals>0</keySigNaturals>
+    <keySigNaturals>1</keySigNaturals>
     <tupletMaxSlope>0.5</tupletMaxSlope>
     <tupletOufOfStaff>1</tupletOufOfStaff>
     <tupletVHeadDistance>0.5</tupletVHeadDistance>
