@@ -52,6 +52,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="partName">Viola</metaTag>
     <Part id="16">
       <Staff id="1">
@@ -2128,6 +2129,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>41</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -3047,7 +3052,8 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
+            <duration>1/4</duration>
             <Spanner type="Slur">
               <Slur>
                 <linked>
@@ -3055,7 +3061,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -3065,37 +3071,21 @@
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
+            <Tremolo>
+              <subtype>c8</subtype>
               <linked>
                 </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
+              </Tremolo>
             </Chord>
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
+            <duration>1/4</duration>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-3/8</fractions>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -3141,7 +3131,8 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
+            <duration>1/4</duration>
             <Spanner type="Slur">
               <Slur>
                 <linked>
@@ -3161,39 +3152,23 @@
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
+            <Tremolo>
+              <subtype>c8</subtype>
+              <linked>
+                </linked>
+              </Tremolo>
             </Chord>
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
+            <duration>1/4</duration>
             <Note>
               <linked>
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>56</pitch>
-              <tpc>22</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
               <pitch>56</pitch>
               <tpc>22</tpc>
               </Note>
@@ -3695,6 +3670,11 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -4251,6 +4231,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>70</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -5003,6 +4987,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>pp</subtype>
@@ -5845,6 +5832,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>106</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -6678,12 +6669,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>ff</subtype>
-            <velocity>112</velocity>
-            <linked>
-              </linked>
-            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -6708,6 +6693,12 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -9116,6 +9107,10 @@
         </Measure>
       <Measure>
         <stretch>0.3</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>42</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -11103,6 +11098,10 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>82</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -12004,6 +12003,10 @@
         </Measure>
       <Measure>
         <stretch>0.9</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>121</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -14837,6 +14840,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>176</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -16741,6 +16748,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>214</text>
+          </MeasureNumber>
         <voice>
           <KeySig>
             <linked>
@@ -18728,6 +18739,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>254</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -19670,6 +19685,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>280</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -21672,6 +21691,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>324</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -23016,6 +23039,10 @@
       <Measure len="8/4">
         <multiMeasureRest>2</multiMeasureRest>
         <stretch>0.5</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>350</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -23257,6 +23284,7 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
+        <stretch>0.25</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -23495,7 +23523,7 @@
         </Measure>
       <Measure len="8/4">
         <multiMeasureRest>2</multiMeasureRest>
-        <stretch>0.5</stretch>
+        <stretch>0.25</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -25450,6 +25478,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>33</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -27224,8 +27256,8 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             <Tremolo>
               <subtype>r8</subtype>
@@ -27994,6 +28026,10 @@
         </Measure>
       <Measure>
         <stretch>0.6</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>65</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -28860,8 +28896,8 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               </Note>
             <Tremolo>
               <subtype>r8</subtype>
@@ -29621,6 +29657,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>89</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -30409,6 +30449,7 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
+        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -30773,8 +30814,8 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -31904,6 +31945,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>147</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -32838,6 +32883,7 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
+        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -33599,11 +33645,16 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <bracket>1</bracket>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             <Tremolo>
-              <subtype>r16</subtype>
+              <subtype>r32</subtype>
               <linked>
                 </linked>
               </Tremolo>
@@ -33626,7 +33677,7 @@
               <tpc>11</tpc>
               </Note>
             <Tremolo>
-              <subtype>r16</subtype>
+              <subtype>r32</subtype>
               <linked>
                 </linked>
               </Tremolo>
@@ -33649,7 +33700,7 @@
               <tpc>11</tpc>
               </Note>
             <Tremolo>
-              <subtype>r16</subtype>
+              <subtype>r32</subtype>
               <linked>
                 </linked>
               </Tremolo>
@@ -33672,7 +33723,7 @@
               <tpc>11</tpc>
               </Note>
             <Tremolo>
-              <subtype>r16</subtype>
+              <subtype>r32</subtype>
               <linked>
                 </linked>
               </Tremolo>
@@ -33711,7 +33762,7 @@
               <tpc>11</tpc>
               </Note>
             <Tremolo>
-              <subtype>r16</subtype>
+              <subtype>r32</subtype>
               <linked>
                 </linked>
               </Tremolo>
@@ -33734,7 +33785,7 @@
               <tpc>11</tpc>
               </Note>
             <Tremolo>
-              <subtype>r16</subtype>
+              <subtype>r32</subtype>
               <linked>
                 </linked>
               </Tremolo>
@@ -33757,7 +33808,7 @@
               <tpc>11</tpc>
               </Note>
             <Tremolo>
-              <subtype>r16</subtype>
+              <subtype>r32</subtype>
               <linked>
                 </linked>
               </Tremolo>
@@ -33780,7 +33831,7 @@
               <tpc>11</tpc>
               </Note>
             <Tremolo>
-              <subtype>r16</subtype>
+              <subtype>r32</subtype>
               <linked>
                 </linked>
               </Tremolo>
@@ -34567,7 +34618,7 @@
           <Chord>
             <linked>
               </linked>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -34584,7 +34635,7 @@
           <Chord>
             <linked>
               </linked>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -34613,6 +34664,10 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>183</text>
+          </MeasureNumber>
         <voice>
           <KeySig>
             <linked>
@@ -36854,6 +36909,10 @@
       <Measure len="12/4">
         <multiMeasureRest>3</multiMeasureRest>
         <stretch>0.5</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>210</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <linked>
@@ -39174,6 +39233,7 @@
         </Measure>
       <Measure>
         <multiMeasureRest>1</multiMeasureRest>
+        <stretch>0.5</stretch>
         <LayoutBreak>
           <subtype>page</subtype>
           </LayoutBreak>
