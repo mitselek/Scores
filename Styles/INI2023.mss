@@ -48,7 +48,7 @@
     <lyricsDashPad>0.05</lyricsDashPad>
     <lyricsDashLineThickness>0.1</lyricsDashLineThickness>
     <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
-    <lyricsOddFontFace>Edwin</lyricsOddFontFace>
+    <lyricsOddFontFace>Leland Text</lyricsOddFontFace>
     <lyricsOddFontSize>10</lyricsOddFontSize>
     <lyricsOddLineSpacing>1</lyricsOddLineSpacing>
     <lyricsOddFontSpatiumDependent>1</lyricsOddFontSpatiumDependent>
@@ -161,9 +161,9 @@
     <dotNoteDistance>0.5</dotNoteDistance>
     <dotRestDistance>0.25</dotRestDistance>
     <dotDotDistance>0.65</dotDotDistance>
-    <propertyDistanceHead>0.4</propertyDistanceHead>
-    <propertyDistanceStem>0.4</propertyDistanceStem>
-    <propertyDistance>0.4</propertyDistance>
+    <propertyDistanceHead>0.5</propertyDistanceHead>
+    <propertyDistanceStem>0.5</propertyDistanceStem>
+    <propertyDistance>0.5</propertyDistance>
     <articulationMag>1</articulationMag>
     <articulationPosAbove x="0" y="0"/>
     <articulationAnchorDefault>2</articulationAnchorDefault>
@@ -321,8 +321,8 @@
     <pageNumberOddEven>1</pageNumberOddEven>
     <showMeasureNumber>1</showMeasureNumber>
     <showMeasureNumberOne>0</showMeasureNumberOne>
-    <measureNumberInterval>5</measureNumberInterval>
-    <measureNumberSystem>1</measureNumberSystem>
+    <measureNumberInterval>1</measureNumberInterval>
+    <measureNumberSystem>0</measureNumberSystem>
     <measureNumberAllStaffs>0</measureNumberAllStaffs>
     <smallNoteMag>0.7</smallNoteMag>
     <graceNoteMag>0.7</graceNoteMag>
@@ -366,11 +366,11 @@
     <oldStyleMultiMeasureRests>0</oldStyleMultiMeasureRests>
     <mmRestOldStyleMaxMeasures>9</mmRestOldStyleMaxMeasures>
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
-    <hideEmptyStaves>0</hideEmptyStaves>
-    <dontHideStavesInFirstSystem>1</dontHideStavesInFirstSystem>
+    <hideEmptyStaves>1</hideEmptyStaves>
+    <dontHideStavesInFirstSystem>0</dontHideStavesInFirstSystem>
     <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
-    <alwaysShowBracketsWhenEmptyStavesAreHidden>0</alwaysShowBracketsWhenEmptyStavesAreHidden>
+    <alwaysShowBracketsWhenEmptyStavesAreHidden>1</alwaysShowBracketsWhenEmptyStavesAreHidden>
     <alwaysShowSquareBracketsWhenEmptyStavesAreHidden>0</alwaysShowSquareBracketsWhenEmptyStavesAreHidden>
     <hideInstrumentNameIfOneInstrument>1</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
@@ -729,7 +729,7 @@
     <partInstrumentFrameRound>0</partInstrumentFrameRound>
     <partInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <partInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
-    <dynamicsFontFace>Edwin</dynamicsFontFace>
+    <dynamicsFontFace>Leland</dynamicsFontFace>
     <dynamicsFontSize>10</dynamicsFontSize>
     <dynamicsLineSpacing>1</dynamicsLineSpacing>
     <dynamicsFontSpatiumDependent>1</dynamicsFontSpatiumDependent>
@@ -1299,7 +1299,7 @@
     <fermataPosBelow x="0" y="0.5"/>
     <fermataMinDistance>0.4</fermataMinDistance>
     <fingeringPlacement>0</fingeringPlacement>
-    <articulationMinDistance>0.4</articulationMinDistance>
+    <articulationMinDistance>0.5</articulationMinDistance>
     <fingeringMinDistance>0.5</fingeringMinDistance>
     <hairpinMinDistance>0.7</hairpinMinDistance>
     <letRingMinDistance>0.7</letRingMinDistance>
