@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.00">
   <Style>
-    <pageWidth>8.27008</pageWidth>
-    <pageHeight>11.6902</pageHeight>
-    <pagePrintableWidth>7.48268</pagePrintableWidth>
+    <pageWidth>8.27</pageWidth>
+    <pageHeight>11.69</pageHeight>
+    <pagePrintableWidth>7.4826</pagePrintableWidth>
     <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
     <pageOddLeftMargin>0.393701</pageOddLeftMargin>
     <pageEvenTopMargin>0.590551</pageEvenTopMargin>
@@ -321,8 +321,8 @@
     <pageNumberOddEven>1</pageNumberOddEven>
     <showMeasureNumber>1</showMeasureNumber>
     <showMeasureNumberOne>0</showMeasureNumberOne>
-    <measureNumberInterval>5</measureNumberInterval>
-    <measureNumberSystem>1</measureNumberSystem>
+    <measureNumberInterval>1</measureNumberInterval>
+    <measureNumberSystem>0</measureNumberSystem>
     <measureNumberAllStaffs>0</measureNumberAllStaffs>
     <smallNoteMag>0.7</smallNoteMag>
     <graceNoteMag>0.7</graceNoteMag>
@@ -356,7 +356,7 @@
     <concertPitch>0</concertPitch>
     <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>1</minEmptyMeasures>
-    <minMMRestWidth>4</minMMRestWidth>
+    <minMMRestWidth>2</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
     <mmRestNumberMaskHBar>1</mmRestNumberMaskHBar>
     <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
@@ -365,7 +365,7 @@
     <mmRestHBarVStrokeHeight>2</mmRestHBarVStrokeHeight>
     <oldStyleMultiMeasureRests>1</oldStyleMultiMeasureRests>
     <mmRestOldStyleMaxMeasures>9</mmRestOldStyleMaxMeasures>
-    <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
+    <mmRestOldStyleSpacing>0.7</mmRestOldStyleSpacing>
     <hideEmptyStaves>0</hideEmptyStaves>
     <dontHideStavesInFirstSystem>1</dontHideStavesInFirstSystem>
     <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
@@ -395,17 +395,17 @@
     <showHeader>1</showHeader>
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
-    <evenHeaderL>$p</evenHeaderL>
+    <evenHeaderL>$p/$n - $i</evenHeaderL>
     <evenHeaderC></evenHeaderC>
-    <evenHeaderR></evenHeaderR>
-    <oddHeaderL></oddHeaderL>
+    <evenHeaderR>!Ni</evenHeaderR>
+    <oddHeaderL>!Ni</oddHeaderL>
     <oddHeaderC></oddHeaderC>
-    <oddHeaderR>$p</oddHeaderR>
+    <oddHeaderR>$i - $p/$n</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>$C</evenFooterC>
+    <evenFooterC></evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
     <oddFooterC>$C</oddFooterC>
@@ -494,7 +494,7 @@
     <tremoloOutSidePadding>0.5</tremoloOutSidePadding>
     <linearStretch>1.5</linearStretch>
     <crossMeasureValues>0</crossMeasureValues>
-    <keySigNaturals>0</keySigNaturals>
+    <keySigNaturals>1</keySigNaturals>
     <tupletMaxSlope>0.5</tupletMaxSlope>
     <tupletOufOfStaff>1</tupletOufOfStaff>
     <tupletVHeadDistance>0.5</tupletVHeadDistance>
@@ -591,16 +591,16 @@
     <subTitleLineSpacing>1</subTitleLineSpacing>
     <subTitleFontSpatiumDependent>0</subTitleFontSpatiumDependent>
     <subTitleFontStyle>0</subTitleFontStyle>
-    <subTitleColor r="0" g="0" b="0" a="255"/>
-    <subTitleAlign>center,top</subTitleAlign>
-    <subTitleOffset x="0" y="10"/>
+    <subTitleColor r="200" g="200" b="200" a="255"/>
+    <subTitleAlign>left,top</subTitleAlign>
+    <subTitleOffset x="0" y="-10"/>
     <subTitleOffsetType>0</subTitleOffsetType>
-    <subTitleFrameType>0</subTitleFrameType>
-    <subTitleFramePadding>0.2</subTitleFramePadding>
+    <subTitleFrameType>1</subTitleFrameType>
+    <subTitleFramePadding>1</subTitleFramePadding>
     <subTitleFrameWidth>0.1</subTitleFrameWidth>
-    <subTitleFrameRound>0</subTitleFrameRound>
+    <subTitleFrameRound>15</subTitleFrameRound>
     <subTitleFrameFgColor r="0" g="0" b="0" a="255"/>
-    <subTitleFrameBgColor r="255" g="255" b="255" a="0"/>
+    <subTitleFrameBgColor r="50" g="50" b="50" a="255"/>
     <composerFontFace>Edwin</composerFontFace>
     <composerFontSize>10</composerFontSize>
     <composerLineSpacing>1</composerLineSpacing>
@@ -801,7 +801,7 @@
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
     <measureNumberOffset x="0" y="-2"/>
-    <measureNumberPosBelow x="0" y="2"/>
+    <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
     <measureNumberHPlacement>0</measureNumberHPlacement>
@@ -813,7 +813,7 @@
     <measureNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <measureNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <mmRestShowMeasureNumberRange>0</mmRestShowMeasureNumberRange>
-    <mmRestRangeBracketType>2</mmRestRangeBracketType>
+    <mmRestRangeBracketType>0</mmRestRangeBracketType>
     <mmRestRangeFontFace>Edwin</mmRestRangeFontFace>
     <mmRestRangeFontSize>8</mmRestRangeFontSize>
     <mmRestRangeFontSpatiumDependent>0</mmRestRangeFontSpatiumDependent>
@@ -1019,20 +1019,20 @@
     <instrumentChangeFontSize>10</instrumentChangeFontSize>
     <instrumentChangeLineSpacing>1</instrumentChangeLineSpacing>
     <instrumentChangeFontSpatiumDependent>1</instrumentChangeFontSpatiumDependent>
-    <instrumentChangeFontStyle>1</instrumentChangeFontStyle>
-    <instrumentChangeColor r="0" g="0" b="0" a="255"/>
+    <instrumentChangeFontStyle>0</instrumentChangeFontStyle>
+    <instrumentChangeColor r="255" g="255" b="255" a="255"/>
     <instrumentChangeAlign>left,baseline</instrumentChangeAlign>
     <instrumentChangeOffset x="0" y="0"/>
     <instrumentChangePlacement>0</instrumentChangePlacement>
     <instrumentChangePosAbove x="0" y="-2"/>
     <instrumentChangePosBelow x="0" y="3.5"/>
     <instrumentChangeMinDistance>0.5</instrumentChangeMinDistance>
-    <instrumentChangeFrameType>0</instrumentChangeFrameType>
-    <instrumentChangeFramePadding>0.2</instrumentChangeFramePadding>
+    <instrumentChangeFrameType>1</instrumentChangeFrameType>
+    <instrumentChangeFramePadding>0.5</instrumentChangeFramePadding>
     <instrumentChangeFrameWidth>0.1</instrumentChangeFrameWidth>
-    <instrumentChangeFrameRound>0</instrumentChangeFrameRound>
+    <instrumentChangeFrameRound>15</instrumentChangeFrameRound>
     <instrumentChangeFrameFgColor r="0" g="0" b="0" a="255"/>
-    <instrumentChangeFrameBgColor r="255" g="255" b="255" a="0"/>
+    <instrumentChangeFrameBgColor r="0" g="0" b="0" a="200"/>
     <stickingFontFace>Edwin</stickingFontFace>
     <stickingFontSize>10</stickingFontSize>
     <stickingLineSpacing>1</stickingLineSpacing>
@@ -1345,6 +1345,6 @@
     <chordlineThickness>0.006</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>400</defaultsVersion>
-    <Spatium>1.5</Spatium>
+    <Spatium>1.56</Spatium>
     </Style>
   </museScore>
