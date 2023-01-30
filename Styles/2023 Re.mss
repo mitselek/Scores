@@ -61,8 +61,8 @@
     <lyricsOddFrameRound>0</lyricsOddFrameRound>
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
-    <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
-    <lyricsEvenFontSize>10</lyricsEvenFontSize>
+    <lyricsEvenFontFace>Leland Text</lyricsEvenFontFace>
+    <lyricsEvenFontSize>13</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
     <lyricsEvenFontStyle>0</lyricsEvenFontStyle>
@@ -172,7 +172,7 @@
     <lastSystemFillLimit>0.3</lastSystemFillLimit>
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-2"/>
-    <hairpinPosBelow x="0" y="2"/>
+    <hairpinPosBelow x="0" y="4"/>
     <hairpinLinePosAbove x="0" y="-3"/>
     <hairpinLinePosBelow x="0" y="4"/>
     <hairpinHeight>1.15</hairpinHeight>
@@ -530,7 +530,7 @@
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
     <dynamicsPlacement>1</dynamicsPlacement>
     <dynamicsPosAbove x="0" y="-1.5"/>
-    <dynamicsPosBelow x="0" y="2.5"/>
+    <dynamicsPosBelow x="0" y="4"/>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
     <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
     <textLinePlacement>0</textLinePlacement>
@@ -988,7 +988,7 @@
     <bendLineWidth>0.15</bendLineWidth>
     <bendArrowWidth>0.5</bendArrowWidth>
     <headerFontFace>Edwin</headerFontFace>
-    <headerFontSize>11</headerFontSize>
+    <headerFontSize>9</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
     <headerFontSpatiumDependent>0</headerFontSpatiumDependent>
     <headerFontStyle>1</headerFontStyle>
@@ -1002,7 +1002,7 @@
     <headerFrameFgColor r="0" g="0" b="0" a="255"/>
     <headerFrameBgColor r="255" g="255" b="255" a="0"/>
     <footerFontFace>Edwin</footerFontFace>
-    <footerFontSize>9</footerFontSize>
+    <footerFontSize>7</footerFontSize>
     <footerLineSpacing>1</footerLineSpacing>
     <footerFontSpatiumDependent>0</footerFontSpatiumDependent>
     <footerFontStyle>0</footerFontStyle>
