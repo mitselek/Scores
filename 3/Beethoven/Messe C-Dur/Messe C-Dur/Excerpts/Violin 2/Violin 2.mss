@@ -322,7 +322,7 @@
     <showMeasureNumber>1</showMeasureNumber>
     <showMeasureNumberOne>0</showMeasureNumberOne>
     <measureNumberInterval>1</measureNumberInterval>
-    <measureNumberSystem>0</measureNumberSystem>
+    <measureNumberSystem>1</measureNumberSystem>
     <measureNumberAllStaffs>0</measureNumberAllStaffs>
     <smallNoteMag>0.7</smallNoteMag>
     <graceNoteMag>0.7</graceNoteMag>
@@ -1345,6 +1345,6 @@
     <chordlineThickness>0.006</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>400</defaultsVersion>
-    <Spatium>1.56</Spatium>
+    <Spatium>1.5</Spatium>
     </Style>
   </museScore>

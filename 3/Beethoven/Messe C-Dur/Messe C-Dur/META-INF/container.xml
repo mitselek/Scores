@@ -9,11 +9,17 @@
     <rootfile full-path="Excerpts/Violin 1/Violin 1.mscx"/>
     <rootfile full-path="Excerpts/Violin 2/Violin 2.mss"/>
     <rootfile full-path="Excerpts/Violin 2/Violin 2.mscx"/>
+    <rootfile full-path="Excerpts/Violoncello/Violoncello.mss"/>
+    <rootfile full-path="Excerpts/Violoncello/Violoncello.mscx"/>
+    <rootfile full-path="Excerpts/Contrabass/Contrabass.mss"/>
+    <rootfile full-path="Excerpts/Contrabass/Contrabass.mscx"/>
     <rootfile full-path="Thumbnails/thumbnail.png"/>
     <rootfile full-path="audiosettings.json"/>
     <rootfile full-path="viewsettings.json"/>
     <rootfile full-path="Excerpts/Viola/viewsettings.json"/>
     <rootfile full-path="Excerpts/Violin 1/viewsettings.json"/>
     <rootfile full-path="Excerpts/Violin 2/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Violoncello/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Contrabass/viewsettings.json"/>
     </rootfiles>
   </container>

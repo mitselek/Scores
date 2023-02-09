@@ -52,7 +52,6 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <open>1</open>
     <metaTag name="partName">Violin 1</metaTag>
     <Part id="14">
       <Staff id="1">
@@ -627,27 +626,18 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -658,6 +648,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -725,11 +716,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -874,27 +860,18 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -907,10 +884,12 @@
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -963,11 +942,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -981,27 +955,19 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Fingering>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <text>3</text>
                 </Fingering>
@@ -1034,12 +1000,6 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -1861,25 +1821,17 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -1897,31 +1849,17 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -1954,12 +1892,6 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -1973,29 +1905,19 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -2006,6 +1928,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -2172,12 +2095,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -2218,24 +2135,16 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -2246,6 +2155,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <prev>
@@ -2302,11 +2212,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -2379,28 +2284,18 @@
             <durationType>eighth</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -2411,6 +2306,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -2468,12 +2364,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -3345,26 +3235,17 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>3</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <duration>1/4</duration>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -3375,6 +3256,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -3382,6 +3264,7 @@
             <Tremolo>
               <subtype>c8</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Tremolo>
             </Chord>
@@ -3416,11 +3299,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -3472,25 +3350,17 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -3549,11 +3419,6 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -3582,29 +3447,18 @@
             <durationType>eighth</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <beginText>cresc. poco a poco</beginText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>3</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -3616,10 +3470,12 @@
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -3798,12 +3654,6 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -4175,25 +4025,16 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>3</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <duration>1/4</duration>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -4201,6 +4042,7 @@
             <Tremolo>
               <subtype>c8</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Tremolo>
             </Chord>
@@ -4228,11 +4070,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -4468,25 +4305,16 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -4498,6 +4326,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -4579,35 +4408,21 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -4618,6 +4433,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -4677,35 +4493,20 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>4</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -4716,6 +4517,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -4981,12 +4783,6 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -5643,27 +5439,18 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -5674,6 +5461,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -5734,11 +5522,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -5897,27 +5680,18 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -5929,10 +5703,12 @@
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -6006,11 +5782,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -6024,27 +5795,19 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Fingering>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <text>3</text>
                 </Fingering>
@@ -6076,12 +5839,6 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -6562,29 +6319,19 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -6596,6 +6343,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -6719,12 +6467,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -7880,26 +7622,19 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Fingering>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <text>2</text>
                 </Fingering>
@@ -7950,11 +7685,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -9867,50 +9597,27 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -9922,6 +9629,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -9936,12 +9644,6 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -12791,24 +12493,16 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -12819,6 +12513,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <prev>
@@ -12930,11 +12625,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -13737,24 +13427,16 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -13766,6 +13448,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -13810,30 +13493,17 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -13891,11 +13561,6 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -15987,25 +15652,16 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -16017,6 +15673,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -16059,12 +15716,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -18353,26 +18004,17 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -18506,11 +18148,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -19052,26 +18689,16 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -19082,6 +18709,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -19230,12 +18858,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -19619,25 +19241,15 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>4</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <prev>
@@ -19797,12 +19409,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -21539,8 +21145,8 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -21574,8 +21180,8 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -21590,8 +21196,8 @@
                   </linked>
                 <text>1</text>
                 </Fingering>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -26578,32 +26184,23 @@
             <durationType>quarter</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>4</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>stringsDownBow</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -26850,12 +26447,6 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -28812,26 +28403,16 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>3</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -28844,10 +28425,12 @@
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -28989,12 +28572,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -29658,25 +29235,16 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -29684,6 +29252,7 @@
             <Tremolo>
               <subtype>r16</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Tremolo>
             </Chord>
@@ -29699,11 +29268,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -31737,6 +31301,7 @@
           <Chord>
             <linked>
               </linked>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -33613,7 +33178,7 @@
           <Chord>
             <linked>
               </linked>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -35295,19 +34860,10 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -35321,10 +34877,12 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -35373,11 +34931,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -36546,26 +36099,17 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>3</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>4</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -36576,6 +36120,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -36692,11 +36237,6 @@
             <text>Adagio</text>
             </Tempo>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -36718,28 +36258,20 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -36754,10 +36286,12 @@
               </Note>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -36817,12 +36351,6 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Rest>
             <linked>
@@ -38693,25 +38221,15 @@
             <durationType>eighth</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -38745,12 +38263,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -40086,28 +39598,18 @@
             <durationType>eighth</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -40119,10 +39621,12 @@
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -40210,12 +39714,6 @@
             <text>Allegro ma non troppo.</text>
             </Tempo>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -40995,7 +40493,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
@@ -41007,23 +40505,18 @@
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>16th</durationType>
-            <Note>
+            <Tremolo>
+              <subtype>r8</subtype>
               <linked>
                 </linked>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
+              </Tremolo>
             </Chord>
           <Beam>
             </Beam>
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
@@ -44339,25 +43832,15 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>81</pitch>
               <tpc>17</tpc>
@@ -44626,12 +44109,6 @@
             </Chord>
           <endTuplet/>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Tuplet>
             <linked>
@@ -49683,26 +49160,17 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -49810,11 +49278,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -51791,25 +51254,16 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -51838,11 +51292,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -52619,26 +52068,16 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -52649,6 +52088,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>61</pitch>
               <tpc>21</tpc>
@@ -52744,12 +52184,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -56229,26 +55663,18 @@
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -56259,6 +55685,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -56305,34 +55732,20 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -56343,6 +55756,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -56406,12 +55820,6 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -56848,28 +56256,18 @@
             <durationType>16th</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/16</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -56880,6 +56278,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -56978,12 +56377,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/16</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -58089,26 +57482,17 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -58233,11 +57617,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -59257,27 +58636,18 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>3</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -59289,6 +58659,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>84</pitch>
               <tpc>14</tpc>
@@ -59495,11 +58866,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -59821,28 +59187,18 @@
             <durationType>16th</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/16</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -59853,6 +59209,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -59948,12 +59305,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/16</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -60271,28 +59622,18 @@
             <durationType>eighth</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -60303,6 +59644,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -60376,12 +59718,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -60836,6 +60172,7 @@
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <linked>
@@ -60872,24 +60209,15 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -60897,6 +60225,7 @@
             <Tremolo>
               <subtype>r16</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Tremolo>
             </Chord>
@@ -60945,29 +60274,23 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>16th</durationType>
-            <Note>
+            <Tremolo>
+              <subtype>r8</subtype>
               <linked>
                 </linked>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
+              </Tremolo>
             </Chord>
           <Chord>
             <linked>
               </linked>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
@@ -60977,17 +60300,11 @@
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>16th</durationType>
-            <Note>
+            <Tremolo>
+              <subtype>r8</subtype>
               <linked>
                 </linked>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
+              </Tremolo>
             </Chord>
           </voice>
         </Measure>
@@ -61001,11 +60318,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -62098,26 +61410,16 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -62171,12 +61473,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -62675,28 +61971,18 @@
             <durationType>16th</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <continueText></continueText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>3</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -62707,6 +61993,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -63033,11 +62320,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -64567,27 +63849,18 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>3</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>4</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -64598,6 +63871,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>81</pitch>
               <tpc>17</tpc>
@@ -65054,34 +64328,20 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                </location>
-              </prev>
             </Spanner>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -65092,6 +64352,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -65222,32 +64483,18 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>3</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -65258,6 +64505,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -65315,11 +64563,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -66740,28 +65983,20 @@
             <text>arco</text>
             </PlayTechAnnotation>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Fingering>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <text>4</text>
                 </Fingering>
@@ -66771,6 +66006,7 @@
             <Tremolo>
               <subtype>r8</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Tremolo>
             </Chord>
@@ -66803,11 +66039,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -67251,28 +66482,20 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Fingering>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <text>1</text>
                 </Fingering>
@@ -67282,6 +66505,7 @@
             <Tremolo>
               <subtype>r8</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Tremolo>
             </Chord>
@@ -67367,11 +66591,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -67657,25 +66876,16 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>9/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -67735,11 +66945,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-9/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -68008,29 +67213,19 @@
             <durationType>eighth</durationType>
             </Rest>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -68041,6 +67236,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -68205,12 +67401,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -70486,8 +69676,12 @@
           <Rest>
             <linked>
               </linked>
-            <dots>1</dots>
             <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <linked>
@@ -70545,8 +69739,12 @@
           <Rest>
             <linked>
               </linked>
-            <dots>1</dots>
             <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             </Rest>
           <Rest>
             <linked>
@@ -71252,29 +70450,20 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -71336,12 +70525,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -72057,25 +71240,15 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>3</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -72085,6 +71258,7 @@
               </Note>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>84</pitch>
               <tpc>14</tpc>
@@ -72092,6 +71266,7 @@
             <Tremolo>
               <subtype>r16</subtype>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Tremolo>
             </Chord>
@@ -72228,12 +71403,6 @@
               </Tremolo>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -73850,29 +73019,20 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -73934,12 +73094,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -74911,26 +74065,18 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -74941,6 +74087,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -75050,11 +74197,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -76358,26 +75500,18 @@
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -76388,6 +75522,7 @@
               </Spanner>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -76503,11 +75638,6 @@
               </linked>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
