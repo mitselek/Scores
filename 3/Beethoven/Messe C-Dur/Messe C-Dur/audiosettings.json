@@ -12,26 +12,26 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Woodwinds",
-                        "museName": "Clarinet in Bb",
-                        "museUID": "127",
-                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
+                        "museName": "Flute 1",
+                        "museUID": "118",
+                        "playbackSetupData": "winds.flute.primary"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
+                    "id": "Muse Woodwinds\\Flute 1\\118",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Woodwinds"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "c-clarinet",
+            "instrumentId": "flute",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "5",
+            "partId": "1",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -72,66 +72,6 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Woodwinds",
-                        "museName": "Flute 1",
-                        "museUID": "118",
-                        "playbackSetupData": "winds.flute.primary"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Flute 1\\118",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "flute",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "1",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Choir",
-                        "museName": "Sopranos",
-                        "museUID": "19",
-                        "playbackSetupData": "voices.choir.soprano"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Choir\\Sopranos\\19",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Choir"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "soprano",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "22",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Woodwinds",
                         "museName": "Clarinet in Bb",
                         "museUID": "127",
                         "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
@@ -151,7 +91,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "6",
+            "partId": "5",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -251,6 +191,96 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "museCategory": "Muse Choir",
+                        "museName": "Sopranos",
+                        "museUID": "19",
+                        "playbackSetupData": "voices.choir.soprano"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Choir\\Sopranos\\19",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Choir"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "soprano",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "22",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Clarinet in Bb",
+                        "museUID": "127",
+                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "c-clarinet",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "6",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Oboe",
+                        "museUID": "124",
+                        "playbackSetupData": "winds.oboe"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Oboe\\124",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "oboe",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "4",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
                         "museCategory": "Muse Woodwinds",
                         "museName": "Bassoon",
                         "museUID": "133",
@@ -282,26 +312,26 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Woodwinds",
-                        "museName": "Oboe",
-                        "museUID": "124",
-                        "playbackSetupData": "winds.oboe"
+                        "museName": "Clarinet in Bb",
+                        "museUID": "127",
+                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Oboe\\124",
+                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Woodwinds"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "oboe",
+            "instrumentId": "bb-clarinet",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "4",
+            "partId": "5",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -354,7 +384,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "bb-clarinet",
+            "instrumentId": "a-clarinet",
             "out": {
                 "balance": 0,
                 "fxChain": {
@@ -384,44 +414,14 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "a-clarinet",
+            "instrumentId": "bb-clarinet",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "5",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Trumpet",
-                        "museUID": "110",
-                        "playbackSetupData": "winds.trumpet"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trumpet\\110",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "d-trumpet",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "12",
+            "partId": "6",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -461,6 +461,36 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "museCategory": "Muse Brass",
+                        "museName": "Trumpet",
+                        "museUID": "110",
+                        "playbackSetupData": "winds.trumpet"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Brass\\Trumpet\\110",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Brass"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "d-trumpet",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "12",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
                         "museCategory": "Muse Woodwinds",
                         "museName": "Clarinet in Bb",
                         "museUID": "127",
@@ -474,7 +504,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "bb-clarinet",
+            "instrumentId": "a-clarinet",
             "out": {
                 "balance": 0,
                 "fxChain": {
@@ -522,36 +552,6 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Woodwinds",
-                        "museName": "Clarinet in Bb",
-                        "museUID": "127",
-                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "a-clarinet",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "6",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Woodwinds",
                         "museName": "Bassoon",
                         "museUID": "133",
                         "playbackSetupData": "winds.bassoon"
@@ -582,36 +582,6 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Brass",
-                        "museName": "Trumpet",
-                        "museUID": "110",
-                        "playbackSetupData": "winds.trumpet"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trumpet\\110",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "c-trumpet",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "11",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Brass",
                         "museName": "Horns a6",
                         "museUID": "96",
                         "playbackSetupData": "winds.horn.french:in_a:section"
@@ -632,6 +602,36 @@
                 "volumeDb": 0
             },
             "partId": "9",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Brass",
+                        "museName": "Trumpet",
+                        "museUID": "110",
+                        "playbackSetupData": "winds.trumpet"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Brass\\Trumpet\\110",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Brass"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "c-trumpet",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "11",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
