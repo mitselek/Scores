@@ -4,7 +4,6 @@
   <programRevision>9b70a8c</programRevision>
   <Score>
     <initialPartId>26</initialPartId>
-    <layoutMode>system</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -247,8 +246,7 @@
           </Text>
         <Text>
           <style>instrument_excerpt</style>
-          <text>Violoncello 
-e Basso</text>
+          <text>Violoncello e Basso</text>
           </Text>
         </VBox>
       <HBox>
@@ -267,7 +265,7 @@ e Basso</text>
           <style>instrument_change</style>
           <size>18</size>
           <offset x="2.5" y="1"/>
-          <text><font size="18"/>KYRIE</text>
+          <text><font size="18"></font>KYRIE</text>
           </Text>
         </HBox>
       <Measure>
@@ -3443,7 +3441,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -6226,7 +6224,7 @@ e Basso</text>
           <style>instrument_change</style>
           <size>18</size>
           <offset x="0" y="1"/>
-          <text><font size="18"/>GLORIA</text>
+          <text><font size="18"></font>GLORIA</text>
           </Text>
         </HBox>
       <Measure>
@@ -9759,9 +9757,6 @@ e Basso</text>
         </Measure>
       <Measure>
         <stretch>0.5</stretch>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -10326,7 +10321,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -10381,13 +10376,6 @@ e Basso</text>
         <stretch>0.5</stretch>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <linked>
@@ -10398,6 +10386,13 @@ e Basso</text>
                 <measures>1</measures>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -15521,7 +15516,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -21220,7 +21215,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -22557,7 +22552,7 @@ e Basso</text>
           <style>instrument_change</style>
           <size>18</size>
           <offset x="1" y="1"/>
-          <text><font size="18"/>CREDO</text>
+          <text><font size="18"></font>CREDO</text>
           </Text>
         </HBox>
       <Measure>
@@ -24302,7 +24297,7 @@ e Basso</text>
               </linked>
             <family>Edwin</family>
             <italic>0</italic>
-            <text><i><font face="Edwin"/>più </i><sym>dynamicForte</sym></text>
+            <text><i><font face="Edwin"></font>più </i><sym>dynamicForte</sym></text>
             </Dynamic>
           <Beam>
             </Beam>
@@ -26083,7 +26078,7 @@ e Basso</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.25</stretch>
+        <stretch>0</stretch>
         <voice>
           <RehearsalMark>
             <linked>
@@ -26124,7 +26119,7 @@ e Basso</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.25</stretch>
+        <stretch>0</stretch>
         <voice>
           <Chord>
             <linked>
@@ -26167,7 +26162,7 @@ e Basso</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.25</stretch>
+        <stretch>0</stretch>
         <voice>
           <Chord>
             <linked>
@@ -26194,7 +26189,7 @@ e Basso</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.25</stretch>
+        <stretch>0</stretch>
         <voice>
           <Chord>
             <linked>
@@ -26226,7 +26221,7 @@ e Basso</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.5</stretch>
+        <stretch>0</stretch>
         <voice>
           <Rest>
             <linked>
@@ -26276,7 +26271,7 @@ e Basso</text>
         </Measure>
       <Measure len="12/4">
         <multiMeasureRest>4</multiMeasureRest>
-        <stretch>0.25</stretch>
+        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -26318,7 +26313,7 @@ e Basso</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.5</stretch>
+        <stretch>0</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -28059,7 +28054,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -34862,7 +34857,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -40000,7 +39995,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -42061,7 +42056,7 @@ e Basso</text>
           <style>instrument_change</style>
           <size>18</size>
           <offset x="1" y="-9"/>
-          <text><font size="18"/>SANCTUS</text>
+          <text><font size="18"></font>SANCTUS</text>
           </Text>
         </HBox>
       <Measure>
@@ -44720,7 +44715,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -45322,10 +45317,12 @@ e Basso</text>
               <staves>-26</staves>
               </location>
             </linked>
+          <visible>0</visible>
           <z>11450</z>
-          <style>subtitle</style>
-          <offset x="0" y="-15"/>
-          <text>BENEDICTUS</text>
+          <style>instrument_change</style>
+          <size>14</size>
+          <offset x="0.5" y="1"/>
+          <text><font size="14"/>BENEDICTUS</text>
           </Text>
         </HBox>
       <Measure>
@@ -48016,7 +48013,7 @@ e Basso</text>
               </linked>
             <family>Edwin</family>
             <italic>0</italic>
-            <text><i><font face="Edwin"/>più </i><sym>dynamicForte</sym></text>
+            <text><i><font face="Edwin"></font>più </i><sym>dynamicForte</sym></text>
             </Dynamic>
           <Chord>
             <linked>
@@ -50773,7 +50770,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -53149,7 +53146,7 @@ e Basso</text>
             <family>Edwin</family>
             <italic>0</italic>
             <align>right,baseline</align>
-            <text><i><font face="Edwin"/>sempre più </i><sym>dynamicPiano</sym></text>
+            <text><i><font face="Edwin"></font>sempre più </i><sym>dynamicPiano</sym></text>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -53990,7 +53987,7 @@ e Basso</text>
               </linked>
             <family>Edwin</family>
             <italic>0</italic>
-            <text><i><font face="Edwin"/>più </i><sym>dynamicForte</sym></text>
+            <text><i><font face="Edwin"></font>più </i><sym>dynamicForte</sym></text>
             </Dynamic>
           <Beam>
             </Beam>
@@ -54454,7 +54451,7 @@ e Basso</text>
           <style>instrument_change</style>
           <size>18</size>
           <offset x="0.5" y="-10"/>
-          <text><font size="18"/>AGNUS DEI</text>
+          <text><font size="18"></font>AGNUS DEI</text>
           </Text>
         </HBox>
       <Measure>
@@ -54711,6 +54708,17 @@ e Basso</text>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -54722,6 +54730,13 @@ e Basso</text>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -56044,7 +56059,7 @@ e Basso</text>
       <Measure>
         <stretch>0.5</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -56308,19 +56323,6 @@ e Basso</text>
             <style>expression</style>
             <text>arco</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -56334,6 +56336,20 @@ e Basso</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -56458,6 +56474,7 @@ e Basso</text>
             <prev>
               <location>
                 <measures>-1</measures>
+                <fractions>1/8</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -61124,7 +61141,7 @@ e Basso</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>3/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -61139,6 +61156,13 @@ e Basso</text>
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -61155,13 +61179,6 @@ e Basso</text>
             <linked>
               </linked>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -62256,6 +62273,19 @@ e Basso</text>
               </linked>
             <durationType>eighth</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -62366,6 +62396,14 @@ e Basso</text>
             <linked>
               </linked>
             </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -62577,6 +62615,12 @@ e Basso</text>
               </linked>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Beam>
             </Beam>
           <Chord>
@@ -72134,13 +72178,6 @@ e Basso</text>
       <Measure>
         <voice>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <linked>
@@ -72151,6 +72188,13 @@ e Basso</text>
                 <measures>1</measures>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -83788,7 +83832,7 @@ of range ?</text>
               </linked>
             <family>Edwin</family>
             <italic>0</italic>
-            <text><i><font face="Edwin"/>più </i><sym>dynamicForte</sym></text>
+            <text><i><font face="Edwin"></font>più </i><sym>dynamicForte</sym></text>
             </Dynamic>
           <Beam>
             </Beam>
@@ -102833,7 +102877,7 @@ of range ?</text>
               </linked>
             <family>Edwin</family>
             <italic>0</italic>
-            <text><i><font face="Edwin"/>più </i><sym>dynamicForte</sym></text>
+            <text><i><font face="Edwin"></font>più </i><sym>dynamicForte</sym></text>
             </Dynamic>
           <Chord>
             <linked>
@@ -107251,7 +107295,7 @@ of range ?</text>
             <family>Edwin</family>
             <italic>0</italic>
             <align>right,baseline</align>
-            <text><i><font face="Edwin"/>sempre più </i><sym>dynamicPiano</sym></text>
+            <text><i><font face="Edwin"></font>sempre più </i><sym>dynamicPiano</sym></text>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
@@ -107865,7 +107909,7 @@ of range ?</text>
               </linked>
             <family>Edwin</family>
             <italic>0</italic>
-            <text><i><font face="Edwin"/>più </i><sym>dynamicForte</sym></text>
+            <text><i><font face="Edwin"></font>più </i><sym>dynamicForte</sym></text>
             </Dynamic>
           <Beam>
             </Beam>
@@ -108534,6 +108578,17 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -108545,6 +108600,13 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -109999,19 +110061,6 @@ of range ?</text>
             <style>expression</style>
             <text>arco</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -110025,6 +110074,20 @@ of range ?</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -110148,6 +110211,7 @@ of range ?</text>
             <prev>
               <location>
                 <measures>-1</measures>
+                <fractions>1/8</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -114013,7 +114077,7 @@ of range ?</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>3/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -114028,6 +114092,13 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -114043,13 +114114,6 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -114338,6 +114402,12 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -114763,10 +114833,28 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -114783,6 +114871,13 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>

@@ -429,8 +429,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -473,8 +471,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -596,8 +592,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -642,8 +636,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -1309,8 +1301,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -1324,10 +1314,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -1363,8 +1349,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -1385,8 +1369,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -1420,8 +1402,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Rest>
             <linked>
               </linked>
@@ -1464,8 +1444,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -1529,8 +1507,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -2125,8 +2101,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -2341,8 +2315,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -3009,8 +2981,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -3054,10 +3024,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -3100,8 +3066,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -3379,8 +3343,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -3423,8 +3385,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -3519,8 +3479,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -3594,8 +3552,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -3904,8 +3860,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -3999,8 +3953,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -4591,8 +4543,6 @@
             <style>expression</style>
             <text>arco</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -4616,8 +4566,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5698,8 +5646,6 @@
             <style>expression</style>
             <text>arco</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -5731,8 +5677,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -5746,8 +5690,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5770,8 +5712,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -8213,8 +8153,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -8232,10 +8170,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -8256,8 +8190,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -11424,8 +11356,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -11504,8 +11434,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -11970,8 +11898,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -12058,8 +11984,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -12254,8 +12178,6 @@
             <style>expression</style>
             <text>arco</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -12411,8 +12333,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -16886,8 +16806,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -17007,8 +16925,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -18549,8 +18465,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -18608,8 +18522,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -19545,8 +19457,6 @@ of range ?</text>
               </linked>
             <text>arco</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -19707,8 +19617,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -22888,8 +22796,6 @@ of range ?</text>
               </linked>
             <durationType>quarter</durationType>
             </Rest>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -22960,8 +22866,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -24113,8 +24017,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -24276,8 +24178,6 @@ of range ?</text>
               </linked>
             <text>Adagio</text>
             </Tempo>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>2</indexDiff>
@@ -24297,8 +24197,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -24348,8 +24246,6 @@ of range ?</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Rest>
             <linked>
               </linked>
@@ -25674,8 +25570,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -25720,8 +25614,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -26475,8 +26367,6 @@ of range ?</text>
               </linked>
             <durationType>eighth</durationType>
             </Rest>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -26595,8 +26485,6 @@ of range ?</text>
               <indexDiff>3</indexDiff>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>3</indexDiff>
@@ -29639,8 +29527,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -29770,8 +29656,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -32437,8 +32321,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -32529,8 +32411,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -34019,8 +33899,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -34059,8 +33937,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -34684,8 +34560,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -34822,8 +34696,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -36076,8 +35948,6 @@ of range ?</text>
               </linked>
             <durationType>quarter</durationType>
             </Rest>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -36458,8 +36328,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -37408,8 +37276,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -37468,8 +37334,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -38299,8 +38163,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -38427,8 +38289,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -38995,8 +38855,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -39054,8 +38912,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -39252,8 +39108,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -39311,8 +39165,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -39526,8 +39378,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -39620,8 +39470,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -39884,8 +39732,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -40009,8 +39855,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -40950,8 +40794,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -41097,8 +40939,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -41501,8 +41341,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -41691,8 +41529,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -42556,8 +42392,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -42620,8 +42454,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -42698,8 +42530,6 @@ of range ?</text>
             <align>right,baseline</align>
             <text><i><font face="Edwin"></font>sempre più </i><sym>dynamicPiano</sym></text>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -42741,10 +42571,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -42786,8 +42612,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -43843,8 +43667,6 @@ of range ?</text>
             <style>expression</style>
             <text>arco</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -43909,8 +43731,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -43963,6 +43783,17 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -43974,6 +43805,13 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -44295,8 +44133,6 @@ of range ?</text>
             <style>expression</style>
             <text>arco</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -44459,8 +44295,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Rest>
             <linked>
               </linked>
@@ -44890,8 +44724,6 @@ of range ?</text>
               </linked>
             <durationType>eighth</durationType>
             </Rest>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -45014,8 +44846,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -45385,6 +45215,17 @@ of range ?</text>
             <style>expression</style>
             <text>arco</text>
             </PlayTechAnnotation>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
           <Spanner type="HairPin">
             </Spanner>
           <Chord>
@@ -45395,17 +45236,6 @@ of range ?</text>
             <Note>
               <linked>
                 <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
                 </linked>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -45686,8 +45516,6 @@ of range ?</text>
               </linked>
             <durationType>eighth</durationType>
             </Rest>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -45783,8 +45611,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -47234,8 +47060,6 @@ of range ?</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -47307,8 +47131,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -47714,8 +47536,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -47793,8 +47613,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -48817,8 +48635,6 @@ of range ?</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -48890,8 +48706,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -49162,8 +48976,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -49199,8 +49011,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -49274,7 +49084,7 @@ of range ?</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>3/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -49289,6 +49099,13 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -49304,13 +49121,6 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -49598,6 +49408,12 @@ of range ?</text>
               </linked>
             <text>E</text>
             </RehearsalMark>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
@@ -49787,8 +49603,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -49824,8 +49638,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -49992,10 +49804,27 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <linked>
@@ -50022,6 +49851,13 @@ of range ?</text>
             <linked>
               </linked>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -50698,8 +50534,6 @@ of range ?</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -50815,8 +50649,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
