@@ -95,7 +95,7 @@
     <bracketDistance>0.45</bracketDistance>
     <akkoladeWidth>1.5</akkoladeWidth>
     <akkoladeBarDistance>0.35</akkoladeBarDistance>
-    <dividerLeft>0</dividerLeft>
+    <dividerLeft>1</dividerLeft>
     <dividerLeftSym>systemDivider</dividerLeftSym>
     <dividerLeftX>0</dividerLeftX>
     <dividerLeftY>0</dividerLeftY>
@@ -366,7 +366,7 @@
     <oldStyleMultiMeasureRests>0</oldStyleMultiMeasureRests>
     <mmRestOldStyleMaxMeasures>9</mmRestOldStyleMaxMeasures>
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
-    <hideEmptyStaves>0</hideEmptyStaves>
+    <hideEmptyStaves>1</hideEmptyStaves>
     <dontHideStavesInFirstSystem>0</dontHideStavesInFirstSystem>
     <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
