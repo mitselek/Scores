@@ -45322,7 +45322,7 @@
           <style>instrument_change</style>
           <size>14</size>
           <offset x="0.5" y="1"/>
-          <text><font size="14"/>BENEDICTUS</text>
+          <text><font size="14"></font>BENEDICTUS</text>
           </Text>
         </HBox>
       <Measure>
@@ -114846,7 +114846,6 @@ of range ?</text>
             <Spanner type="Slur">
               <Slur>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>

@@ -68184,19 +68184,15 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -68258,8 +68254,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>

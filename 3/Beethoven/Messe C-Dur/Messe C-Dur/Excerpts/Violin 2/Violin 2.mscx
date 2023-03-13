@@ -64577,16 +64577,12 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -64704,8 +64700,6 @@
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>

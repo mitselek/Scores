@@ -45226,8 +45226,6 @@ of range ?</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               <indexDiff>1</indexDiff>
@@ -45347,8 +45345,6 @@ of range ?</text>
             <linked>
               </linked>
             </Dynamic>
-          <Spanner type="HairPin">
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -49817,6 +49813,7 @@ of range ?</text>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Slur>
               <next>
@@ -49828,6 +49825,7 @@ of range ?</text>
             <Spanner type="Slur">
               <Slur>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 </Slur>
               <next>
