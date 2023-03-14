@@ -71,27 +71,27 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Keys",
-                        "museName": "Grand Piano",
-                        "museUID": "167",
-                        "playbackSetupData": "keyboards.piano"
+                        "museCategory": "Muse Brass",
+                        "museName": "Horns a6",
+                        "museUID": "96",
+                        "playbackSetupData": "winds.horn.french:in_a:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Keys\\Grand Piano\\167",
+                    "id": "Muse Brass\\Horns a6\\96",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Keys"
+                    "vendor": "Muse Brass"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "piano",
+            "instrumentId": "c-horn",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "21",
+            "partId": "9",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -114,7 +114,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "a-clarinet",
+            "instrumentId": "bb-clarinet",
             "out": {
                 "balance": 0,
                 "fxChain": {
@@ -131,27 +131,23 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Horns a6",
-                        "museUID": "96",
-                        "playbackSetupData": "winds.horn.french:in_a:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Horns a6\\96",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "d-horn",
+            "instrumentId": "piano",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "10",
+            "partId": "21",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -204,7 +200,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "bb-clarinet",
+            "instrumentId": "a-clarinet",
             "out": {
                 "balance": 0,
                 "fxChain": {
@@ -212,36 +208,6 @@
                 "volumeDb": 0
             },
             "partId": "5",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Oboe",
-                        "museUID": "124",
-                        "playbackSetupData": "winds.oboe"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Oboe\\124",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "oboe",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "4",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -281,27 +247,87 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Choir",
-                        "museName": "Basses",
-                        "museUID": "22",
-                        "playbackSetupData": "voices.choir.bass"
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Oboe",
+                        "museUID": "124",
+                        "playbackSetupData": "winds.oboe"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Choir\\Basses\\22",
+                    "id": "Muse Woodwinds\\Oboe\\124",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Choir"
+                    "vendor": "Muse Woodwinds"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "bass",
+            "instrumentId": "oboe",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "20",
+            "partId": "4",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Brass",
+                        "museName": "Horns a6",
+                        "museUID": "96",
+                        "playbackSetupData": "winds.horn.french:in_a:section"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Brass\\Horns a6\\96",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Brass"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "d-horn",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "10",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Choir",
+                        "museName": "Altos",
+                        "museUID": "20",
+                        "playbackSetupData": "voices.choir.alto"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Choir\\Altos\\20",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Choir"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "alto",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "18",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -332,6 +358,36 @@
                 "volumeDb": 0
             },
             "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Choir",
+                        "museName": "Basses",
+                        "museUID": "22",
+                        "playbackSetupData": "voices.choir.bass"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Choir\\Basses\\22",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Choir"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "bass",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "20",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -401,36 +457,6 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Choir",
-                        "museName": "Altos",
-                        "museUID": "20",
-                        "playbackSetupData": "voices.choir.alto"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Choir\\Altos\\20",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Choir"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "alto",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "18",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
                     },
                     "hasNativeEditorSupport": false,
                     "id": "MS Basic",
@@ -448,6 +474,66 @@
                 "volumeDb": 0
             },
             "partId": "999",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Clarinet in Bb",
+                        "museUID": "127",
+                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Woodwinds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "bb-clarinet",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "6",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Brass",
+                        "museName": "Horns a6",
+                        "museUID": "96",
+                        "playbackSetupData": "winds.horn.french:in_a:section"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Brass\\Horns a6\\96",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Brass"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "c-horn",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "10",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -487,36 +573,6 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Clarinet in Bb",
-                        "museUID": "127",
-                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "c-clarinet",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "6",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
                         "museCategory": "Muse Choir",
                         "museName": "Sopranos",
                         "museUID": "19",
@@ -547,27 +603,27 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Horns a6",
-                        "museUID": "96",
-                        "playbackSetupData": "winds.horn.french:in_a:section"
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Clarinet in Bb",
+                        "museUID": "127",
+                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Horns a6\\96",
+                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
+                    "vendor": "Muse Woodwinds"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "c-horn",
+            "instrumentId": "c-clarinet",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "9",
+            "partId": "6",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -667,27 +723,27 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Horns a6",
-                        "museUID": "96",
-                        "playbackSetupData": "winds.horn.french:in_a:section"
+                        "museCategory": "Muse Woodwinds",
+                        "museName": "Clarinet in Bb",
+                        "museUID": "127",
+                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Horns a6\\96",
+                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
+                    "vendor": "Muse Woodwinds"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "c-horn",
+            "instrumentId": "a-clarinet",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "10",
+            "partId": "6",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -787,57 +843,27 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Clarinet in Bb",
-                        "museUID": "127",
-                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
+                        "museCategory": "Muse Brass",
+                        "museName": "Horns a6",
+                        "museUID": "96",
+                        "playbackSetupData": "winds.horn.french:in_a:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
+                    "id": "Muse Brass\\Horns a6\\96",
                     "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
+                    "vendor": "Muse Brass"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "bb-clarinet",
+            "instrumentId": "d-horn",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "6",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Clarinet in Bb",
-                        "museUID": "127",
-                        "playbackSetupData": "winds.clarinet.soprano:in_b_flat"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Clarinet in Bb\\127",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Woodwinds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "a-clarinet",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "6",
+            "partId": "9",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -868,36 +894,6 @@
                 "volumeDb": 0
             },
             "partId": "11",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Horns a6",
-                        "museUID": "96",
-                        "playbackSetupData": "winds.horn.french:in_a:section"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Horns a6\\96",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Brass"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "d-horn",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "9",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
