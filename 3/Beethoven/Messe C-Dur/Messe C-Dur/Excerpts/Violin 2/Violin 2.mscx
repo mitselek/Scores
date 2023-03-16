@@ -62285,6 +62285,7 @@
           <Chord>
             <linked>
               </linked>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>

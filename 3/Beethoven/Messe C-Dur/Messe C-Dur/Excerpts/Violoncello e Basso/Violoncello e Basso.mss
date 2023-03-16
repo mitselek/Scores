@@ -322,7 +322,7 @@
     <showMeasureNumber>1</showMeasureNumber>
     <showMeasureNumberOne>0</showMeasureNumberOne>
     <measureNumberInterval>1</measureNumberInterval>
-    <measureNumberSystem>1</measureNumberSystem>
+    <measureNumberSystem>0</measureNumberSystem>
     <measureNumberAllStaffs>0</measureNumberAllStaffs>
     <smallNoteMag>0.7</smallNoteMag>
     <graceNoteMag>0.7</graceNoteMag>

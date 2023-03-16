@@ -795,7 +795,7 @@
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
     <measureNumberFontFace>Edwin</measureNumberFontFace>
-    <measureNumberFontSize>8</measureNumberFontSize>
+    <measureNumberFontSize>11</measureNumberFontSize>
     <measureNumberLineSpacing>1</measureNumberLineSpacing>
     <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
     <measureNumberFontStyle>2</measureNumberFontStyle>
