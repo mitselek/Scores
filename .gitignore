@@ -12,3 +12,5 @@ tee ilu/Tee_ilu_segakoorile_ja_orkestrile_96_data/
 *.ogg
 *.dta
 seed.*
+
+*.autosave
