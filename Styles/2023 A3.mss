@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.10">
   <Style>
-    <pageWidth>8.27</pageWidth>
-    <pageHeight>11.69</pageHeight>
-    <pagePrintableWidth>7.4826</pagePrintableWidth>
+    <pageWidth>11.69</pageWidth>
+    <pageHeight>16.54</pageHeight>
+    <pagePrintableWidth>10.9026</pagePrintableWidth>
     <pageEvenLeftMargin>0.11811</pageEvenLeftMargin>
     <pageOddLeftMargin>0.393701</pageOddLeftMargin>
     <pageEvenTopMargin>0.11811</pageEvenTopMargin>
@@ -1415,6 +1415,6 @@
     <chordlineThickness>0.16</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>400</defaultsVersion>
-    <Spatium>1.5</Spatium>
+    <Spatium>1.8</Spatium>
     </Style>
   </museScore>
