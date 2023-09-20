@@ -370,7 +370,7 @@
     <oldStyleMultiMeasureRests>0</oldStyleMultiMeasureRests>
     <mmRestOldStyleMaxMeasures>9</mmRestOldStyleMaxMeasures>
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
-    <hideEmptyStaves>1</hideEmptyStaves>
+    <hideEmptyStaves>0</hideEmptyStaves>
     <dontHideStavesInFirstSystem>0</dontHideStavesInFirstSystem>
     <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
