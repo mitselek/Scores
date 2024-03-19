@@ -32,7 +32,7 @@
     <maxPageFillSpread>6</maxPageFillSpread>
     <lyricsPlacement>1</lyricsPlacement>
     <lyricsPosAbove x="0" y="-2"/>
-    <lyricsPosBelow x="0" y="3"/>
+    <lyricsPosBelow x="0" y="1.6"/>
     <lyricsMinTopDistance>1</lyricsMinTopDistance>
     <lyricsMinBottomDistance>1</lyricsMinBottomDistance>
     <lyricsMinDistance>0.25</lyricsMinDistance>
@@ -62,7 +62,7 @@
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
     <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
-    <lyricsEvenFontSize>13</lyricsEvenFontSize>
+    <lyricsEvenFontSize>16</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
     <lyricsEvenFontStyle>0</lyricsEvenFontStyle>
